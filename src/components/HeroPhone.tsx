@@ -22,7 +22,7 @@ const HeroPhone = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setScreenIndex((prev) => (prev + 1) % screenImages.length);
-        }, 2000);
+        }, 5000);
         return () => clearInterval(interval);
     }, []);
 

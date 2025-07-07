@@ -1,10 +1,10 @@
-# Apple 3js Website
+# Dhyan 3js Website
 
-This is a landing page clone of the Apple website using Three.js. The website consists of a 3D model of the Apple iPhone which can be rotated. The Carousel along with 3D model and videos are animated using GreenSock Animation Platform (GSAP).
+This is a landing page for Dhyan using Three.js. The website consists of a 3D model which can be rotated. The Carousel along with 3D model and videos are animated using GreenSock Animation Platform (GSAP).
 
 ## Features
 
-- **📲 3D Model Interaction**: Three.js renders a detailed 3D model of the Apple iPhone, allowing users to rotate and view it from different angles.
+- **📲 3D Model Interaction**: Three.js renders a detailed 3D model, allowing users to rotate and view it from different angles.
 
 - **🎞️ Dynamic Animations**: Smooth, engaging animations for the 3D model, video content, and UI elements powered by GSAP.
 
@@ -12,7 +12,7 @@ This is a landing page clone of the Apple website using Three.js. The website co
 
 - **📜 Scroll Interactions**: GSAP-powered scroll-triggered animations for an interactive storytelling experience.
 
-- **🎥 Video Carousel**: Showcases additional iPhone content through an engaging video carousel.
+- **🎥 Video Carousel**: Showcases additional content through an engaging video carousel.
 
 - **🖱️ Interactive UI Components**: Custom navbar, feature sections, and footer designed for ease of navigation and enhanced user experience.
 
