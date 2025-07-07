@@ -21,82 +21,80 @@ const Contact = () => {
   return (
     <section
       id="contact-section"
-      className="relative flex flex-col items-end justify-center overflow-hidden min-h-screen w-full px-2 sm:px-4 md:px-8 bg-no-repeat bg-cover"
-      style={{ margin: "0 auto" }}
+      className="relative flex flex-col items-center justify-center min-h-screen w-full overflow-hidden"
     >
-      {/* Background SVG */}
+      {/* Top Gradient Background */}
       <img
         src="/Rectangle11.svg"
         alt="Background"
-        className="absolute top-0 left-0 w-full h-[40vh] md:h-[60vh] lg:h-[825px] object-cover pointer-events-none select-none"
+        className="absolute top-0 left-0 w-full h-[40vh] md:h-[60vh] object-cover pointer-events-none select-none"
         style={{ zIndex: 0 }}
       />
 
+      {/* Bubble pattern background */}
+      <div 
+        className="absolute bottom-0 left-0 right-0 h-[200px] bg-contain bg-no-repeat bg-center z-0"
+        style={{ backgroundImage: "url('/contact-bubble-pattern.svg')" }}
+      ></div>
+
       {/* Contact Card */}
-      <div
-        className="relative flex flex-col md:flex-row bg-white rounded-3xl shadow-2xl overflow-hidden z-10 border border-gray-100 w-full max-w-screen-lg mx-auto"
-        style={{ minHeight: "400px" }}
-      >
+      <div className="relative flex flex-col md:flex-row bg-white rounded-3xl shadow-2xl overflow-hidden z-10 border border-gray-200 w-full max-w-[1200px] mx-4 my-16 md:my-0">
         {/* Left: Form Section */}
-        <div className="flex flex-col justify-center px-4 py-8 md:p-12 w-full md:w-1/2 gap-2">
-          <h1 className="text-2xl md:text-4xl font-extrabold text-gray-900 mb-2 leading-tight tracking-tight">
+        <div className="flex flex-col justify-center px-6 py-8 md:p-12 w-full md:w-1/2 gap-5">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             Get in touch
           </h1>
-          <p className="text-base md:text-lg text-gray-600 mb-7">
+          <p className="text-gray-600 mb-7 text-lg">
             We are here for you! How can we help?
           </p>
 
-          <form className="space-y-5" autoComplete="off">
+          <form className="space-y-6" autoComplete="off">
             <label className="block">
-              <span className="sr-only">Name</span>
               <input
                 type="text"
                 placeholder="Enter your name"
-                className="w-full px-5 text-base placeholder-gray-500 outline-none border border-gray-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all"
+                className="w-full px-5 py-4 text-base placeholder:text-gray-400 outline-none border border-[#D6E0FF] focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition-all"
                 style={{
-                  height: "56px",
-                  borderRadius: "18px",
+                  borderRadius: "12px",
                   background: "#F5F8FF",
                 }}
                 required
               />
             </label>
+            
             <label className="block">
-              <span className="sr-only">Email</span>
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="w-full px-5 text-base placeholder-gray-500 outline-none border border-gray-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all"
+                className="w-full px-5 py-4 text-base placeholder:text-gray-400 outline-none border border-[#D6E0FF] focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition-all"
                 style={{
-                  height: "56px",
-                  borderRadius: "18px",
+                  borderRadius: "12px",
                   background: "#F5F8FF",
                 }}
                 required
               />
             </label>
+            
             <label className="block">
-              <span className="sr-only">Message</span>
               <textarea
                 placeholder="Go ahead, We are listening..."
-                className="w-full px-5 py-3 text-base resize-none placeholder-gray-500 outline-none border border-gray-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all"
+                className="w-full px-5 py-4 text-base resize-none placeholder:text-gray-400 outline-none border border-[#D6E0FF] focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition-all"
                 style={{
                   height: "140px",
-                  borderRadius: "18px",
+                  borderRadius: "12px",
                   background: "#F5F8FF",
                 }}
                 required
               />
             </label>
+            
             <button
               type="submit"
-              className="w-full text-white font-semibold hover:opacity-95 active:scale-95 transition-all shadow-md"
+              className="w-full text-white font-medium hover:opacity-95 active:scale-[0.98] transition-all duration-200 shadow-md py-4"
               style={{
-                height: "56px",
-                borderRadius: "18px",
-                background: "#007AFF",
+                borderRadius: "12px",
+                background: "linear-gradient(90deg, #007AFF 0%, #00B2FF 100%)",
                 fontSize: "18px",
-                letterSpacing: "0.01em",
               }}
             >
               Submit
@@ -104,58 +102,59 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Right: Yogi & Contact Info */}
-        <div className="flex flex-col items-center justify-center px-4 py-8 md:py-0 md:px-10 w-full md:w-1/2 gap-7 bg-gradient-to-b md:bg-none from-blue-50/60 to-transparent">
-          <img
-            src="/yogi.svg"
-            alt="Yogi Illustration"
-            className="w-[140px] sm:w-[180px] md:w-[220px] lg:w-[260px] h-auto drop-shadow-md"
-          />
+        {/* Right: Contact Info */}
+        <div className="flex flex-col items-center justify-center px-6 py-8 md:p-12 w-full md:w-1/2 gap-8 bg-[#F5F8FF]">
+          <div className="flex flex-col items-center gap-8">
+            <img
+              src="/yogi.svg"
+              alt="Contact us"
+              className="w-[200px] md:w-[280px] h-auto"
+            />
 
-          <div className="space-y-5 w-full max-w-xs">
-            <div className="flex items-start gap-3">
-              <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center shadow-md">
-                <img
-                  src="/location.svg"
-                  alt="Location"
-                  className="w-5 h-5 filter brightness-0 invert"
-                />
+            <div className="space-y-6 w-full max-w-xs">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                  <img
+                    src="/location.svg"
+                    alt="Location"
+                    className="w-5 h-5"
+                  />
+                </div>
+                <p className="text-gray-800 leading-relaxed text-base">
+                  #2397/29A, 18th Main Road, <br />
+                  Kumaraswamy Layout - Stage II, <br />
+                  Bengaluru, Karnataka - 560078
+                </p>
               </div>
-              <p className="text-sm md:text-[15px] text-gray-800 leading-relaxed">
-                #2397/29A, 18th Main Road, <br />
-                Kumaraswamy Layout - Stage II, <br />
-                Bengaluru, Karnataka - 560078
-              </p>
-            </div>
 
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center shadow-md">
-                <img
-                  src="/mail.svg"
-                  alt="Email"
-                  className="w-5 h-5 filter brightness-0 invert"
-                />
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
+                  <img
+                    src="/mail.svg"
+                    alt="Email"
+                    className="w-5 h-5"
+                  />
+                </div>
+                <p className="text-gray-800 text-base">
+                  contact@epilepto.com
+                </p>
               </div>
-              <p className="text-sm md:text-[15px] text-gray-800">
-                contact@epilepto.com
-              </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Responsive Spacer below card */}
-      <div className="w-full h-8 md:h-16 lg:h-24 xl:h-32" />
-
-      {/* Back to Top Button */}
+      {/* Back to Top Link */}
       {showTopButton && (
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="fixed bottom-6 right-6 w-12 h-12 rounded-full bg-blue-500 shadow-xl flex items-center justify-center hover:bg-blue-600 active:scale-95 transition-all z-50"
-          aria-label="Back to top"
-        >
-          <img src="/backtotop.svg" alt="Back to top" className="w-5 h-5" />
-        </button>
+        <div className="mt-10 mb-16 md:mb-24 flex justify-center w-full z-20">
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="flex items-center gap-2 text-blue-500 hover:text-blue-700 transition-colors font-medium text-lg"
+          >
+            Back to top
+            <img src="/arrow-up.svg" alt="Up arrow" className="w-5 h-5" />
+          </button>
+        </div>
       )}
     </section>
   );
