@@ -35,33 +35,54 @@ const Social = () => {
 
       if (!container || !section || !imageContainer) return;
 
-      gsap.set(container, { height: `${mockupData.length * 100}vh` });
+      // Check if mobile device
+      const isMobile = window.innerWidth < 768;
 
-      const masterTimeline = gsap.timeline({ paused: true });
+      if (isMobile) {
+        // For mobile, we'll use a simpler scroll trigger
+        gsap.set(container, { height: `${mockupData.length * 100}vh` });
+        
+        const sections = gsap.utils.toArray(".mobile-section");
+        
+        sections.forEach((section: any, i) => {
+          ScrollTrigger.create({
+            trigger: section,
+            start: "top center",
+            end: "bottom center",
+            onEnter: () => setCurrentIndex(i),
+            onEnterBack: () => setCurrentIndex(i),
+          });
+        });
+      } else {
+        // Original desktop animation
+        gsap.set(container, { height: `${mockupData.length * 100}vh` });
 
-      masterTimeline.to(
-        imageContainer,
-        {
-          yPercent: (-100 * (mockupData.length - 1)) / mockupData.length,
-          ease: "none",
-        },
-        0
-      );
+        const masterTimeline = gsap.timeline({ paused: true });
 
-      ScrollTrigger.create({
-        trigger: container,
-        start: "top top",
-        end: "bottom bottom",
-        scrub: 1.5,
-        pin: section,
-        animation: masterTimeline,
-        onUpdate: (self) => {
-          const newIndex = Math.floor(self.progress * mockupData.length);
-          if (newIndex < mockupData.length) {
-            setCurrentIndex(newIndex);
-          }
-        },
-      });
+        masterTimeline.to(
+          imageContainer,
+          {
+            yPercent: (-100 * (mockupData.length - 1)) / mockupData.length,
+            ease: "none",
+          },
+          0
+        );
+
+        ScrollTrigger.create({
+          trigger: container,
+          start: "top top",
+          end: "bottom bottom",
+          scrub: 1.5,
+          pin: section,
+          animation: masterTimeline,
+          onUpdate: (self) => {
+            const newIndex = Math.floor(self.progress * mockupData.length);
+            if (newIndex < mockupData.length) {
+              setCurrentIndex(newIndex);
+            }
+          },
+        });
+      }
     });
 
     return () => context.revert();
@@ -72,56 +93,86 @@ const Social = () => {
       ref={containerRef}
       className="social-container relative pt-12 md:pt-32 pb-12 md:pb-32"
     >
-      <div
-        ref={sectionRef}
-        className="min-h-screen w-full flex items-center justify-center overflow-hidden"
-      >
-        <div className="relative z-20 w-full h-full flex flex-col md:flex-row items-center justify-center">
-          {/* Text Section */}
-          <div className="relative md:absolute md:top-1/2 md:-translate-y-1/2 md:left-[143px] w-full md:max-w-[600px] text-left px-4 md:px-0 mb-8 md:mb-0">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentIndex}
-                initial={{ opacity: 0, x: -30, y: 0 }}
-                animate={{ opacity: 1, x: 0, y: 0 }}
-                exit={{ opacity: 0, x: 30, y: 0 }}
-                transition={{ duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
-              >
-                <h1 className="text-2xl sm:text-3xl md:text-[48px] font-normal text-black mb-4 md:mb-6" style={{ fontFamily: "Gelica, serif" }}>
-                  {mockupData[currentIndex].heading}
-                </h1>
-                <p className="text-base sm:text-lg md:text-[18px] text-[#626262] font-medium leading-relaxed md:leading-[30px]" style={{ fontFamily: '"SF Pro Display", sans-serif' }}>
-                  {mockupData[currentIndex].paragraph}
-                </p>
-              </motion.div>
-            </AnimatePresence>
+      {/* Mobile Layout */}
+      <div className="md:hidden w-full">
+        {mockupData.map((item, index) => (
+          <div 
+            key={index}
+            className="mobile-section min-h-screen w-full flex flex-col items-center justify-center px-4"
+          >
+            <div className="w-full max-w-[600px] text-left mb-8">
+              <h1 className="text-2xl sm:text-3xl font-normal text-black mb-4 md:mb-6" style={{ fontFamily: "Gelica, serif" }}>
+                {item.heading}
+              </h1>
+              <p className="text-base sm:text-lg text-[#626262] font-medium leading-relaxed" style={{ fontFamily: '"SF Pro Display", sans-serif' }}>
+                {item.paragraph}
+              </p>
+            </div>
+            
+            <div className="relative w-[220px] h-[450px]">
+              <img
+                src={item.image}
+                alt={item.heading}
+                className="w-full h-full object-contain"
+              />
+            </div>
           </div>
+        ))}
+      </div>
 
-          {/* Image Section */}
-          <div className="w-full flex justify-center md:block md:absolute md:top-1/2 md:-translate-y-1/2 md:left-[1168px] md:right-[325px]">
-            <div
-              className="relative w-[220px] h-[450px] sm:w-[300px] sm:h-[600px] md:w-[416px] md:h-[852px]"
-              style={{ width: undefined, height: undefined }}
-            >
+      {/* Desktop Layout */}
+      <div className="hidden md:block">
+        <div
+          ref={sectionRef}
+          className="min-h-screen w-full flex items-center justify-center overflow-hidden"
+        >
+          <div className="relative z-20 w-full h-full flex flex-col md:flex-row items-center justify-center">
+            {/* Text Section */}
+            <div className="relative md:absolute md:top-1/2 md:-translate-y-1/2 md:left-[143px] w-full md:max-w-[600px] text-left px-4 md:px-0 mb-8 md:mb-0">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentIndex}
+                  initial={{ opacity: 0, x: -30, y: 0 }}
+                  animate={{ opacity: 1, x: 0, y: 0 }}
+                  exit={{ opacity: 0, x: 30, y: 0 }}
+                  transition={{ duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
+                >
+                  <h1 className="text-2xl sm:text-3xl md:text-[48px] font-normal text-black mb-4 md:mb-6" style={{ fontFamily: "Gelica, serif" }}>
+                    {mockupData[currentIndex].heading}
+                  </h1>
+                  <p className="text-base sm:text-lg md:text-[18px] text-[#626262] font-medium leading-relaxed md:leading-[30px]" style={{ fontFamily: '"SF Pro Display", sans-serif' }}>
+                    {mockupData[currentIndex].paragraph}
+                  </p>
+                </motion.div>
+              </AnimatePresence>
+            </div>
+
+            {/* Image Section */}
+            <div className="w-full flex justify-center md:block md:absolute md:top-1/2 md:-translate-y-1/2 md:left-[1168px] md:right-[325px]">
               <div
-                ref={imageContainerRef}
-                className="absolute top-0 left-0 w-full"
-                style={{ height: `${mockupData.length * 100}%` }}
+                className="relative w-[220px] h-[450px] sm:w-[300px] sm:h-[600px] md:w-[416px] md:h-[852px]"
+                style={{ width: undefined, height: undefined }}
               >
-                {mockupData.map((item, index) => (
-                  <div
-                    key={index}
-                    className="w-full h-full flex items-center justify-center py-4 md:py-8"
-                    style={{ height: `${100 / mockupData.length}%` }}
-                  >
-                    <img
-                      src={item.image}
-                      alt={item.heading}
-                      className="w-full h-full object-contain"
-                      style={{ maxWidth: "416px", maxHeight: "852px" }}
-                    />
-                  </div>
-                ))}
+                <div
+                  ref={imageContainerRef}
+                  className="absolute top-0 left-0 w-full"
+                  style={{ height: `${mockupData.length * 100}%` }}
+                >
+                  {mockupData.map((item, index) => (
+                    <div
+                      key={index}
+                      className="w-full h-full flex items-center justify-center py-4 md:py-8"
+                      style={{ height: `${100 / mockupData.length}%` }}
+                    >
+                      <img
+                        src={item.image}
+                        alt={item.heading}
+                        className="w-full h-full object-contain"
+                        style={{ maxWidth: "416px", maxHeight: "852px" }}
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
