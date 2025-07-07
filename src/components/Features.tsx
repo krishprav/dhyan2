@@ -9,7 +9,7 @@ import * as THREE from 'three';
 const Features = () => {
     const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
-    const globeGroupRef = useRef<THREE.Group>(null!); // Add non-null assertion
+    const globeGroupRef = useRef<THREE.Group>(null!);
     const modelGroupRefs = useRef<{[key: string]: THREE.Group | null}>({});
 
     useEffect(() => {
@@ -68,6 +68,7 @@ const Features = () => {
         <section className="common-padding relative">
             <div className="screen-max-width">
                 <div className="flex flex-col items-center">
+                    {/* Desktop Layout - Unchanged */}
                     <div className="mt-[60px] mb-8 text-center category-info hidden md:block px-2">
                         <h3
                             className="features-title mb-6 text-5xl lg:text-7xl xl:text-8xl font-normal"
@@ -90,9 +91,10 @@ const Features = () => {
                         </p>
                     </div>
 
-                    <div className="mb-8 text-center category-info block md:hidden px-2">
+                    {/* Mobile Layout - Compact Version */}
+                    <div className="mb-4 text-center category-info block md:hidden px-0">
                         <h3
-                            className="mb-4 text-3xl xs:text-4xl sm:text-5xl font-normal"
+                            className="mb-2 text-2xl xs:text-3xl sm:text-4xl font-normal"
                             style={{
                                 fontFamily: "Gelica, sans-serif",
                                 color: "black",
@@ -102,17 +104,18 @@ const Features = () => {
                             {categories[currentCategoryIndex].name}
                         </h3>
                         <p
-                            className="text-base xs:text-lg sm:text-xl"
+                            className="text-sm xs:text-base sm:text-lg px-0"
                             style={{
                                 fontFamily: "SF Pro Display, sans-serif",
-                                lineHeight: "1.4",
+                                lineHeight: "1.3",
                             }}
                         >
                             {categories[currentCategoryIndex].description}
                         </p>
                     </div>
 
-                    <div className="relative h-[40vh] w-full md:h-[70vh]">
+                    {/* Canvas with adjusted mobile height */}
+                    <div className="relative h-[30vh] w-full md:h-[70vh]">
                         <Canvas className="size-full">
                             {/* @ts-expect-error: TypeScript doesn't recognize ambientLight */}
                             <ambientLight intensity={1}/>
@@ -124,14 +127,13 @@ const Features = () => {
                                 enablePan={false}
                                 enableRotate={false}
                             />
-
                             {/* @ts-expect-error: TypeScript doesn't recognize group */}
                             <group ref={globeGroupRef}>
                                 {categories.map((category, catIndex) => {
                                     if (catIndex !== currentCategoryIndex) return null;
 
                                     const categoryAngle = (catIndex / categories.length) * Math.PI * 2;
-                                    const globeRadius = 4;
+                                    const globeRadius = 3.5; // Reduced radius for mobile
                                     const clusterAngle = 0.3;
 
                                     return category.images.map((img, modelIndex) => {
@@ -162,7 +164,7 @@ const Features = () => {
                                                 }}
                                                 position={position}
                                                 rotation={baseRotation}
-                                                scale={0.85}
+                                                scale={0.75} // Reduced scale for mobile
                                             >
                                                 <ModelView
                                                     item={modelData}
@@ -170,12 +172,12 @@ const Features = () => {
                                                     position={[0,0,0]}
                                                     rotation={[0,0,0]}
                                                 />
-                                                {/* @ts-ignore */}
+                                                {/* @ts-expect-error: TypeScript doesn't recognize group */}
                                             </group>
                                         );
                                     });
                                 })}
-                                {/* @ts-ignore */}
+                                {/* @ts-expect-error: TypeScript doesn't recognize group */}
                             </group>
                         </Canvas>
                     </div>
