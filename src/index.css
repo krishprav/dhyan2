@@ -1,0 +1,146 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.googleapis.com/css2?family=Gelica:wght@600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sweet-romance');
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+/* --- FONT DEFINITIONS --- */
+@font-face {
+    font-family: 'SauberScript';
+    src: url('/fonts/Sauber Script.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gelica';
+    src: url('/fonts/Fontspring-DEMO-gelica-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Samarkan';
+    src: url('/fonts/Samarkan.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sweet Romance';
+    src: url('/fonts/SweetRomance.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SF Pro Display.ttf') format('truetype');
+    font-weight: 400;
+}
+
+/* --- BASE STYLES --- */
+html,
+body {
+    width: 100%;
+    color: #000;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #000;
+}
+
+main {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+/* --- RESPONSIVE BACKGROUND --- */
+/* --- RESPONSIVE BACKGROUND --- */
+.main-container {
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  /* Default background for large screens (desktops) */
+  background-image: url('/bg-desktop.png'); /* UPDATE THIS PATH */
+}
+
+/* For tablets */
+@media (max-width: 1024px) {
+  .main-container {
+    background-image: url('/bg-tablet.png'); /* ADD a tablet-specific background image */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  .main-container {
+    background-image: url('/bg-mobile.png'); /* UPDATE THIS PATH */
+  }
+}
+
+/* --- UTILITIES & VIDEO --- */
+@utility text-gradient {
+    background: linear-gradient(to bottom, #ffffff, #898989);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+video {
+    width: 100vw !important;
+    height: 100vh !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+/* --- HERO SECTION TYPOGRAPHY --- */
+#hero {
+    position: relative;
+    z-index: 10;
+    min-height: 100vh;
+    width: 100%;
+}
+#hero h1 {
+    font-size: clamp(60px, 12vw, 210px);
+    font-family: 'Samarkan', serif;
+}
+#hero h2 {
+    font-family: 'Sweet Romance', cursive;
+    font-size: clamp(40px, 8vw, 75px);
+    color: #fff;
+}
+#hero p {
+    color: #FFF;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: clamp(20px, 3vw, 31px);
+    font-weight: 500;
+}
+
+/* Add this to your global CSS file */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

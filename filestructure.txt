@@ -1,0 +1,130 @@
+|-- .eslintrc.cjs
+|-- .gitignore
+|-- .prettierrc
+|-- README.md
+|-- index.html
+|-- package.json
+|-- tailwind.config.js
+|-- vite.config.ts
+|-- public
+    |-- assets
+        |-- react.svg
+        |-- images
+            |-- frame.png
+            |-- knowledge1.jpg
+            |-- knowledge2.jpg
+            |-- knowledge3.jpg
+            |-- mantra1.jpg
+            |-- mantra2.jpg
+            |-- mantra3.jpg
+            |-- meditation1.jpg
+            |-- meditation2.jpg
+            |-- meditation3.jpg
+            |-- pause.svg
+            |-- play.svg
+            |-- pranayama1.jpg
+            |-- pranayama2.jpg
+            |-- pranayama3.jpg
+            |-- replay.svg
+            |-- right.svg
+            |-- screen1.jpg
+            |-- screen2.jpg
+            |-- screen3.jpg
+            |-- screen4.jpg
+            |-- screen5.jpg
+            |-- screen6.jpg
+            |-- screen7.jpg
+            |-- screen8.jpg
+            |-- search.svg
+            |-- watch.svg
+            |-- white.jpg
+            |-- yellow.jpg
+            |-- yoga1.jpg
+            |-- yoga2.jpg
+            |-- yoga3.jpg
+    |-- models
+        |-- scene.glb
+    |-- videos
+        |-- input.mp4
+        |-- input2.mp4
+        |-- output.mp4
+        |-- output2.mp4
+        |-- input3.mp4
+        |-- output3.mp4
+    |-- fonts
+        |-- Fontspring-DEMO-gelica-regular.otf
+        |-- Gelica-Semi-Bold.otf
+        |-- Modern Negra Demo.ttf
+        |-- Sauber Script.otf
+        |-- Samarkan.ttf
+    |-- applestore.svg
+    |-- Apple App Store.svg
+    |-- Google Play Store.svg
+    |-- playstore.svg
+    |-- bg_main.png
+    |-- progress_mock.png
+    |-- social_mock.png
+    |-- dhyanlogo.svg
+    |-- blog-1.jpg
+    |-- blog-2.jpg
+    |-- blog-3.jpg
+    |-- blog-4.jpg
+    |-- back.svg
+    |-- bg_social.png
+    |-- bg.svg
+    |-- background_op.svg
+    |-- backtotop.svg
+    |-- bg.png
+    |-- profile.png
+    |-- testimonial_card3.svg
+    |-- testimonial_card.svg
+    |-- testimonial_card2.svg
+    |-- yogi.svg
+    |-- location.svg
+    |-- mail.svg
+    |-- linkedin.svg
+    |-- instagram.svg
+    |-- home.svg
+    |-- Lotus.svg
+    |-- twitter.svg
+    |-- star.svg
+    |-- Rectangle11.svg
+    |-- facebook.svg
+    |-- epileptoIcon.svg
+    |-- logo.svg
+    |-- bg-mobile.png
+    |-- bg-desktop.png
+|-- src
+    |-- App.tsx
+    |-- index.css
+    |-- main.tsx
+    |-- vite-env.d.ts
+    |-- components
+        |-- IphoneModel.tsx
+        |-- Lights.tsx
+        |-- Loader.tsx
+        |-- ModelView.tsx
+        |-- PhoneModel.tsx
+        |-- Hero.tsx
+        |-- Navbar.tsx
+        |-- Social.tsx
+        |-- Features.tsx
+        |-- HeroPhone.tsx
+        |-- Testimonial.tsx
+        |-- Blog.tsx
+        |-- Contact.tsx
+        |-- Footer.tsx
+        |-- InteractiveStars.tsx
+    |-- constants
+        |-- index.ts
+    |-- utils
+        |-- animations.ts
+        |-- index.ts
+    |-- types
+        |-- index.d.ts
+        |-- three.d.ts
+    |-- assets
+        |-- react.svg
+|-- package-lock.json
+|-- tsconfig.node.json
+|-- tsconfig.json
