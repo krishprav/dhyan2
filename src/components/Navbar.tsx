@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleResize = () => {
@@ -50,7 +52,10 @@ const Navbar = () => {
         </div>
 
         {/* Brand Name */}
-        <div className={`flex items-center gap-2 ${isMobile ? 'absolute left-1/2 -translate-x-1/2' : ''}`}>
+        <div 
+          className={`flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity ${isMobile ? 'absolute left-1/2 -translate-x-1/2' : ''}`}
+          onClick={() => navigate('/')}
+        >
           <img
             src="/dhyanlogo.svg"
             alt="DhyanApp Logo"
@@ -64,14 +69,25 @@ const Navbar = () => {
         {/* Desktop Nav Links */}
         <div className="hidden md:flex items-center gap-3 lg:gap-4 text-sm font-medium text-white">
           {["About", "Practices", "Testimonials", "Blog", "Contact"].map((label) => (
-            <a
-              key={label}
-              href={`/#${label}`}
-              className="hover:text-[#00b4d8] transition whitespace-nowrap text-center 
-                         font-['SF_Pro_Display'] text-[13.5px] font-medium tracking-[0.25px]"
-            >
-              {label}
-            </a>
+            label === "Blog" ? (
+              <button
+                key={label}
+                onClick={() => navigate('/blogs')}
+                className="hover:text-[#00b4d8] transition whitespace-nowrap text-center 
+                           font-['SF_Pro_Display'] text-[13.5px] font-medium tracking-[0.25px] bg-transparent border-none cursor-pointer"
+              >
+                {label}
+              </button>
+            ) : (
+              <a
+                key={label}
+                href={`/#${label}`}
+                className="hover:text-[#00b4d8] transition whitespace-nowrap text-center 
+                           font-['SF_Pro_Display'] text-[13.5px] font-medium tracking-[0.25px]"
+              >
+                {label}
+              </a>
+            )
           ))}
         </div>
       </div>
@@ -101,14 +117,27 @@ const Navbar = () => {
 
             <div className="flex flex-col items-center justify-center h-full px-4 gap-8">
               {["About", "Practices", "Testimonials", "Blog", "Contact"].map((label) => (
-                <a
-                  key={label}
-                  href={`/#${label}`}
-                  onClick={() => setSidebar(false)}
-                  className="hover:text-[#00b4d8] transition-colors text-[32px] font-['SF_Pro_Display'] font-light"
-                >
-                  {label}
-                </a>
+                label === "Blog" ? (
+                  <button
+                    key={label}
+                    onClick={() => {
+                      navigate('/blogs');
+                      setSidebar(false);
+                    }}
+                    className="hover:text-[#00b4d8] transition-colors text-[32px] font-['SF_Pro_Display'] font-light bg-transparent border-none cursor-pointer text-white"
+                  >
+                    {label}
+                  </button>
+                ) : (
+                  <a
+                    key={label}
+                    href={`/#${label}`}
+                    onClick={() => setSidebar(false)}
+                    className="hover:text-[#00b4d8] transition-colors text-[32px] font-['SF_Pro_Display'] font-light"
+                  >
+                    {label}
+                  </a>
+                )
               ))}
             </div>
           </motion.div>

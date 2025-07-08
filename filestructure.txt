@@ -120,6 +120,7 @@
         |-- Footer.tsx
         |-- InteractiveStars.tsx
         |-- BlogPage.tsx
+        |-- BlogDetail.tsx
     |-- constants
         |-- index.ts
     |-- utils

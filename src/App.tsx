@@ -11,6 +11,7 @@ import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BlogPage from './components/BlogPage';
+import BlogDetail from './components/BlogDetail';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -61,6 +62,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/blogs" element={<BlogPage />} />
+      <Route path="/blogs/:id" element={<BlogDetail />} />
     </Routes>
   );
 };

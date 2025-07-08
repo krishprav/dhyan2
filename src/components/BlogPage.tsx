@@ -148,6 +148,7 @@ const BlogPage: React.FC = () => {
          transition: 'all 0.3s ease'
        }}
       className="hover:shadow-lg hover:-translate-y-1"
+      onClick={() => navigate(`/blogs/${post.id}`)}
     >
       <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '20.99px', display: 'flex'}}>
         <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: '18.15px', display: 'flex'}}>
@@ -181,7 +182,7 @@ const BlogPage: React.FC = () => {
       </div>
       <div style={{alignSelf: 'stretch'}}>
         <span style={{color: '#676767', fontSize: '18px', fontFamily: 'Inter', fontWeight: '400', lineHeight: '25.20px', wordWrap: 'break-word'}}>{post.description} </span>
-        <span style={{color: '#007AFF', fontSize: '18px', fontFamily: 'Inter', fontWeight: '400', lineHeight: '25.20px', wordWrap: 'break-word'}}>Read More</span>
+        <span style={{color: '#007AFF', fontSize: '18px', fontFamily: 'Inter', fontWeight: '500', lineHeight: '25.20px', wordWrap: 'break-word', textDecoration: 'none'}}>Read Full Article →</span>
       </div>
     </div>
   );
