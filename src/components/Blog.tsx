@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface BlogPost {
   id: number;
@@ -52,8 +53,8 @@ const Blog: React.FC = () => {
 
         {/* --- UNIVERSAL "View All" Link --- */}
         <div className="flex justify-end mb-4">
-          <a
-            href="#"
+          <Link
+            to="/blogs"
             className="text-lg md:text-xl font-medium no-underline transition-opacity hover:opacity-80"
             style={{
               color: '#4285F4',
@@ -61,7 +62,7 @@ const Blog: React.FC = () => {
             }}
           >
             View All
-          </a>
+          </Link>
         </div>
         
         {/* --- BLOG CARDS --- */}

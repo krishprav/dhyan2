@@ -4,6 +4,7 @@ import * as THREE from "three";
 
 const InteractiveStars = ({ mouse }: { mouse: { x: number; y: number } }) => {
   const group = useRef<THREE.Group>(null);
+  const isDesktop = window.innerWidth >= 768;
 
   // Star texture generation
   const starTexture = useMemo(() => {
@@ -24,8 +25,8 @@ const InteractiveStars = ({ mouse }: { mouse: { x: number; y: number } }) => {
 
   // Star positions, colors, sizes
   const { positions, colors, sizes } = useMemo(() => {
-    const starCount = 2000;
-    const spread = 200;
+    const starCount = isDesktop ? 1500 : 2000;  // Fewer stars for desktop strip
+    const spread = isDesktop ? 150 : 200;       // Smaller spread for desktop strip
     const baseColor = new THREE.Color("#aabfff");
 
     const positions = new Float32Array(starCount * 3);
@@ -51,7 +52,7 @@ const InteractiveStars = ({ mouse }: { mouse: { x: number; y: number } }) => {
     }
 
     return { positions, colors, sizes };
-  }, []);
+  }, [isDesktop]);
 
   // Animate group rotation based on mouse
   const rotation = useRef({ x: 0, y: 0 });
@@ -66,7 +67,7 @@ const InteractiveStars = ({ mouse }: { mouse: { x: number; y: number } }) => {
 
   return (
     // @ts-expect-error: TypeScript doesn't recognize group
-    <group ref={group} position={[0, 0, -20]}>
+    <group ref={group} position={[0, 0, isDesktop ? -15 : -20]}>
       {/* @ts-expect-error: TypeScript doesn't recognize points */}
       <points>
         {/* @ts-expect-error: TypeScript doesn't recognize bufferGeometry */}

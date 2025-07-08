@@ -95,6 +95,9 @@
     |-- bg-mobile.png
     |-- bg-desktop.png
     |-- bg-tablet.png
+    |-- blog_bg.png
+    |-- blog_image.png
+    |-- arrow.svg
 |-- src
     |-- App.tsx
     |-- index.css
@@ -116,6 +119,7 @@
         |-- Contact.tsx
         |-- Footer.tsx
         |-- InteractiveStars.tsx
+        |-- BlogPage.tsx
     |-- constants
         |-- index.ts
     |-- utils

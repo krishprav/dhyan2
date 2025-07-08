@@ -218,7 +218,7 @@ const Hero = () => {
 
           {isMobile && (
             <div
-              className="flex justify-center w-full scale-90 mt-0 mb-0"
+              className="flex justify-center w-full scale-90 mt-0 mb-0 -ml-[30px]"
               style={{
                 width: "500px",
                 height: "729px",
@@ -230,7 +230,7 @@ const Hero = () => {
           )}
         </div>
         {!isMobile && (
-          <div className="flex-1 w-full flex items-center justify-center md:justify-end md:pr-12 mt-8 sm:mt-12 md:mt-24">
+          <div className="flex-1 w-full flex items-center justify-center md:justify-end md:pr-12 mt-8 sm:mt-12 md:mt-24 md:-ml-[30px]">
             <HeroPhone />
           </div>
         )}

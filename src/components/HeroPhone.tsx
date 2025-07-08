@@ -52,9 +52,9 @@ const HeroPhone = () => {
                 />
 
                 {/* @ts-expect-error: TypeScript doesn't recognize ambientLight */}
-                <ambientLight intensity={1} />
+                <ambientLight intensity={2} />
                 {/* @ts-expect-error: TypeScript doesn't recognize directionalLight */}
-                <directionalLight position={[5, 5, 5]} intensity={1} />
+                <directionalLight position={[5, 5, 5]} intensity={3} />
 
                 <ModelView
                     item={modelData}

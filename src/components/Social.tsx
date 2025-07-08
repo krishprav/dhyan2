@@ -109,7 +109,7 @@ const Social = () => {
               </p>
             </div>
             
-            <div className="relative w-[220px] h-[450px]">
+            <div className="relative w-[220px] h-[450px] -ml-5">
               <img
                 src={item.image}
                 alt={item.heading}
@@ -148,7 +148,7 @@ const Social = () => {
             </div>
 
             {/* Image Section */}
-            <div className="w-full flex justify-center md:block md:absolute md:top-1/2 md:-translate-y-1/2 md:left-[1168px] md:right-[325px]">
+            <div className="w-full flex justify-center md:block md:absolute md:top-1/2 md:-translate-y-1/2 md:left-[1148px] md:right-[325px]">
               <div
                 className="relative w-[220px] h-[450px] sm:w-[300px] sm:h-[600px] md:w-[416px] md:h-[852px]"
                 style={{ width: undefined, height: undefined }}

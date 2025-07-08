@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/all";
 import Navbar from './components/Navbar';
@@ -9,6 +10,7 @@ import Testimonial from './components/Testimonial';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import BlogPage from './components/BlogPage';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -40,25 +42,26 @@ const App = () => {
     };
   }, []);
 
-  return (
-    // This single div holds the entire page's responsive background
+  const HomePage = () => (
     <div className="main-container">
       {showNavbar && <Navbar />}
-
-      {/* The Hero video will play and fade out to reveal the background image */}
       <Hero />
-
-      {/* Attach the ref here for the navbar observer */}
       <div ref={featuresRef}>
         <Features />
       </div>
-
       <Social />
       <Testimonial />
       <Blog />
       <Contact />
       <Footer />
     </div>
+  );
+
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/blogs" element={<BlogPage />} />
+    </Routes>
   );
 };
 
