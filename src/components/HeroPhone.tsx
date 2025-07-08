@@ -47,6 +47,8 @@ const HeroPhone = () => {
                     enablePan={false}
                     rotateSpeed={0.4}
                     target={[0, 0, 0]}
+                    minPolarAngle={Math.PI / 2 - 0.3}
+                    maxPolarAngle={Math.PI / 2 + 0.3}
                 />
 
                 {/* @ts-expect-error: TypeScript doesn't recognize ambientLight */}
