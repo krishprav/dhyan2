@@ -98,7 +98,7 @@ const Social = () => {
         {mockupData.map((item, index) => (
           <div 
             key={index}
-            className="mobile-section min-h-screen w-full flex flex-col items-center justify-center px-4"
+            className="mobile-section min-h-screen w-full flex flex-col items-center justify-start pt-20 px-4"
           >
             <div className="w-full max-w-[600px] text-left mb-8">
               <h1 className="text-2xl sm:text-3xl font-normal text-black mb-4 md:mb-6" style={{ fontFamily: "Gelica, serif" }}>
@@ -128,7 +128,7 @@ const Social = () => {
         >
           <div className="relative z-20 w-full h-full flex flex-col md:flex-row items-center justify-center">
             {/* Text Section */}
-            <div className="relative md:absolute md:top-1/2 md:-translate-y-1/2 md:left-[143px] w-full md:max-w-[600px] text-left px-4 md:px-0 mb-8 md:mb-0">
+            <div className="relative md:absolute md:top-1/3 md:-translate-y-1/3 md:left-[143px] w-full md:max-w-[600px] text-left px-4 md:px-0 mb-8 md:mb-0">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={currentIndex}
@@ -137,10 +137,10 @@ const Social = () => {
                   exit={{ opacity: 0, x: 30, y: 0 }}
                   transition={{ duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
                 >
-                  <h1 className="text-2xl sm:text-3xl md:text-[48px] font-normal text-black mb-4 md:mb-6" style={{ fontFamily: "Gelica, serif" }}>
+                  <h1 className="text-3xl sm:text-3xl md:text-[62px] font-normal text-black mb-4 md:mb-6" style={{ fontFamily: "Gelica, serif" }}>
                     {mockupData[currentIndex].heading}
                   </h1>
-                  <p className="text-base sm:text-lg md:text-[18px] text-[#626262] font-medium leading-relaxed md:leading-[30px]" style={{ fontFamily: '"SF Pro Display", sans-serif' }}>
+                  <p className="text-base sm:text-lg md:text-[22px] text-[#626262] font-medium leading-relaxed md:leading-[30px]" style={{ fontFamily: '"SF Pro Display", sans-serif' }}>
                     {mockupData[currentIndex].paragraph}
                   </p>
                 </motion.div>
