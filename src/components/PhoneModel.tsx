@@ -17,13 +17,26 @@ const PhoneModel = () => {
     img: currentCategory.images[1],
   };
 
-  // Add scroll event listener for category switching
+  // Add scroll event listener for category switching only within the component
   useEffect(() => {
     let lastScrollTime = 0;
     const handleWheel = (e: WheelEvent) => {
+      // Only handle scroll if mouse is over the phone model section
+      const modelSection = document.querySelector('.model-grid');
+      if (!modelSection) return;
+      
+      const rect = modelSection.getBoundingClientRect();
+      const isOverModel = e.clientX >= rect.left && e.clientX <= rect.right && 
+                         e.clientY >= rect.top && e.clientY <= rect.bottom;
+      
+      if (!isOverModel) return;
+      
+      e.preventDefault(); // Only prevent default when interacting with the model
+      
       const now = Date.now();
       if (now - lastScrollTime < 500) return; // Throttle
       lastScrollTime = now;
+      
       if (e.deltaY > 0) {
         // Scroll down: next category
         const nextIndex = (currentCategoryIndex + 1) % categories.length;
@@ -34,7 +47,7 @@ const PhoneModel = () => {
         switchCategory(prevIndex);
       }
     };
-    window.addEventListener("wheel", handleWheel, { passive: true });
+    window.addEventListener("wheel", handleWheel, { passive: false });
     return () => window.removeEventListener("wheel", handleWheel);
   }, [currentCategoryIndex, categories.length]);
 
@@ -78,7 +91,16 @@ const PhoneModel = () => {
       <div className="screen-max-width">
         <div className="mt-5 flex flex-col items-center">
           {/* Three Models Container */}
-          <div className="relative h-[75vh] w-full overflow-hidden md:h-[90vh] model-grid">
+          <div className="relative h-[75vh] w-full overflow-hidden md:h-[90vh] model-grid group cursor-pointer">
+            {/* Scroll indicator */}
+            <div className="absolute top-4 right-4 z-10 opacity-50 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+              <div className="flex items-center gap-2 text-sm text-gray-600">
+                <span>Scroll to switch categories</span>
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 3a1 1 0 011 1v5.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 111.414-1.414L9 9.586V4a1 1 0 011-1z"/>
+                </svg>
+              </div>
+            </div>
             <Canvas
               className="size-full"
               style={{ position: "fixed", top: 0, left: 0, bottom: 0, right: 0, overflow: "hidden" }}

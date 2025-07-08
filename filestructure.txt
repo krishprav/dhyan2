@@ -94,6 +94,7 @@
     |-- logo.svg
     |-- bg-mobile.png
     |-- bg-desktop.png
+    |-- bg-tablet.png
 |-- src
     |-- App.tsx
     |-- index.css

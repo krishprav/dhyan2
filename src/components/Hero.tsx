@@ -78,14 +78,14 @@ const Hero = () => {
 
   return (
     <>
-      <div ref={videoContainerRef} className="fixed inset-0 z-0 w-full h-full">
+      <div ref={videoContainerRef} className="fixed inset-0 z-0 w-full h-full pointer-events-none">
         <video
           ref={videoRef}
           muted
           playsInline
           preload="auto"
           src="/videos/output2.mp4"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover pointer-events-none"
         />
       </div>
       <section

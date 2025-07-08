@@ -54,6 +54,16 @@ body {
     padding: 0;
     position: relative;
     background-color: #000;
+    overscroll-behavior: none;
+}
+
+/* Ensure scrollable content is accessible */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
 }
 
 main {
@@ -72,6 +82,7 @@ main {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  min-height: 100vh;
   /* Default background for large screens (desktops) */
   background-image: url('/bg-desktop.png'); /* UPDATE THIS PATH */
 }
@@ -110,6 +121,7 @@ video {
     margin: 0 !important;
     padding: 0 !important;
     background: transparent !important;
+    pointer-events: none !important;
 }
 
 /* --- HERO SECTION TYPOGRAPHY --- */

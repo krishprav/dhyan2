@@ -14,12 +14,22 @@ const Features = () => {
 
     useEffect(() => {
         const handleWheel = (e: WheelEvent) => {
+            // Only handle scroll if mouse is over the features section
+            const featuresSection = document.querySelector('#features');
+            if (!featuresSection) return;
+            
+            const rect = featuresSection.getBoundingClientRect();
+            const isOverFeatures = e.clientX >= rect.left && e.clientX <= rect.right && 
+                                 e.clientY >= rect.top && e.clientY <= rect.bottom;
+            
+            if (!isOverFeatures) return;
+            
             if (currentCategoryIndex === 0 && e.deltaY < 0) return;
             if (currentCategoryIndex === categories.length - 1 && e.deltaY > 0) return;
-
-            e.preventDefault();
             if (isAnimating) return;
 
+            e.preventDefault(); // Only prevent default when interacting with features
+            
             if (e.deltaY > 0) {
                 switchCategory((currentCategoryIndex + 1) % categories.length);
             } else if (e.deltaY < 0) {
@@ -39,7 +49,7 @@ const Features = () => {
         setCurrentCategoryIndex(newCategoryIndex);
 
         gsap.to(".category-info", {
-            opacity: 0,
+            opacity: 1,
             y: -20,
             duration: 0.4,
             ease: "power2.in",
@@ -47,7 +57,7 @@ const Features = () => {
 
         gsap.fromTo(
             ".category-info",
-            { opacity: 0, y: 20 },
+            { opacity: 1, y: 20 },
             { opacity: 1, y: 0, duration: 0.6, ease: "power2.out", delay: 0.8 }
         );
 
@@ -65,7 +75,7 @@ const Features = () => {
     };
 
     return (
-        <section className="common-padding relative">
+        <section id="features" className="common-padding relative">
             <div className="screen-max-width">
                 <div className="flex flex-col items-center">
                     {/* Desktop Layout - Unchanged */}
@@ -115,12 +125,21 @@ const Features = () => {
                     </div>
 
                     {/* Canvas with adjusted mobile height */}
-                    <div className="relative h-[30vh] w-full md:h-[70vh]">
+                    <div className="relative h-[30vh] w-full md:h-[70vh] group cursor-pointer">
+                        {/* Scroll indicator */}
+                        <div className="absolute top-4 right-4 z-10 opacity-50 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                            <div className="flex items-center gap-2 text-sm text-gray-600">
+                                <span>Scroll to explore</span>
+                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 3a1 1 0 011 1v5.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 111.414-1.414L9 9.586V4a1 1 0 011-1z"/>
+                                </svg>
+                            </div>
+                        </div>
                         <Canvas className="size-full">
                             {/* @ts-expect-error: TypeScript doesn't recognize ambientLight */}
-                            <ambientLight intensity={1}/>
+                            <ambientLight intensity={3}/>
                             {/* @ts-expect-error: TypeScript doesn't recognize directionalLight */}
-                            <directionalLight position={[3, 5, 4]} intensity={1.5} />
+                            <directionalLight position={[3, 5, 4]} intensity={3} />
                             <PerspectiveCamera makeDefault position={[0, 0, 8]} fov={30} />
                             <OrbitControls
                                 enableZoom={false}
