@@ -9,11 +9,26 @@ Title: Dhyan Model
 import * as Three from "three";
 import { useGLTF, useTexture } from "@react-three/drei";
 import { useEffect } from "react";
+import { useThree } from "@react-three/fiber";
 
 function IphoneModel(props: any) {
   const { nodes, materials } = useGLTF("/models/scene.glb") as { nodes: any; materials: Record<string, any> };
+  const { gl } = useThree();
 
   const texture = useTexture(props.item.img) as Three.Texture;
+
+  useEffect(() => {
+    // Configure texture for better quality
+    if (texture) {
+      texture.generateMipmaps = true;
+      texture.minFilter = Three.LinearMipmapLinearFilter;
+      texture.magFilter = Three.LinearFilter;
+      texture.anisotropy = gl.capabilities.getMaxAnisotropy();
+      texture.wrapS = Three.ClampToEdgeWrapping;
+      texture.wrapT = Three.ClampToEdgeWrapping;
+      texture.needsUpdate = true;
+    }
+  }, [texture, gl]);
 
   useEffect(() => {
     Object.entries(materials).map((material) => {
@@ -162,7 +177,14 @@ function IphoneModel(props: any) {
         scale={0.01}
       > 
         {/* @ts-expect-error: TypeScript doesn't recognize meshStandardMaterial */}
-        <meshStandardMaterial roughness={1} map={texture} />
+        <meshStandardMaterial 
+          roughness={0.1} 
+          metalness={0.1}
+          map={texture} 
+          transparent={false}
+          alphaTest={0.01}
+          side={Three.DoubleSide}
+        />
         {/* @ts-expect-error: TypeScript doesn't recognize mesh */}
       </mesh>
       {/* @ts-expect-error: TypeScript doesn't recognize mesh */}

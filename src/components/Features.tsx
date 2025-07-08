@@ -135,9 +135,19 @@ const Features = () => {
                                 </svg>
                             </div>
                         </div>
-                        <Canvas className="size-full">
+                        <Canvas 
+                            className="size-full"
+                            gl={{ 
+                                antialias: true, 
+                                alpha: true, 
+                                powerPreference: "high-performance",
+                                preserveDrawingBuffer: false,
+                                failIfMajorPerformanceCaveat: false
+                            }}
+                            dpr={[1, 2]}
+                        >
                             {/* @ts-expect-error: TypeScript doesn't recognize ambientLight */}
-                            <ambientLight intensity={3}/>
+                            <ambientLight intensity={2}/>
                             {/* @ts-expect-error: TypeScript doesn't recognize directionalLight */}
                             <directionalLight position={[3, 5, 4]} intensity={3} />
                             <PerspectiveCamera makeDefault position={[0, 0, 8]} fov={30} />
@@ -153,7 +163,7 @@ const Features = () => {
 
                                     const categoryAngle = (catIndex / categories.length) * Math.PI * 2;
                                     const globeRadius = 3.5; // Reduced radius for mobile
-                                    const clusterAngle = 0.3;
+                                    const clusterAngle = 0.4;
 
                                     return category.images.map((img, modelIndex) => {
                                         const modelAngleOffset = (modelIndex - 1) * clusterAngle;
@@ -183,7 +193,7 @@ const Features = () => {
                                                 }}
                                                 position={position}
                                                 rotation={baseRotation}
-                                                scale={0.75} // Reduced scale for mobile
+                                                scale={1} 
                                             >
                                                 <ModelView
                                                     item={modelData}
