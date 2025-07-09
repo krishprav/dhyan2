@@ -1,24 +1,61 @@
-import React from "react";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { firestore } from "../firebase";
+import { collection, getDocs, query, where, limit } from "firebase/firestore";
 
 interface BlogPost {
-  id: number;
-  image: string;
-  title: string;
-  description: string;
+  id: string;
+  primaryTitle: string;
+  subTitle: string;
+  teaserImageURL: string;
+  originalAuthorName: string;
+  ArticleCategory: string;
+  multiMediaType: string;
 }
 
 const Blog: React.FC = () => {
-  const blogPosts: BlogPost[] = [
-    { id: 1, image: "/blog-1.jpg", title: "The Science of Meditation", description: "Understanding how meditation rewires your brain for peace and clarity." },
-    { id: 2, image: "/blog-2.jpg", title: "Ancient Wisdom for Modern Life", description: "Timeless meditation techniques adapted for contemporary living." },
-    { id: 3, image: "/blog-3.jpg", title: "Building Daily Practice", description: "Create sustainable meditation habits that transform your daily routine." },
-    { id: 4, image: "/blog-4.jpg", title: "Stress to Serenity", description: "Proven methods to overcome anxiety and find lasting inner peace." },
-  ];
+  function pickFourRandomItems(arr: any[]) {
+    const shuffled = arr.sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, 4);
+  }
+
+  const [blogs, setBlogs] = useState<BlogPost[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true);
+      try {
+        // Fetch from all categories and then pick 4 random
+        const q = query(
+          collection(firestore, 'articleFilesV1'),
+          where('availableOnWebsite', '==', true),
+          limit(20) // Get more to have better random selection
+        );
+        const snapshot = await getDocs(q);
+        const newData = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        })) as BlogPost[];
+        console.log("blog Data is ", newData);
+        setBlogs(pickFourRandomItems(newData));
+      } catch (error) {
+        console.error("Error fetching data: ", error);
+        // Fallback to empty array on error
+        setBlogs([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
-    <div className="relative w-full min-h-screen overflow-hidden py-16 sm:py-20 lg:py-24 ">
-      <div className="relative z-10 max-w-[1530px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="relative w-full min-h-screen py-16 sm:py-20 lg:py-24 ">
+      <div className="relative z-10 max-w-[1530px] mx-auto px-4 sm:px-6 lg:px-8 overflow-visible">
 
         {/* --- HEADER SECTION --- */}
         <div className="text-center mb-10 md:mb-12">
@@ -47,7 +84,7 @@ const Blog: React.FC = () => {
               lineHeight: '1.5',
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <br className="hidden sm:block" />magna aliqua. Ut enim ad minim veniam
+            Explore our collection of articles on meditation, spirituality, and mindful living <br className="hidden sm:block" />to guide you on your journey to inner peace and self-discovery.
           </p>
         </div>
 
@@ -66,50 +103,69 @@ const Blog: React.FC = () => {
         </div>
         
         {/* --- BLOG CARDS --- */}
-        <div className="flex overflow-x-auto gap-4 pb-4 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:gap-[30px] sm:pb-0 justify-start sm:justify-items-center sm:max-w-fit sm:mx-auto no-scrollbar">
-          {blogPosts.map((post) => (
-            <div
-              key={post.id}
-              className="relative w-[300px] sm:w-[360px] h-[500px] flex-shrink-0 rounded-[26px] shadow-[0px_20px_50px_rgba(14,24,44,0.15)] overflow-hidden cursor-pointer
-                         transition-all duration-300 ease-in-out group
-                         hover:scale-105 sm:hover:scale-108 hover:-translate-y-2 sm:hover:-translate-y-4"
-            >
-              <img
-                src={post.image}
-                alt={post.title}
-                className="w-full h-full object-cover absolute top-0 left-0 transition-transform duration-300 ease-in-out"
-              />
-              <div
-                className="absolute inset-0 bg-gradient-to-t from-[#4285F4] to-transparent opacity-0 group-hover:opacity-100
-                           transition-opacity duration-300"
-              />
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white text-left">
-                <h3
-                  className="mb-2 break-words"
-                  style={{
-                    fontFamily: '"Gelica", sans-serif',
-                    fontSize: '28px',
-                    fontWeight: 500,
-                    lineHeight: '36.4px'
-                  }}
+        {loading ? (
+          <div className="flex justify-center items-center h-[500px]">
+            <div className="text-xl text-gray-500">Loading blogs...</div>
+          </div>
+        ) : blogs.length === 0 ? (
+          <div className="flex justify-center items-center h-[500px]">
+            <div className="text-xl text-gray-500">No blogs found.</div>
+          </div>
+        ) : (
+          <div className="px-8 py-16 sm:px-12 sm:py-20 lg:px-16 lg:py-24 overflow-visible">
+            <div className="flex overflow-x-auto overflow-y-visible gap-24 pb-20 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:gap-32 lg:gap-40 xl:gap-48 sm:pb-24 sm:overflow-visible justify-start sm:justify-items-center sm:max-w-fit sm:mx-auto no-scrollbar">
+              {blogs.map((post) => (
+                <Link
+                  key={post.id}
+                  to={`/blog/${post.id}?type=${post.ArticleCategory}`}
+                  className="relative w-[300px] sm:w-[360px] h-[500px] flex-shrink-0 rounded-[26px] shadow-[0px_20px_50px_rgba(14,24,44,0.15)] overflow-hidden cursor-pointer
+                             transition-all duration-300 ease-in-out group
+                             hover:scale-105 sm:hover:scale-108 hover:-translate-y-2 sm:hover:-translate-y-4
+                             mx-8 sm:mx-6 lg:mx-8"
                 >
-                  {post.title}
-                </h3>
-                <p
-                  className="break-words"
-                  style={{
-                    fontFamily: '"SF Pro Display", sans-serif',
-                    fontSize: '20px',
-                    lineHeight: '30px',
-                    opacity: 0.9,
-                  }}
-                >
-                  {post.description}
-                </p>
-              </div>
+                  <img
+                    src={post.teaserImageURL || "/blog-1.jpg"}
+                    alt={post.primaryTitle}
+                    className="w-full h-full object-cover absolute top-0 left-0 transition-transform duration-300 ease-in-out"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = "/blog-1.jpg";
+                    }}
+                  />
+                  <div
+                    className="absolute inset-0 bg-gradient-to-t from-[#4285F4] to-transparent opacity-0 group-hover:opacity-100
+                               transition-opacity duration-300"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white text-left">
+                    <h3
+                      className="mb-2 break-words"
+                      style={{
+                        fontFamily: '"Gelica", sans-serif',
+                        fontSize: '28px',
+                        fontWeight: 500,
+                        lineHeight: '36.4px'
+                      }}
+                    >
+                      {post.primaryTitle.length > 50 
+                        ? `${post.primaryTitle.slice(0, 50)}...` 
+                        : post.primaryTitle}
+                    </h3>
+                    <p
+                      className="break-words"
+                      style={{
+                        fontFamily: '"SF Pro Display", sans-serif',
+                        fontSize: '20px',
+                        lineHeight: '30px',
+                        opacity: 0.9,
+                      }}
+                    >
+                      {post.subTitle || `By ${post.multiMediaType !== "spinnedAudio" ? post.originalAuthorName : "Dhyan App"}`}
+                    </p>
+                  </div>
+                </Link>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        )}
 
         <div className="mt-20 md:mt-[186px]" />
 
@@ -129,7 +185,7 @@ const Blog: React.FC = () => {
                 lineHeight: '1.3',
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing
+              Start Your Meditation Journey Today
             </h2>
             <p
               className="max-w-[566px] mx-auto mb-10 text-base sm:text-lg md:text-[22px]"
@@ -137,12 +193,11 @@ const Blog: React.FC = () => {
                 color: '#626262',
                 fontFamily: '"SF Pro Display", sans-serif',
                 fontSize: '18px',
-
                 lineHeight: '1.5',
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
+              Download the Dhyan app and access thousands of guided meditations,
+              breathing exercises, and mindfulness practices.
             </p>
             <button
               className="text-white transition-colors transform hover:scale-105"

@@ -66,7 +66,7 @@ const Contact = () => {
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="w-full px-5 py-4 text-base placeholder:text-gray-400 outline-none border border-[#D6E0FF] focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition-all"
+                className="w-full px-5 py-4 text-base placeholder:text-gray-400 outline-none border border-[#D6E0FF] focus:border-blue-100 focus:ring-2 focus:ring-blue-500 transition-all"
                 style={{
                   borderRadius: "12px",
                   background: "#F5F8FF",
@@ -128,7 +128,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
                   <img
                     src="/mail.svg"
                     alt="Email"

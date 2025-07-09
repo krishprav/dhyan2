@@ -147,12 +147,59 @@ video {
     font-weight: 500;
 }
 
-/* Add this to your global CSS file */
-.no-scrollbar::-webkit-scrollbar {
+/* --- SCROLLBAR UTILITIES --- */
+.no-scrollbar::-webkit-scrollbar,
+.noScroll::-webkit-scrollbar {
   display: none;
 }
 
-.no-scrollbar {
+.no-scrollbar,
+.noScroll {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+/* Thin scrollbar utility */
+.thinScroll::-webkit-scrollbar {
+    width: 3px;
+}
+
+.thinScroll::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.thinScroll::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+/* --- FONT UTILITIES --- */
+.font-bigshoulderdisplay {
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+/* --- RESPONSIVE UTILITIES --- */
+@media (max-width: 768px) {
+    .max-md\:grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .max-sm\:flex-col {
+        flex-direction: column;
+    }
+    
+    .max-sm\:text-sm {
+        font-size: 0.875rem;
+    }
+    
+    .max-sm\:text-2xl {
+        font-size: 1.5rem;
+    }
 }

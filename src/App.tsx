@@ -10,8 +10,8 @@ import Testimonial from './components/Testimonial';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import BlogPage from './components/BlogPage';
-import BlogDetail from './components/BlogDetail';
+import { Blogs } from './components/pages/Blogs';
+import BlogPage from './components/pages/BlogPage';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -61,8 +61,8 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/blogs" element={<BlogPage />} />
-      <Route path="/blogs/:id" element={<BlogDetail />} />
+      <Route path="/blogs" element={<Blogs />} />
+      <Route path="/blog/:id" element={<BlogPage />} />
     </Routes>
   );
 };
