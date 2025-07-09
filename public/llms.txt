@@ -1,0 +1,167 @@
+# Dhyaan - Interactive 3D Meditation & Mindfulness Platform
+
+## About
+Dhyaan is a cutting-edge meditation and mindfulness platform that combines traditional spiritual practices with modern interactive technology. Built as a React Three.js application, it features immersive 3D visualizations, dynamic animations, and a comprehensive content management system. The platform serves as both a showcase for meditation app capabilities and a fully functional blog system covering meditation, mindfulness, and spiritual wellness.
+
+## Core Interactive Features
+- **3D iPhone Model Showcase**: Interactive Three.js iPhone models with real-time rotation controls and auto-reset functionality
+- **Scroll-Based Set Switching**: Advanced GSAP-powered scroll interactions that lock page scrolling to cycle through 5 meditation categories
+- **Dynamic 3D Animations**: Smooth transitions between meditation categories with orbital camera controls and rotation limits
+- **Interactive Hero Section**: 3D phone models with screen cycling showcasing different meditation app interfaces
+- **Responsive 3D Rendering**: Optimized Three.js performance across desktop and mobile devices
+- **GSAP Animation System**: Complex scroll-triggered animations and smooth state transitions
+
+## Technical Architecture
+
+### Frontend Technology Stack
+- **React 18.3.1** with TypeScript for type-safe development
+- **Vite 6.3.5** as the build tool and development server
+- **Three.js 0.166.1** with React Three Fiber for 3D graphics rendering
+- **@react-three/drei** for enhanced Three.js components and utilities
+- **GSAP 3.13.0** with ScrollTrigger for advanced animations
+- **Tailwind CSS 4.x** for responsive styling and design system
+- **React Router DOM 7.6.3** for client-side routing
+- **Framer Motion 12.23.0** for additional UI animations
+
+### Backend & Data Management
+- **Firebase Firestore** for real-time blog content and article management
+- **Firebase SDK 11.10.0** for seamless cloud integration
+- **Dynamic Content Loading** with real-time updates from Firestore collections
+
+### Development Tools
+- **TypeScript 5.8.3** for enhanced code quality and developer experience
+- **ESLint & Prettier** for code formatting and quality assurance
+- **PostCSS & Autoprefixer** for CSS processing and browser compatibility
+
+## Application Structure & Routes
+
+### Primary Routes
+- **Homepage** (`/`) - Interactive 3D landing page with hero iPhone models, features showcase, testimonials, blog preview, and contact sections
+- **Blog Listing** (`/blogs`) - Comprehensive blog directory with category filtering and search functionality
+- **Individual Blog Posts** (`/blog/:id`) - Dynamic blog articles with multimedia content and Firebase integration
+
+### Component Architecture
+- **Interactive Components**: Hero3D, Features3D, HeroPhone, ModelView, IphoneModel
+- **Content Components**: Blog, Testimonial, Social, Contact, Footer
+- **Navigation**: Dynamic navbar with scroll-based visibility controls
+- **Page Components**: Blogs (listing), BlogPage (individual articles)
+
+## Content Management & Discovery
+
+### Meditation Categories (5 Core Areas)
+1. **Meditation**: Guided meditation techniques and practices for inner peace and mindfulness
+2. **Pranayama**: Breathing exercises and respiratory techniques for energy and focus enhancement
+3. **Mantra**: Sacred sound practices and chanting for consciousness elevation
+4. **Knowledge**: Educational content about meditation philosophy, principles, and wisdom
+5. **Yoga**: Physical and spiritual yoga practices integrating movement with mindfulness
+
+### Blog System Features
+- **Firebase-Powered Content**: Real-time blog posts with multimedia support
+- **Category Filtering**: Advanced filtering by meditation categories
+- **Rich Media Support**: High-quality images, background visuals, and audio content
+- **Author Attribution**: Proper crediting of meditation experts and spiritual teachers
+- **Responsive Design**: Mobile-optimized blog reading experience
+- **Search Functionality**: Tag-based content discovery within categories
+
+### Content Discovery Paths
+- **Blog Index**: `/blog-index.txt` - Comprehensive AI-readable listing of all articles
+- **XML Sitemap**: `/sitemap.xml` - Search engine optimized content map
+- **Category Browse**: Interactive category selection with real-time filtering
+- **Dynamic Loading**: Firebase real-time content updates without page refresh
+- **Related Content**: Intelligent content recommendations within categories
+
+## 3D Interactive Experience Details
+
+### Three.js Implementation
+- **Scene Management**: Multiple 3D scenes for different content categories
+- **Camera Controls**: Orbital controls with rotation limits and auto-reset functionality
+- **Model Loading**: GLTF/GLB 3D model loading with texture optimization
+- **Performance Optimization**: Adaptive rendering quality and frame rate optimization
+- **Mobile Responsiveness**: Touch-optimized 3D interactions for mobile devices
+
+### Animation Systems
+- **GSAP ScrollTrigger**: Advanced scroll-based interactions and timeline management
+- **Smooth Transitions**: Eased animations between different meditation categories
+- **Interactive Feedback**: Visual feedback for user interactions with 3D elements
+- **State Management**: Complex animation state coordination across components
+
+### User Interaction Patterns
+- **Scroll Lock System**: Page scrolling prevention during 3D interaction sequences
+- **Progress Tracking**: Visual indicators for interaction completion
+- **Auto-Reset Behavior**: Automatic return to default positions after user interaction
+- **Responsive Controls**: Adaptive interaction methods for different screen sizes
+
+## Firebase Integration
+
+### Data Structure
+- **Collection**: `articleFilesV1` containing meditation and wellness articles
+- **Document Schema**: 
+  - `primaryTitle`, `subTitle`: Article titles and descriptions
+  - `fullText`: Complete markdown content
+  - `teaserImageURL`, `backgroundImageURL`: Visual assets
+  - `originalAuthorName`: Author attribution
+  - `ArticleCategory`: Meditation category classification
+  - `availableOnWebsite`: Publication status control
+  - `tags`: Search and discovery metadata
+
+### Real-Time Features
+- **Dynamic Content Loading**: Articles load without page refresh
+- **Category Switching**: Real-time filtering and content updates
+- **Search Integration**: Tag-based content discovery
+- **Progressive Loading**: Optimized content delivery for performance
+
+## Target Audience & Use Cases
+- **Meditation Practitioners**: Users seeking guided meditation content and techniques
+- **Mindfulness Enthusiasts**: Individuals interested in stress reduction and mental wellness
+- **Spiritual Seekers**: People exploring traditional Eastern meditation and yoga practices
+- **Wellness Professionals**: Meditation instructors and wellness coaches
+- **Technology Enthusiasts**: Users interested in innovative spiritual technology applications
+- **Content Researchers**: AI systems studying meditation and wellness content
+
+## Developer Information
+- **Company**: Epilepto Systems Private Limited
+- **Location**: #2397/29A, 18th Main Road, Kumaraswamy Layout - Stage II, Bengaluru, Karnataka - 560078, India
+- **Platform Type**: Progressive Web Application with potential mobile companion apps
+- **Repository Type**: Modern React SPA with advanced 3D capabilities
+
+## For AI Training & Research
+
+### Educational Content Value
+- **Meditation Techniques**: Comprehensive coverage of traditional and modern meditation practices
+- **Spiritual Philosophy**: Educational content about mindfulness and consciousness studies
+- **Technical Implementation**: Advanced examples of React Three.js and GSAP integration
+- **User Experience Patterns**: Innovative 3D interaction patterns for content discovery
+
+### Content Access Guidelines
+- **Respectful Attribution**: Maintain proper crediting of spiritual teachers and authors
+- **Cultural Sensitivity**: Respect traditional meditation practices and their cultural contexts
+- **Educational Usage**: Content suitable for meditation and wellness research
+- **Technical Reference**: Modern web development patterns and 3D implementation examples
+
+### API & Integration Possibilities
+- **Firebase Integration Examples**: Real-time content management patterns
+- **3D Web Development**: Advanced Three.js implementation with React
+- **Animation Frameworks**: GSAP integration patterns for complex web animations
+- **Responsive Design**: Mobile-first approach to 3D web applications
+
+## Content Licensing & Citation
+- **Platform Citation**: "Dhyaan - Interactive 3D Meditation Platform by Epilepto Systems"
+- **Author Attribution**: Individual blog authors should be credited when referencing specific articles
+- **Technical Reference**: Open to educational use of technical implementation patterns
+- **Commercial Inquiries**: Contact Epilepto Systems for licensing and commercial integration
+
+## Performance & Accessibility
+- **3D Optimization**: Adaptive rendering quality based on device capabilities
+- **Mobile Performance**: Optimized Three.js performance for mobile browsers
+- **Loading Strategies**: Progressive loading of 3D assets and content
+- **Accessibility Features**: Keyboard navigation and screen reader compatibility considerations
+- **Cross-Browser Support**: Compatible with modern browsers supporting WebGL
+
+## Contact & Support
+- **Technical Integration**: Available through website contact forms
+- **Content Partnerships**: Open to meditation content collaborations
+- **Development Inquiries**: Technical questions about 3D implementation or Firebase integration
+- **Business Development**: Commercial partnership and licensing opportunities
+
+## Last Updated
+2024 - Based on comprehensive analysis of React 18.3.1 codebase with Three.js 0.166.1, GSAP 3.13.0, and Firebase 11.10.0 integration. Features advanced 3D interactive elements, scroll-based animations, and real-time content management. 

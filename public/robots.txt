@@ -1,0 +1,54 @@
+# Robots.txt for Dhyaan - Interactive 3D Meditation Platform
+# A modern meditation and mindfulness web application with React Three.js
+
+User-agent: *
+Allow: /
+
+# Core Application Routes
+Allow: /blogs
+Allow: /blog/*
+
+# Static Assets for 3D Meditation Experience
+Allow: /models/
+Allow: /assets/
+Allow: /fonts/
+Allow: /videos/
+Allow: /*.glb
+Allow: /*.gltf
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.gif
+Allow: /*.mp4
+Allow: /*.webm
+Allow: /*.mp3
+Allow: /*.wav
+
+# Special meditation platform assets
+Allow: /dhyanlogo.svg
+Allow: /logo.svg
+Allow: /Apple App Store.svg
+Allow: /Google Play Store.svg
+
+# Block any potential admin or private areas
+# Uncomment if needed in the future:
+# Disallow: /admin/
+# Disallow: /api/
+# Disallow: /private/
+
+# Sitemap location - includes all blog posts and meditation content
+Sitemap: https://dhyanapp.epilepto.com/sitemap.xml
+
+# Blog index for AI systems and comprehensive content discovery
+# Available at: https://dhyanapp.epilepto.com/blog-index.txt
+
+# Crawl delay for respectful crawling of meditation content
+Crawl-delay: 1
+
+# Additional Information
+# This is Dhyaan - An interactive 3D meditation platform built with React Three.js
+# Features include: 3D iPhone model showcases, scroll-based animations, 
+# meditation categories (Meditation, Pranayama, Mantra, Knowledge, Yoga),
+# Firebase-powered blog system, and GSAP-powered interactive experiences 

@@ -98,6 +98,12 @@
     |-- blog_bg.png
     |-- blog_image.png
     |-- arrow.svg
+    |-- llms.txt
+    |-- robots.txt
+    |-- sitemap-generator.js
+    |-- sitemap.xml
+    |-- blog-index.txt
+    |-- content-index.txt
 |-- src
     |-- App.tsx
     |-- index.css
@@ -121,16 +127,23 @@
         |-- InteractiveStars.tsx
         |-- BlogPage.tsx
         |-- BlogDetail.tsx
+        |-- pages
+            |-- Blogs.tsx
+            |-- BlogPage.tsx
     |-- constants
         |-- index.ts
     |-- utils
         |-- animations.ts
         |-- index.ts
+        |-- getTime.ts
     |-- types
         |-- index.d.ts
         |-- three.d.ts
     |-- assets
         |-- react.svg
+    |-- firebase.ts
 |-- package-lock.json
 |-- tsconfig.node.json
 |-- tsconfig.json
+|-- blog.md
+|-- .env.local

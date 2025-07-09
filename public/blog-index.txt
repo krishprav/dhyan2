@@ -1,0 +1,1642 @@
+# Dhyaan Interactive 3D Meditation Platform - Complete Blog Index
+
+This comprehensive index contains all meditation and mindfulness articles available on the Dhyaan platform.
+The platform features advanced 3D interactions, React Three.js integration, and Firebase-powered content management.
+
+## Platform Overview
+- **Technology**: React 18.3.1 + Three.js 0.166.1 + GSAP 3.13.0 + Firebase
+- **Features**: Interactive 3D iPhone models, scroll-based animations, meditation categories
+- **Content**: 198 articles across 5 meditation categories
+- **Last Updated**: 7/9/2025
+
+## Meditation Categories Overview
+- **Meditation**: 20 articles - Guided meditation techniques and mindfulness practices for inner peace
+- **Pranayama**: 0 articles - Breathing exercises and respiratory techniques for energy and focus
+- **Mantra**: 0 articles - Sacred sound practices and chanting for consciousness elevation
+- **Knowledge**: 133 articles - Educational content about meditation philosophy and wisdom
+- **Yoga**: 8 articles - Physical and spiritual yoga practices integrating movement with mindfulness
+
+**Total Articles**: 198 meditation and wellness articles
+
+## Complete Article Listing by Category
+
+### Meditation - Guided meditation techniques and mindfulness practices for inner peace
+*20 articles in this meditation category*
+
+1. **attaining Peace through Forgiveness**
+   - URL: https://dhyanapp.epilepto.com/blog/cgbssaoFSDD2Ay9XcUft?type=Meditation
+   - Author: Sant Rajendar Singh ji Maharaj
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: The journey toward peace begins with forgiveness, fostering compassion and love.
+   - Preview: In an era where global conflict and division seem ever-present, the hunger for peace and unity among humanity has never been more pronounced. Increasingly, the realization is dawning that the survival of our species depends on the recognition that we...
+   - Featured Image: Available
+   - Audio Version: Available
+
+2. **Controlling Your Mind**
+   - URL: https://dhyanapp.epilepto.com/blog/2KDhhU8WkQCvzssznYLN?type=Meditation
+   - Author:  Swami Sarvapriyananda
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: A meditative technique for disengaging with the sensory and mental stimuli by reinforcing the disinterest in external perceptions and thoughts
+   - Preview: The concept of the body-mind complex being made up of inert or jada substances enlivened by reflected consciousness raises the question of how these inert substances can generate thoughts. The word inert, a close approximation of the Sanskrit word ja...
+   - Featured Image: Available
+   - Audio Version: Available
+
+3. **Creative Process and Ways to Enhance Creativity**
+   - URL: https://dhyanapp.epilepto.com/blog/RRsVVeMqVOy1dxw6ftxX?type=Meditation
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Sadhguru defines creativity, explains where creativity comes from and gives an insight into his own creative process.
+   - Preview: I do not believe a human being can be creative. If we perceive creation around us with a certain profoundness, we can imitate in many different ways, in permutations and combinations, and seem creative in society, but actually, we are not really crea...
+   - Featured Image: Available
+   - Audio Version: Available
+
+4. **Cultivating an Illumined  Mind**
+   - URL: https://dhyanapp.epilepto.com/blog/9g5SFp6ps05FUvn6Bg12?type=Meditation
+   - Author: Swami Atmapriyananda
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Urgent Relevance in the Modern Age of ScienceAdd Your Subtitle
+   - Preview: In our Rishis, the ancient seers were well built, they were extremely physically healthy, they ate very nutritious food. In our pictures we see Rishis emaciated and famished, no, they were extremely powerful people. Look at Vishwamitra and look at Va...
+   - Featured Image: Available
+   - Audio Version: Available
+
+5. **Effect of the sound of a mantra, on the mind**
+   - URL: https://dhyanapp.epilepto.com/blog/IX7BU0DLeWxb1VNzXh2G?type=Meditation
+   - Author: Sri M
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Dual effects of sound and its vibrational influence on the human psyche.
+   - Preview: Sound has two effects. One is the meaning of the sound, the other is the vibration of the sound. How the meaning of the sound affects us is very simple. Suppose I have done something very successful. I am coming home flushed with victory. Ah, I have...
+   - Featured Image: Available
+   - Audio Version: Available
+
+6. **Harmonics of Sound: Influence and Impact**
+   - URL: https://dhyanapp.epilepto.com/blog/dqCbiNfjYmG3x8MRfdKx?type=Meditation
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Exploring the Dual Effects of Sound on Humans
+   - Preview: Sound plays a multifaceted role in our lives by affecting us through its meanings and vibrations. Consider a scenario where you've achieved a great success and are returning home, feeling victorious. As you walk through the door, someone looks you in...
+   - Featured Image: Available
+   - Audio Version: Available
+
+7. **How to Stop Overthinking?**
+   - URL: https://dhyanapp.epilepto.com/blog/Q5cfEZtUcaFKYjxTrwsI?type=Meditation
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Being stuck in the mind and how one can come out of it and become more conscious.
+   - Preview: Mental restlessness begins when we identify with things that are not our true selves. This identification triggers constant mental activity, which we cannot control or stop through force. Many people try to quiet their minds by suppressing thoughts,...
+   - Featured Image: Available
+   - Audio Version: Available
+
+8. **I AM Not What I AM Aware of**
+   - URL: https://dhyanapp.epilepto.com/blog/WR3F7o1lBcNBL1rHM2GV?type=Meditation
+   - Author: Swami Sarvapriyananda
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: The Advaita Vedanta philosophy of self-enquiry
+   - Preview: The question here is that in Advaita Vedanta we follow a process of self-enquiry. We enquire into our experience of ourselves and the method for that enquiry is one principle that we take up. The principle that is taken up is whatever I am aware of,...
+   - Featured Image: Available
+   - Audio Version: Available
+
+9. **Know When To Tolerate & When to Confront**
+   - URL: https://dhyanapp.epilepto.com/blog/UqI9b8m0ykN7Wy4eWnI8?type=Meditation
+   - Author: B K Shivani
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Knowing when to tolerate and when to confront is crucial for maintaining your values and soul power. 
+   - Preview: Understanding when to tolerate and when to confront is a vital aspect of leading a balanced and principled life. **Courage**, often called the foundation of all virtues, is indispensable in navigating this delicate balance. Without courage, the cons...
+   - Featured Image: Available
+   - Audio Version: Available
+
+10. **Mastering Mind Through Meditation**
+   - URL: https://dhyanapp.epilepto.com/blog/rteAWND1UyYJXs6WVZTE?type=Meditation
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Utilizing Witness Consciousness to Silence Thoughts
+   - Preview: Command your mind, oh mind, comprehend that there is nothing externally in this vast world, nothing capable of pleasing me or worth desiring. Every sensory input it can integrate—visuals, sounds, flavors, scents, or tactile sensations—I have no inter...
+   - Featured Image: Available
+   - Audio Version: Available
+
+11. **OSHO: How Best to Deal with Fear**
+   - URL: https://dhyanapp.epilepto.com/blog/VbNpMNKKYSRnllUienK8?type=Meditation
+   - Author: OSHO International
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Add Your Subtitle
+   - Preview: How best can one deal with fear? It affects me in various ways, such as a vague uneasiness, a knotted stomach, or a dizzying panic as if the world is ending. Where does it come from, where does it go? All your fears are by-products of identification....
+   - Featured Image: Available
+   - Audio Version: Available
+
+12. **OSHO: Meditation Is the Opposite of Concentration**
+   - URL: https://dhyanapp.epilepto.com/blog/db0TkKt6WspcVAYupEAg?type=Meditation
+   - Author: OSHO International
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Add Your Subtitle
+   - Preview: When we begin by observing our bodies, then our minds and emotions, there remains a subtle element of concentration. Initially, for example, when I observed my breathing, I would focus on it to the exclusion of everything else. Here, there was an ele...
+   - Featured Image: Available
+   - Audio Version: Available
+
+13. **Prana**
+   - URL: https://dhyanapp.epilepto.com/blog/dBbUP8UjdnynJPMP0Hn3?type=Meditation
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: The Breath of Life in Yoga
+   - Preview: Every moment, we draw in a silent gift. It is the gift of Prana. In the world of yoga, Prana is the current that brings all life into being. It moves in and out of every living thing. It is the song of wind through the trees, and the whisper of breat...
+   - Featured Image: Available
+   - Audio Version: Available
+
+14. **Pratyahara**
+   - URL: https://dhyanapp.epilepto.com/blog/PgWo7t1fZZfpKQ6KlFPD?type=Meditation
+   - Author:  Sri M
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: 5th Step of Ashtanga Yoga
+   - Preview: So, then the next step according to Ashtang Yoga, the Ashta Angas of Yoga, let us put it that way, Yama, Niyama, Ahasana, Pranayama, Pratyahara. So the fifth one is Pratyahara. So you see Pratyahara has been variously translated, I think the most pop...
+   - Featured Image: Available
+   - Audio Version: Available
+
+15. **Pratyahara**
+   - URL: https://dhyanapp.epilepto.com/blog/VSDc0YaZoDVaJZg7oPdn?type=Meditation
+   - Author: Swami Sarvapriyananda
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: How to withdraw the mind from external distractions.
+   - Preview: Pratyahara is a stage in the Ashtanga Yoga of Patanjali. In Patanjali's Ashtanga Yoga, there are eight limbs. Yama and Niyama, the first two are disciplines, moral and ethical disciplines, do's and don'ts. Then there is Asana, sitting, a steady postu...
+   - Featured Image: Available
+   - Audio Version: Available
+
+16. **Pratyahara Unveiled**
+   - URL: https://dhyanapp.epilepto.com/blog/y9FdWBISXyKNyfQeGSL5?type=Meditation
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: The Art of Selective Sense Engagement
+   - Preview: In the realm of Ashtanga Yoga, the pathway to spiritual enlightenment unfolds through the eight limbs, or Ashta Angas, of Yoga. Among these, Pratyahara occupies a pivotal fifth position, heralding a transformative phase in the yogic journey. Pratyaha...
+   - Featured Image: Available
+   - Audio Version: Available
+
+17. **Stop Running**
+   - URL: https://dhyanapp.epilepto.com/blog/xcKzX10seJa9Rwmj9Xgj?type=Meditation
+   - Author: Thich Nhat Hanh
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Training the body and mind to stop running and be present
+   - Tags: meditate
+   - Preview: The practice of stopping is very crucial in the Buddhist tradition. There are moments when we don't do anything, we just sit there, but our body has not stopped. There's a tension in our body. There's a kind of energy that pushes you, pushes your bod...
+   - Featured Image: Available
+   - Audio Version: Available
+
+18. **The Art of Stopping**
+   - URL: https://dhyanapp.epilepto.com/blog/nsXzNNHtTPcoTqDQBNDM?type=Meditation
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: Embracing Peace and Healing in the Present Moment
+   - Preview: The practice of stopping is a fundamental concept in Buddhism that emphasizes the importance of taking a moment to pause and simply be present in the current moment. It goes beyond just stopping the mind; it also involves stopping the body, which con...
+   - Featured Image: Available
+   - Audio Version: Available
+
+19. **The Powers of the Mind**
+   - URL: https://dhyanapp.epilepto.com/blog/ov2WqNqQQm4PcDl0a0RN?type=Meditation
+   - Author: Swami Vivekananda
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle: (Delivered at Los Angeles, California, January 8, 1900)
+   - Preview: All over the world there has been the belief in the supernatural throughout the ages. All of us have heard of extraordinary happenings, and many of us have had some personal experience of them. I would rather introduce the subject by telling you cert...
+   - Featured Image: Available
+   - Audio Version: Available
+
+20. **Unveiling the Self in Advaita Vedanta**
+   - URL: https://dhyanapp.epilepto.com/blog/uSkp6rS1CQRfA4cBjbLS?type=Meditation
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Meditation
+   - Subtitle:  Exploring Self-Enquiry to Realize Pure Awareness
+   - Preview: In Advaita Vedanta, the journey towards self-realization begins with the profound practice of self-enquiry, a methodical exploration into the nature of one’s own consciousness. This philosophical approach hinges on a critical principle: if you are aw...
+   - Featured Image: Available
+   - Audio Version: Available
+
+---
+
+### Knowledge - Educational content about meditation philosophy and wisdom
+*133 articles in this meditation category*
+
+1. **"The Journey of Bodhidharma: From Pallava Prince to Shaolin Founder"**
+   - URL: https://dhyanapp.epilepto.com/blog/x2BvrphcVMZF7C1CNrEY?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: "Tracing the Origins of Kalari and the Legendary One-Handed Namaste"
+   - Preview: Sixteen centuries ago, there was a Pallava prince, nine years he waited, he lopped off his own left arm, from there comes the now famous one-handed namaste. Even today that school is in existence. <br><br> Around fifteen centuries ago, there was a Pa...
+   - Featured Image: Available
+   - Audio Version: Available
+
+2. **10 Powerful Mantras for Success to Start Your Day Powerfully**
+   - URL: https://dhyanapp.epilepto.com/blog/B0ij7SzBXjCZVv0kwlcD?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: #1 Forget Luck, Live by Intent Sadhguru: A few things may happen by chance. But if you wait for the chance, good things will happen to you only when you are in your grave because things may take their time. Even quantum theory says that if you try, y...
+   - Featured Image: Available
+   - Audio Version: Available
+
+3. **5 hindrances to self-mastery **
+   - URL: https://dhyanapp.epilepto.com/blog/6m9jhYSjUHi9hgfM7ZIB?type=Knowledge
+   - Author: Master Shi Heng Yi
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: Growing up in Germany, I had the opportunity to experience two vastly different ways of life. While my parents emphasized traditional academic pursuits and career paths, I also had the privilege of learning about an ancient art form from the Shaolin...
+   - Featured Image: Available
+   - Audio Version: Available
+
+4. **5 hindrances to self-mastery – Master Shi Heng Yi**
+   - URL: https://dhyanapp.epilepto.com/blog/1xB83gRgoO2vqRL6YX08?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Balancing Tradition and Self-Discovery through Shaolin Kung-Fu
+   - Preview: Growing up in Germany, I had the opportunity to experience two vastly different ways of life. While my parents emphasized traditional academic pursuits and career paths, I also had the privilege of learning about an ancient art form from the Shaolin...
+   - Featured Image: Available
+   - Audio Version: Available
+
+5. **7 Important Life Lessons to Never Forget**
+   - URL: https://dhyanapp.epilepto.com/blog/Os1VrxLiwfRe9AvWu7wI?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Life Lesson #1: Kill the lies Sadhguru: Just spend a minute to identify at least one thing in your life that is not necessary and kill that today. When I say “kill,” don’t start thinking about your boss, mother-in-law or neighbor. You must kill somet...
+   - Featured Image: Available
+   - Audio Version: Available
+
+6. **Adi Shankaracharya: A Sage of Spiritual Wisdom**
+   - URL: https://dhyanapp.epilepto.com/blog/DC31FnXpjrI9JDBE3lG5?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring the life, teachings, and legacy of the revered Indian philosopher Adi Shankaracharya.
+   - Preview: An inquiry into the truth is the profound belief that the self is real and everything else is unreal. This enlightening philosophical quote is attributed to one of India's most revered philosophers, Adi Shankaracharya. Shankaracharya was a brilliant...
+   - Featured Image: Available
+   - Audio Version: Available
+
+7. **Akshaya Tritiya: A Celebration of Eternal Prosperity and New Beginnings**
+   - URL: https://dhyanapp.epilepto.com/blog/OwDuXeLImB8A0flh6e0v?type=Knowledge
+   - Author: dhyanapp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Divine Legends Associated with Akshaya Tritiya
+   - Preview: Akshaya Tritiya: A Day of Eternal Prosperity and New Beginnings Akshaya Tritiya is celebrated as one of the most auspicious and spiritually significant days in Hindu and Jain traditions. The word "Akshaya" in Sanskrit means "never diminishing" or "e...
+   - Featured Image: Available
+   - Audio Version: Available
+
+8. **An Outline of the Philosophical Foundations of the Religion of Man**
+   - URL: https://dhyanapp.epilepto.com/blog/J3ORLDHN7oF9fO7YbMsY?type=Knowledge
+   - Author: Swami Krishnananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The Religion of Man: Reconciling Heaven and Earth in the Search for God
+   - Preview: I was musing within myself during these few minutes on a kind of necessity which mankind should feel at this hour, viz., the need to make religion descend from the heavens to the Earth. Often it has so happened that man's religion was confined to an...
+   - Featured Image: Available
+   - Audio Version: Available
+
+9. **Attention to Detail**
+   - URL: https://dhyanapp.epilepto.com/blog/LeNFiIZXgUrcIreAhNxh?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Sadhguru: The only reason why someone is a mystic and someone is not, is lack of attention. Someone is an artist, someone is not. Why? Lack of attention. Someone can shoot straight and someone cannot. Why? Lack of attention. From the simplest to the...
+   - Featured Image: Available
+   - Audio Version: Available
+
+10. **Baisakhi**
+   - URL: https://dhyanapp.epilepto.com/blog/QZ42sjGfFzmnOJYjXWtA?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: The story of how one April day in 1699 changed the course of history There's something magical about festivals that grow beyond their origins. Christmas started as a religious observance and became a global celebration. Diwali began as a harvest fest...
+   - Featured Image: Available
+   - Audio Version: Available
+
+11. **Become The Master Of Your Own Destiny**
+   - URL: https://dhyanapp.epilepto.com/blog/4BXtOaptP7I3lCMn13bf?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Sadhguru: For every individual, whoever he is, his life is important. When his life is important, his wellbeing is also important. People invest a lot of time on their wellbeing. You may find someone has invested a good 25 years to become an engineer...
+   - Featured Image: Available
+   - Audio Version: Available
+
+12. **Becoming Conscious of Your Suffering**
+   - URL: https://dhyanapp.epilepto.com/blog/esCR77t7IH0642hyzXb0?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Sadhguru answers a question about how once we tread the spiritual path, we become conscious of our suffering, which can lead to a confused clarity.
+   - Preview: #### Q: The more I seek the spiritual path, the more confused I become. Yet at the same time there seems to be a kind of clarity – a confused clarity. Will a time come when there will be clarity without confusion, and if so, how do I create that? ##...
+   - Featured Image: Available
+   - Audio Version: Available
+
+13. **Becoming Truly Energetic and Alive**
+   - URL: https://dhyanapp.epilepto.com/blog/wAZH8ugN0oNBIBNdLFno?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Q: Sadhguru, sometimes I feel dull and sluggish. Can you tell me how to become more energetic and alive? Sadhguru: One level of energy is the food that you eat, the water that you drink, the air that you breathe and the sunlight that you receive. T...
+   - Featured Image: Available
+   - Audio Version: Available
+
+14. **Beyond Maya: Enlightenment's Path**
+   - URL: https://dhyanapp.epilepto.com/blog/dumVxCh84ePHph71mxT9?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Advaita Vedanta's Guide to Self-Realization
+   - Preview: Advaita Vedanta, a school of Hindu philosophy, posits an intriguing question that inevitably arises for earnest seekers: If one is already the Absolute, or Brahman, what then is the purpose of the soul's journey through life's myriad struggles toward...
+   - Featured Image: Available
+   - Audio Version: Available
+
+15. **Beyond the Jada: Unveiling Non-Inert Awareness**
+   - URL: https://dhyanapp.epilepto.com/blog/6A7AuyuNRqR04R3LKqY9?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring the essence of being and consciousness beyond the known and the unknown.
+   - Preview: The concept of the body-mind complex being made up of inert or jada substances enlivened by reflected consciousness raises the question of how these inert substances can generate thoughts....
+   - Featured Image: Available
+   - Audio Version: Available
+
+16. **Bhairavi Sadhana – Significance and Benefits**
+   - URL: https://dhyanapp.epilepto.com/blog/V7MzceLGBaRLELLylUAw?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Sadhguru: The significance of doing periods of sadhana is unfortunately being lost in so-called modern societies. Today, it is only the uneducated and the rural people who do it. Once you become educated, you are not supposed to do anything right. Mo...
+   - Featured Image: Available
+   - Audio Version: Available
+
+17. **Bhimashankar Jyotirlinga Temple: Where Divinity Meets Heritage**
+   - URL: https://dhyanapp.epilepto.com/blog/7lvkob85PHcnjkFojZIJ?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A Sacred Jewel in the Sahyadri Hills
+   - Preview: Bhimashankar Jyotirlinga Temple: A Sacred Blend of Mythology, Spirituality, and Architecture Nestled in the serene Sahyadri hills of Maharashtra, the Bhimashankar Jyotirlinga Temple stands as a testament to India's rich spiritual heritage. Recogniz...
+   - Featured Image: Available
+   - Audio Version: Available
+
+18. **Bhuta Kola: The Spirit Ritual of Coastal Karnataka**
+   - URL: https://dhyanapp.epilepto.com/blog/ylhw7r4vJKzBCrvQWw72?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Bhuta Kola is a unique and ancient spiritual tradition practiced mainly in the Tulu-speaking regions of coastal Karnataka, especially in places like Mangalore, Udupi, and nearby villages. At first glance, it might look like a dance performance or fol...
+   - Featured Image: Available
+   - Audio Version: Available
+
+19. **Bodhidharma: The Shaolin Legacy**
+   - URL: https://dhyanapp.epilepto.com/blog/rRHXVdz1NwjiRcR4B8RA?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Pallava to Monk: Unveiling Martial Arts' Roots
+   - Preview: In the tapestry of history, woven with tales of valor, wisdom, and spiritual quests, the story of Bodhidharma stands out, a narrative that bridges cultures, continents, and centuries. Sixteen hundred years ago, a Pallava prince embarked on a journey...
+   - Featured Image: Available
+   - Audio Version: Available
+
+20. **Breaking Away from Conditioning**
+   - URL: https://dhyanapp.epilepto.com/blog/Q87VrUblHd6IEdkcBqQO?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Challenging beliefs, embracing change, and evolving towards authentic living
+   - Preview: Breaking away from conditioning is a complex process that requires a deep level of introspection and self-awareness. It is not simply about rebelling against beliefs and norms, but about challenging them and opening oneself up to new perspectives and...
+   - Featured Image: Available
+   - Audio Version: Available
+
+21. **Breaking Generational Patterns**
+   - URL: https://dhyanapp.epilepto.com/blog/Wam88XvT0kLkFnWqaN7N?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring the Impact of Parental Trauma on Our Lives and How to Heal
+   - Preview: Oscar Wilde once famously said, “All women become like their mothers, that is their tragedy. No man does, and that is his.” While this statement may hold some truth, the reality is that we all become our parents to some extent. Whether we inherit phy...
+   - Featured Image: Available
+   - Audio Version: Available
+
+22. **Breath, the Bridge: Pranayama as a Gateway to the Divine**
+   - URL: https://dhyanapp.epilepto.com/blog/QmMTOL6trgoAWfFYQ3b7?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: How conscious breathing leads to inner stillness, spiritual clarity, and union with the Divine
+   - Preview: #### **Breath, the Bridge: Pranayama as a Gateway to the Divine** *“When the breath wanders, the mind is unsteady. But when the breath is still, so is the mind.” – Hatha Yoga Pradipika* --- ##### **Introduction: The Subtle Power of Breath** Our...
+   - Featured Image: Available
+   - Audio Version: Available
+
+23. **Can Desires be Destroyed?**
+   - URL: https://dhyanapp.epilepto.com/blog/H6P4vW8mJicI5shL7GPO?type=Knowledge
+   - Author:  Swami Sarvapriyananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: "Mastering Desires: The Path of Meditation and Karma Yoga"
+   - Preview: that to notice the formation of desires, the arising of desires and the subsiding of desires and the transformation of desires from negative to positive in the mind through meditation requires skill. Deep meditation, not easily available. Preliminary...
+   - Featured Image: Available
+   - Audio Version: Available
+
+24. **Can Happiness Truly Transform a Dull Environment?**
+   - URL: https://dhyanapp.epilepto.com/blog/8TS8DoAW3cXAk4FPNcgK?type=Knowledge
+   - Author: B K Shivani
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: The Power of a Happy Soul Imagine a light that shines so brightly, it chases away all the shadows in a room. This is how a genuinely happy soul can transform a dull environment. Just like how the sun brightens a dark sky, a happy person can illuminat...
+   - Featured Image: Available
+   - Audio Version: Available
+
+25. **Characteristics of Social Media Addiction**
+   - URL: https://dhyanapp.epilepto.com/blog/fGcrT8H6GAV8beKZIIrv?type=Knowledge
+   - Author: BK Shivani
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Why is social media so difficult to let go of, even when it causes stress and comparison? 
+   - Preview: # Characteristics of Social Media Addiction Have you ever caught yourself endlessly scrolling through social media, even when you planned to stop? Why is it so challenging to put it down, even when it leaves us feeling stressed or drained? Let’s unc...
+   - Featured Image: Available
+   - Audio Version: Available
+
+26. **Dan Millman at TEDxBerkeley**
+   - URL: https://dhyanapp.epilepto.com/blog/xRAN5Sn3nd5bq9jqXUjA?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring the balance between inner strength and outer transformation for personal growth and positive change
+   - Preview: Greetings, everyone. I am delighted to be here at the TEDxBerkeley event today to share with you some insights on the peaceful warrior's way – an approach to living that I have cultivated over the years. Before I delve into the principles of this app...
+   - Featured Image: Available
+   - Audio Version: Available
+
+27. **Divine Guardians: The Spiritual Role of Dogs in Indian Mythology**
+   - URL: https://dhyanapp.epilepto.com/blog/NXFratcU980PalHktRnS?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Dogs and the Spirit World
+   - Preview: According to Indian mythology, dogs are more than domestic animals—they are deeply symbolic creatures, often associated with protection, loyalty, and spiritual guardianship. --- Dogs as Divine Protectors in Indian Mythology In the vast tapestry of...
+   - Featured Image: Available
+   - Audio Version: Available
+
+28. **Does God Hide The Truth**
+   - URL: https://dhyanapp.epilepto.com/blog/CEYyg5h5kJ7PfNAlqNzY?type=Knowledge
+   - Author: Nayaswami Bhavani
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Does God hide the truth? I don’t think so. I think we hide from the truth. Swami Kriyananda says, that we depend and we live a lot by our reasoning faculty. That if we are not able to make sense of things, we think there is something wrong. And we t...
+   - Featured Image: Available
+   - Audio Version: Available
+
+29. **Doing the Right Things With Yourself**
+   - URL: https://dhyanapp.epilepto.com/blog/chhLtrMW5aIu7e0WBcop?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Q: What is Inner Engineering; can you simplify it for me? Why is it the foundation of a successful life? Sadhguru: As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing....
+   - Featured Image: Available
+   - Audio Version: Available
+
+30. **Don’t chase happiness. Become antifragile**
+   - URL: https://dhyanapp.epilepto.com/blog/vSjbXapWTwou8TOYPiCO?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring the Role of Painful Emotions in Cultivating Resilience and Well-being
+   - Preview: In the field of happiness studies, there is a recognition that painful emotions are an inevitable part of life. In fact, learning to accept and embrace these painful emotions is a crucial aspect of leading a happy life. My name is Tal Ben-Shahar, and...
+   - Featured Image: Available
+   - Audio Version: Available
+
+31. **Don’t drop Humanities when we need them most**
+   - URL: https://dhyanapp.epilepto.com/blog/6Wx4vBPdDKlQZdRrKADt?type=Knowledge
+   - Author: John J Kennedy
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The humanities teach us to question, reflect and see the world through others’ eyes. Imagine navigating life without the ethical frameworks philosophy offers or the nuanced understanding of human struggles that literature provides.
+   - Preview: In today’s market-driven world, the humanities are often sidelined, perceived as impractical luxuries compared to STEM and management fields. The closure of literature departments, such as at Canterbury Christ Church University, reflects a troubling...
+   - Featured Image: Available
+   - Audio Version: Available
+
+32. **Dream and Reality**
+   - URL: https://dhyanapp.epilepto.com/blog/UjZiWl1iFoFXeQVX0JVJ?type=Knowledge
+   - Author: Swami Atmashraddhananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Nature of dream and reality as per vedanta
+   - Preview: There were times, when in India people thought of a serious question of what is reality, what is real? We all know what is real, it is real, this is happening, what we are sitting here is happening it is real. But then you have got that famous anecdo...
+   - Featured Image: Available
+   - Audio Version: Available
+
+33. **Each is Great in his Own Place**
+   - URL: https://dhyanapp.epilepto.com/blog/HzKNSql0yi0mnaXWWmgv?type=Knowledge
+   - Author: Swami Vivekananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: According to the Sânkhya philosophy, nature is composed of three forces called, in Sanskrit, Sattva, Rajas, and Tamas. These as manifested in the physical world are what we may call equilibrium, activity, and inertness. Tamas is typified as darkness...
+   - Featured Image: Available
+   - Audio Version: Available
+
+34. **Embracing the Present: 5 Attitudes for a Fulfilling Life**
+   - URL: https://dhyanapp.epilepto.com/blog/K3AXsFWdsTsBs8kQChNO?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Reflections on time, growth, and wisdom to cultivate a fulfilling life
+   - Preview: The other day as I sat in my car, waiting for a friend, I happened to glance at the side view mirror. The familiar engraving caught my eye: "Objects in mirror are closer than they appear." I had seen this phrase countless times before, but this time...
+   - Featured Image: Available
+   - Audio Version: Available
+
+35. **Emotional Intelligence**
+   - URL: https://dhyanapp.epilepto.com/blog/YxkR8CxbTvvdTgBzRGv1?type=Knowledge
+   - Author: Daniel Goleman 
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A Key to Personal and Social Growth in the Modern World , beyond aptitude and knowledge 
+   - Preview: Emotional Intelligence (EI) is the ability to understand and manage one’s emotions while also recognizing and influencing the emotions of others. In today’s world, especially in a diverse society like India, EI is vital for personal success and socia...
+   - Featured Image: Available
+   - Audio Version: Available
+
+36. **Exploring Krishna's Path of the Playful**
+   - URL: https://dhyanapp.epilepto.com/blog/H5nRu3R8i4xSwLjD9Qsf?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Who is Krishna? Sadhguru: When we say Krishna, the essence of who he is, he is an irrepressible child, a terrible prankster, an enchanting flute player, a graceful dancer, an irresistible lover, a truly valiant warrior, a ruthless vanquisher of his f...
+   - Featured Image: Available
+   - Audio Version: Available
+
+37. **Fear Of Failure**
+   - URL: https://dhyanapp.epilepto.com/blog/IFdC5Jo3uZ5DbcAdawxq?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: For one who is seeing this life as a stepping stone for a larger possibility, for him there is no failure. For one who is looking at the simple events of this life itself as the goal of life, for him there is failure and success. If you’re just seein...
+   - Featured Image: Available
+   - Audio Version: Available
+
+38. **Focus Beyond the Noise: A Buddhist Parable on Inner Peace**
+   - URL: https://dhyanapp.epilepto.com/blog/lYXfdNiakpI5JFw3sb3e?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A timeless Buddhist lesson on staying focused when surrounded by distraction and negativity.
+   - Preview: ## A Parable from the Monastery In a quiet monastery tucked away from the chaos of the world, a young student monk approached his master with a heavy heart. “Master,” he pleaded, “I can’t live here anymore. This place is filled with toxic people—p...
+   - Featured Image: Available
+   - Audio Version: Available
+
+39. **Food and the spiritual path**
+   - URL: https://dhyanapp.epilepto.com/blog/dA2Y9hLsZ4sAmNzkZ31d?type=Knowledge
+   - Author: Shri M
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The principles of eating according to yogic practices
+   - Preview: Certainly, one of the things about food according to yoga, according to Yama Niyamas of yogic practice, one of the things about food is that you do everything in moderation. Some people say we eat only sattvic food, but if you see that one meal, ten...
+   - Featured Image: Available
+   - Audio Version: Available
+
+40. **Guardians of the Sacred: The Role of Dogs in Indian Mythology**
+   - URL: https://dhyanapp.epilepto.com/blog/t7MaxZm1XCGPxaI0nAWU?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Divine Companions, Protectors of Dharma, and Spiritual Sentinels in Ancient Indian Belief
+   - Preview: According to Indian mythology, dogs are more than domestic animals—they are deeply symbolic creatures, often associated with protection, loyalty, and spiritual guardianship. In the vast tapestry of Indian mythology,, the dog holds a special, though...
+   - Featured Image: Available
+   - Audio Version: Available
+
+41. **Guru Purnima: The Full Moon of Spiritual Awakening**
+   - URL: https://dhyanapp.epilepto.com/blog/XViOg22tvLt1pSLnaK5y?type=Knowledge
+   - Author: Swami Krishnananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A Message of Inner Realisation and Universal Harmony by Swami Krishnananda
+   - Preview: Glorious Immortal Atman, on this very auspicious holy Sri Guru Purnima, I invoke upon you all the grace of the Almighty and the blessings of Gurudev Sri Swami Sivanandaji Maharaj. The divine blessings are always upon you, and the grace of God is int...
+   - Featured Image: Available
+   - Audio Version: Available
+
+42. **Harnessing the Miracle of Mind for Your Wellbeing**
+   - URL: https://dhyanapp.epilepto.com/blog/aqtCB4zEBkGRiKpef2RQ?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Questioner: Sadhguru, you have said, ‘We should know this piece of life to its fullest.’ How to know this piece of life to its fullest way? Sadhguru: You don’t have to go beyond all these things; you just have to stop creating those things. Your fea...
+   - Featured Image: Available
+   - Audio Version: Available
+
+43. **How can I overcome my struggle with laziness and lack of discipline?**
+   - URL: https://dhyanapp.epilepto.com/blog/qs5A8nXbRmPAV7So7GqF?type=Knowledge
+   - Author: Sri M
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The key to transforming discipline into a pleasurable experience lies in understanding its purpose and benefits. 
+   - Preview: Discipline is a multifaceted concept that encompasses both positive and negative aspects. It can be perceived as burdensome or, conversely, as a source of enjoyment. The key to transforming discipline into a pleasurable experience lies in understandi...
+   - Featured Image: Available
+   - Audio Version: Available
+
+44. **How do you explain the problem of evil?**
+   - URL: https://dhyanapp.epilepto.com/blog/4VRiT9z5dAbmsunT8Bxt?type=Knowledge
+   - Author: Samwi Sarvapriyananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: As per Vedanta
+   - Preview: This is a classic question which every religion has to face, the problem of evil. Because every religion, whether theistic or non-theistic, especially theistic religions. Theistic religions talk about a perfect being, God. All powerful and perfect an...
+   - Featured Image: Available
+   - Audio Version: Available
+
+45. **How does it feel to master All the Chakras | Sadhguru**
+   - URL: https://dhyanapp.epilepto.com/blog/LnWvI4YPP5WKVmUn1h41?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: Sadhguru chants, "Jaya Jaya Jaya." Everybody knows what a chakra is. Is chakra an English word? Or Chinese? Chakra is not a Chinese word. "Chakreshwara" means someone who has mastered all dimensions of energy within oneself. There are different manif...
+   - Featured Image: Available
+   - Audio Version: Available
+
+46. **How to ‘be in the moment’?**
+   - URL: https://dhyanapp.epilepto.com/blog/8KrBT08Yv2oe3bssttAb?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Questioner: They say ‘seize the moment’. How can we do that and live every second to the fullest? Sadhguru: See, it’s become a fad in the world today, or it’s become a fad in India today, that anything that bounces off the American coast must be val...
+   - Featured Image: Available
+   - Audio Version: Available
+
+47. **How to concentrate on studies?**
+   - URL: https://dhyanapp.epilepto.com/blog/OyZM3OlBGSXCcsq4uC2M?type=Knowledge
+   - Author: Sw. Nischalananda Saraswati
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Developing interest in studies
+   - Preview: Do you like Rabri in food or not? Malpua, Rabri, Kachori, Kheer, what do you like? Do you like Kheer? Does the mind get restless while eating Kheer? If you like Halwa, does the mind get restless while eating Halwa? The restlessness of the mind is the...
+   - Featured Image: Available
+   - Audio Version: Available
+
+48. **How To Control Your Mind**
+   - URL: https://dhyanapp.epilepto.com/blog/9GlRc4mcyQBiVMDd5iNx?type=Knowledge
+   - Author: Mahamevnawa Bodhignana Monastery
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Transforming Negative Thoughts through Mindful Inquiry and Practice
+   - Preview: Do you know how amazing your mind can serve for you if you know how to control and master your thoughts? And that is why they say that mind is the best servant if you know how to master your thoughts, right? But if you let your mind to become your ma...
+   - Featured Image: Available
+   - Audio Version: Available
+
+49. **How to Defeat a Thief? – a Zen Story**
+   - URL: https://dhyanapp.epilepto.com/blog/rYj5ykqzEwqb2GJFuRIG?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: A man who lived in unbearable hunger and poverty resorted to small acts of theft. He landed up in prison and tried to escape many times only to be caught again. Each time, his prison sentence got further extended. Finally, after many years, he came o...
+   - Featured Image: Available
+   - Audio Version: Available
+
+50. **How to Develop Self Esteem**
+   - URL: https://dhyanapp.epilepto.com/blog/5GkxlxNTLu9quiuMeH3P?type=Knowledge
+   - Author: Swami Sarvapriyananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: This article discusses the six pillars of self-esteem
+   - Preview: Six pillars of self-esteem, six pillars of self-esteem.<br><br> This self-confidence is very important. Swami Vivekananda gave a lot of importance on that. He said, the old religion said he who does not believe in God is an atheist. The new religion...
+   - Featured Image: Available
+   - Audio Version: Available
+
+51. **How to Find Fulfillment in Life**
+   - URL: https://dhyanapp.epilepto.com/blog/sH1pz3knWWy5m356tKV4?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: the basic fallacy of seeking on the outside something that actually exists within.
+   - Preview: The pursuit of fulfillment through external actions is a cycle many experience throughout life. From childhood, people believe that obtaining certain things or reaching specific milestones will make life complete. A child thinks that having a toy wil...
+   - Featured Image: Available
+   - Audio Version: Available
+
+52. **How to Know If You’re on a Spiritual Path**
+   - URL: https://dhyanapp.epilepto.com/blog/NIGCDF42bMeaGXNjzqZ1?type=Knowledge
+   - Author: B K Shivani
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: In the busyness of life, many forget their spiritual nature. But spirituality isn’t about following a strict set of rules or performing rituals—it’s about understanding and living the truth of who we already are.
+   - Preview: In the busyness of life, it’s easy to forget our spiritual essence. Yet, spirituality isn’t about rigid rituals or rules—it’s about embracing the truth of who we already are. Often, we may already be walking this path without realizing it, as seen in...
+   - Featured Image: Available
+   - Audio Version: Available
+
+53. **How to Manifest What you Want**
+   - URL: https://dhyanapp.epilepto.com/blog/B96IC4HGbEluIspJaqT6?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: The Power of Mind Sadhguru: Whatever people aspire for in their life – whether it is to grow a business, build a house or whatever else – the thought: “I want this” arises. Once this thought happens, most people focus their energy towards that someth...
+   - Featured Image: Available
+   - Audio Version: Available
+
+54. **How to Manifest What you Want**
+   - URL: https://dhyanapp.epilepto.com/blog/qUKUryz4nqKwyUlTxeM8?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: The Power of Mind Sadhguru: Whatever people aspire for in their life – whether it is to grow a business, build a house or whatever else – the thought: “I want this” arises. Once this thought happens, most people focus their energy towards that someth...
+   - Featured Image: Available
+   - Audio Version: Available
+
+55. **How to Manifest What you Want**
+   - URL: https://dhyanapp.epilepto.com/blog/zSucTDAqXef42P9VzIz0?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Whatever people aspire for in their life – whether it is to grow a business, build a house or whatever else – the thought: “I want this” arises. Once this thought happens, most people focus their energy towards that something through action and start...
+   - Featured Image: Available
+   - Audio Version: Available
+
+56. **How to recognise enlightened beings?**
+   - URL: https://dhyanapp.epilepto.com/blog/MOwilfFkRjUlxkf4HG6I?type=Knowledge
+   - Author: Swami Sarvapriyananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: One criterion is, of course, ethical behavior. An enlightened one is not bound by ethical behavior but generally would not be unethical. So if you see unethical or immoral behavior, that person is probably not very spiritual, let alone enlightened. A...
+   - Featured Image: Available
+   - Audio Version: Available
+
+57. **How To Unlock Insane Focus On Command**
+   - URL: https://dhyanapp.epilepto.com/blog/9aYUtd4r0mfJQKmsYw3A?type=Knowledge
+   - Author: Rian Doris
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: Have you ever struggled to complete a task that should have taken 90 minutes, yet after 8 hours of slaving away, you still haven't finished the thing? Well, there's a neuroscientific explanation for why this happens, and a simple way to solve it. Beh...
+   - Featured Image: Available
+   - Audio Version: Available
+
+58. **Inner Peace Through Buddhism**
+   - URL: https://dhyanapp.epilepto.com/blog/Uxpa4zbylib76SAdsiid?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Embracing Life's Challenges Mindfully
+   - Preview: Finding tranquility within ourselves is essential; it's not something we can purchase at a store or acquire through medication. In our lives, whether considered at a global, national, family, or personal level, we encounter endless challenges. The Bu...
+   - Featured Image: Available
+   - Audio Version: Available
+
+59. **It’s time to take a step forward once more**
+   - URL: https://dhyanapp.epilepto.com/blog/bo3XzzKs9GN4NlquY3w4?type=Knowledge
+   - Author: Sri M
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Transforming the Self Through Kindness, Positivity, and Practice
+   - Preview: It’s time to take a step forward once more, for the New Year is at hand. One can move from ‘the past’ to ‘the present’ and turn over a new leaf in one’s life. Change completely if required and have a new life altogether! Whenever I think of preparin...
+   - Featured Image: Available
+   - Audio Version: Available
+
+60. **Jealous of Someone? Let Your Jealousy Nourish You**
+   - URL: https://dhyanapp.epilepto.com/blog/M6G7kfeKHEj0CH6vj0nV?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Q: How do I free myself from the jealousy that arises within me? Sadhguru: As long as you feel you are insufficient the way you are, the moment you see someone whom you think has more than you, you feel jealous. When you are very joyful, are you jea...
+   - Featured Image: Available
+   - Audio Version: Available
+
+61. **Kailpodh Festival of Coorg: Celebrating Weapons and Agrarian Renewal**
+   - URL: https://dhyanapp.epilepto.com/blog/AllzsHrkymBinNJ5HqTO?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Ritual Practices, Community Traditions, and Cultural Continuity of the Kodava People
+   - Preview: Every year, deep in the misty hills of Kodagu, also known as Coorg, the Kodava people observe a festival that brings together their proud martial traditions and the rhythms of their rice fields. The festival is called Kailpodh. It takes place eightee...
+   - Featured Image: Available
+   - Audio Version: Available
+
+62. **Kambala: The Truth Behind Karnataka’s Buffalo Race**
+   - URL: https://dhyanapp.epilepto.com/blog/dhC56RzkSRyxCcaLViVv?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A deep look into the tradition, truth, and transformation of a rural ritual
+   - Preview: Kambala is not just a festival, and it is definitely not just a race. For the people of Tulu Nadu, a coastal region spread across Dakshina Kannada, Udupi, and a part of Kasaragod, Kambala is both memory and muscle. It's the leftover imprint of soil u...
+   - Featured Image: Available
+   - Audio Version: Available
+
+63. **Kashi Vishwanath Temple: The Eternal Soul of Varanasi**
+   - URL: https://dhyanapp.epilepto.com/blog/nMEyXBTMkiwsEAuJliar?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A Sacred Journey Through Time, Faith, and the Heart of Varanasi
+   - Preview: In the timeless city of **Varanasi**—one of the oldest living cities in the world—stands the majestic **Kashi Vishwanath Temple**, a sacred abode of **Lord Shiva**, also known as **Vishwanath** or "The Lord of the Universe." Revered as one of the **t...
+   - Featured Image: Available
+   - Audio Version: Available
+
+64. **Kaveri Sankramana: Rebirth of the Sacred River**
+   - URL: https://dhyanapp.epilepto.com/blog/YSJdjqSIpajYXeXt2yE6?type=Knowledge
+   - Author: Dhyan App
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Inside Kodagu’s Ancient Celebration of Water, Life and Community
+   - Preview: Kaveri Sankramana is the annual celebration of the River Kaveri’s birth at its source in Kodagu. This festival brings together myth, astronomy, ritual, community and ecology in a single living tradition. Here is everything you need to know, in full d...
+   - Featured Image: Available
+   - Audio Version: Available
+
+65. **Lao Tzu - The Art of Not Trying**
+   - URL: https://dhyanapp.epilepto.com/blog/s4kEgMrKRlr9OkQyRY0B?type=Knowledge
+   - Author: After Skool
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: This episode of Afterschool was written by Heinzel Ganger. Those who stand on tiptoes do not stand firmly. Those who rush ahead don't get very far. Those who try to outshine others dim their own light. Taoists have long observed that humans often act...
+   - Featured Image: Available
+   - Audio Version: Available
+
+66. **Learn How To Improve Your Brain’s Memory & Recall | Sadhguru **
+   - URL: https://dhyanapp.epilepto.com/blog/VAVncVYvSq57a4SCQSga?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: What we want to achieve for any individual does not happen simply because they desire it. It happens because they have earned the necessary capability. Without capability, desires remain empty dreams. If we want life to happen, we have to earn the ne...
+   - Featured Image: Available
+   - Audio Version: Available
+
+67. **Learn Vishnu Sahasranamam**
+   - URL: https://dhyanapp.epilepto.com/blog/OU5PRkVu0GNShbYDgvRn?type=Knowledge
+   - Author: Swami Vidyananda Om
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Master the Vedic Chanting of Vishnu Sahasranama
+   - Preview: Vishnu Sahasranamam is an ancient hymn containing one thousand names of Lord Vishnu, after the war of Mahabharat was over, King Yudhisthira approached his grandsire Mahamana Bhishma with following queries of life: By calling out to whom is one freed...
+   - Featured Image: Available
+   - Audio Version: Available
+
+68. **Link Between Meat Eating and Spiritual Growth**
+   - URL: https://dhyanapp.epilepto.com/blog/I4HgLsLybRcPcPDdqw5E?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Analyzing the impact of dietary choices on spiritual practices and personal beliefs.
+   - Preview: When it comes to the topic of eating meat and its effect on spiritual energy, there are various perspectives to consider. Some believe that avoiding meat is essential for spiritual growth, while others argue that it is a personal choice that should b...
+   - Featured Image: Available
+   - Audio Version: Available
+
+69. **Lord Jagannath and the Grand Chariot Journey**
+   - URL: https://dhyanapp.epilepto.com/blog/fRbK9M0B4K8oM6kDWRMt?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A Complete Guide to the Deity and the Rath Yatra
+   - Preview: ## Who Is Lord Jagannath Lord Jagannath is worshipped as the Lord of the Universe in the city of Puri on India’s eastern coast. Each year, his likeness and those of his brother Balabhadra and sister Subhadra are carved from sacred neem logs. These wo...
+   - Featured Image: Available
+   - Audio Version: Available
+
+70. **Mahakaleshwar Jyotirlinga Temple: The Sacred Abode of Timeless Shiva**
+   - URL: https://dhyanapp.epilepto.com/blog/jLK1FTIPU61xKoD5AlhQ?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Discover the spiritual essence of one of India’s most revered Jyotirlingas, where Lord Shiva rules as Mahakal — the Lord of Time — in the ancient city of Ujjain.
+   - Preview: The **Mahakaleshwar Jyotirlinga Temple** in **Ujjain**, Madhya Pradesh, stands as a beacon of spiritual reverence, embodying the eternal presence of **Lord Shiva**. Recognized as one of the **12 Jyotirlingas** — the most sacred shrines of Shiva — Mah...
+   - Featured Image: Available
+   - Audio Version: Available
+
+71. **Mallikarjuna Temple, Srisailam – A Divine Confluence of Jyotirlinga and Shakti Peetha**
+   - URL: https://dhyanapp.epilepto.com/blog/uy9gVxN2tsuTiX2QBfvI?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Where Lord Shiva and Goddess Parvati Reside Together in Sacred Harmony
+   - Preview: Located in the serene hills of **Srisailam**, Andhra Pradesh, **Mallikarjuna Temple** is one of the most sacred and ancient pilgrimage sites in India. It holds a rare and divine distinction: it is the only temple where a **Jyotirlinga** (of Lord Shiv...
+   - Featured Image: Available
+   - Audio Version: Available
+
+72. **Māyā**
+   - URL: https://dhyanapp.epilepto.com/blog/QPnt985J2ZbgK2UDBW4l?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The Illusory Nature of Reality in Advaita Vedanta
+   - Preview: In the silent depths of the heart, there lives a story older than time. It is the story of a world that seems so real, yet hides its true face behind a veil. This veil is called Māyā. It is the power by which the one, unbroken truth appears as many....
+   - Featured Image: Available
+   - Audio Version: Available
+
+73. **Māyā**
+   - URL: https://dhyanapp.epilepto.com/blog/SXDJUH3u8ub2VFwaAlBu?type=Knowledge
+   - Author: Admin
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle:  The Illusory Nature of Reality in Advaita Vedanta
+   - Preview: In the silent depths of the heart, there lives a story older than time. It is the story of a world that seems so real, yet hides its true face behind a veil. This veil is called Māyā. It is the power by which the one, unbroken truth appears as many....
+   - Featured Image: Available
+   - Audio Version: Available
+
+74. **Mind Mastery Path**
+   - URL: https://dhyanapp.epilepto.com/blog/sZfnYxG8HMe0DQMQuv5L?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Transform Thoughts, Find Peace
+   - Preview: In the vast expanse of human experience, the power of the mind stands as both a formidable master and an obedient servant. Recognizing and harnessing this power can transform our lives, steering us away from the shackles of negativity and towards the...
+   - Featured Image: Available
+   - Audio Version: Available
+
+75. **Mindfulness in the Rigveda: Returning the Wandering Mind to the Present**
+   - URL: https://dhyanapp.epilepto.com/blog/fUpRWZEKOVi6bR7Pz6zb?type=Knowledge
+   - Author: Paramu Kurumathur
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: An Exploration of RV 10.58 and the Ancient Indian Roots of Modern Mindfulness PracticesAn Exploration of RV 10.58 and the Ancient Indian Roots of Modern Mindfulness Practices
+   - Preview: # Mindfulness in Ancient India Mindfulness has become popular recently, especially in the West, thanks to people like **Jon Kabat-Zinn**, an American molecular biologist. He developed **Mindfulness-Based Stress Reduction (MBSR)**, a method that help...
+   - Featured Image: Available
+   - Audio Version: Available
+
+76. **Nagarapanchami: The Serpent Festival of India**
+   - URL: https://dhyanapp.epilepto.com/blog/3IpA5lf6m50l0HeonoBA?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: ## What is Nagara Panchami? Nagara Panchami is a traditional Hindu festival that honors and worships the serpent deities, especially the Naga or cobra. Celebrated primarily in India and Nepal, it takes place on the fifth day of the bright half of the...
+   - Featured Image: Available
+   - Audio Version: Available
+
+77. **No Give & Take, Just Spring in Your Heart**
+   - URL: https://dhyanapp.epilepto.com/blog/8pO3h1dEeHaSz6b4iiEC?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: **Q: There is a common saying in Tamil that means, “The family that always donates gets ruined, the family that always receives also gets ruined” – both the giver and the taker!** **Sadhguru:** Essentially, what they are referring to is either alw...
+   - Featured Image: Available
+   - Audio Version: Available
+
+78. **Obsessed With Sexual Thoughts? | Sadhguru**
+   - URL: https://dhyanapp.epilepto.com/blog/swNoJOyoyTuffbxUKDLL?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: All the women in the world could be after you, and you would still live an unfulfilled life. Suffering can come in a million different ways. There's nothing wrong with your hormones, but they can lead to compulsive behavior. You're living the life of...
+   - Featured Image: Available
+   - Audio Version: Available
+
+79. **Omkareshwar Jyotirlinga: The Sacred Heartbeat of Shiva**
+   - URL: https://dhyanapp.epilepto.com/blog/HoNdlEn2N4E4PIXxP4hY?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Where the Echo of "Om" Resonates Through Time and Stone
+   - Preview: Hidden in the mystical embrace of the Narmada River lies Omkareshwar, one of the 12 revered Jyotirlingas of Lord Shiva. Situated on Mandhata Island in Madhya Pradesh—shaped like the sacred *'ॐ' (Om)* symbol—this spiritual sanctuary draws thousands of...
+   - Featured Image: Available
+   - Audio Version: Available
+
+80. **Organizing The Mind For Success**
+   - URL: https://dhyanapp.epilepto.com/blog/dI2tuCbnwtPblRx0DalD?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Your ability to do something in the world essentially depends on the extent to which you are capable of harnessing your body and mind towards your goal, and after that, harnessing the situation in which you exist. But the most fundamental things are...
+   - Featured Image: Available
+   - Audio Version: Available
+
+81. **OSHO: Alertness Awareness Mindfulness**
+   - URL: https://dhyanapp.epilepto.com/blog/1d5PlnOmn5P5yGWylM8t?type=Knowledge
+   - Author: OSHO 
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: We were told that the people working here at the commune, for example, those driving a bulldozer, consider that as their meditation. Do you agree with that? You will need to understand what I mean by meditation. Meditation signifies alertness, awaren...
+   - Featured Image: Available
+   - Audio Version: Available
+
+82. **OSHO: Risk Everything for Awareness**
+   - URL: https://dhyanapp.epilepto.com/blog/cs1yhfNh2mLYQt0YUCYy?type=Knowledge
+   - Author: OSHO 
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: When you know your worth, you can appreciate the world around you. When you understand the market, you can navigate it effectively. However, it's important to remember that your worth is not solely defined by your market value. According to the ps...
+   - Featured Image: Available
+   - Audio Version: Available
+
+83. **Path to Peace**
+   - URL: https://dhyanapp.epilepto.com/blog/ykhKlxmwBdiGZxjsIJKa?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Unveiling Buddhism's Core
+   - Preview: The essence of Buddhism is encapsulated in the Four Noble Truths, which serve as the foundation for all Buddhist traditions. These truths outline the existence of suffering in life and its origins, which are deeply rooted in greed, hatred, fear, and...
+   - Featured Image: Available
+   - Audio Version: Available
+
+84. **Paths of Transformation**
+   - URL: https://dhyanapp.epilepto.com/blog/YnM1RQqjJ9g4J0YDOfAp?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Meditation & Karma Yoga Unveiled
+   - Preview: Understanding and transforming one’s desires from negative to positive through meditation is an intricate process that demands both skill and deep introspection. Beyond the serene image of meditation lies a profound journey of self-discovery and cont...
+   - Featured Image: Available
+   - Audio Version: Available
+
+85. **Peace of Mind from a Buddhist Perspective**
+   - URL: https://dhyanapp.epilepto.com/blog/kj11TVePlolSvC75BL4Z?type=Knowledge
+   - Author: Dalai Lama
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: "Cultivating Inner Peace: A Buddhist Approach to Life's Challenges
+   - Preview: I think, firstly, peace of mind must develop within ourselves. We can't buy peace of mind from supermarket or from medication. Now, you see, our life, global level or national level or individual family level or individual level, problem there, endle...
+   - Featured Image: Available
+   - Audio Version: Available
+
+86. **Philosophy behind Laziness and Overcoming it**
+   - URL: https://dhyanapp.epilepto.com/blog/ymVMi1DjFiNb6BAJo5gp?type=Knowledge
+   - Author: Osho
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: अगर तुमने मुठ्ठी जन्मों-जन्मों से बंद रखी है, तो खोलना मुश्किल होगा। अंगुलियां जड़ हो गई हैं, हाथ बंद हो गया है, बस इतनी ही बात है। थोड़ी सी प्रयत्न की जरूरत है, ताकि मांसपेशियां फिर से सजग हो जाएं, खून फिर हाथ की उंगलियों में दौड़ने लगे और तुम खोलने...
+   - Featured Image: Available
+   - Audio Version: Available
+
+87. **Pitru Paksha: Honoring Our Ancestors**
+   - URL: https://dhyanapp.epilepto.com/blog/NmWJuHsZnGRcaT7N8KWg?type=Knowledge
+   - Author: DhanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A Time to Express Gratitude, Seek Blessings, and Fulfill Sacred Duties
+   - Preview: Pitru Paksha: Honoring Our Ancestors Introduction: Pitru Paksha is a sacred 16-day period in the Hindu calendar dedicated to paying homage to ancestors. It is believed that during this time, the spirits of departed loved ones visit the earth and...
+   - Featured Image: Available
+   - Audio Version: Available
+
+88. **Premanand Govind Sharan Ji Maharaj**
+   - URL: https://dhyanapp.epilepto.com/blog/9y1uGBzUggYHGolAC0Wo?type=Knowledge
+   - Author: Premanand Ji Maharaj
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle:  Premanand Govind Sharan Ji Maharaj emphasizes the profound impact of Naam Jap
+   - Preview: मन, तू जोत स्वरूप है, अपने मूल स्वरूप को पहचान। महराज जी, यह 'जोत स्वरूप' किसकी बात कर रहे हैं? 'जोत' का तात्पर्य तेज स्वरूप से है—तेजोमय, प्रकाशमय। वही ब्रह्म तेज, वही परमात्मा का दिव्य प्रकाश, वही तू है। भगवान श्रीकृष्ण कहते हैं—"इंद्रियों में मै...
+   - Featured Image: Available
+   - Audio Version: Available
+
+89. **Protecting Your Attention : Strategies for a Distraction-Free Life**
+   - URL: https://dhyanapp.epilepto.com/blog/bMGlOs3ayydXrm31n6r8?type=Knowledge
+   - Author: B K Shivani
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Understanding why attention matters and how to protect it is crucial for our well-being, productivity, and overall happiness.
+   - Preview: In today’s digital age, attention is one of the most valuable resources. With constant notifications, social media updates, and digital distractions, maintaining focus has become increasingly difficult. Understanding the importance of attention and...
+   - Featured Image: Available
+   - Audio Version: Available
+
+90. **Puthari (Huttari): The Kodava Festival of New Rice**
+   - URL: https://dhyanapp.epilepto.com/blog/p2tYe6DjStehLffQ1jkS?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Harvest, Heritage, and Heart in Kodagu’s Fields
+   - Preview: ## Introduction Puthari, also called Huttari, is the most joyful festival in Kodagu (Coorg). Its name means “new rice” in the Kodava language. This festival thanks the gods, the land and the people for a good harvest. Families, clans and entire villa...
+   - Featured Image: Available
+   - Audio Version: Available
+
+91. **Sadhguru: The Key to Success Pay Attention!**
+   - URL: https://dhyanapp.epilepto.com/blog/pxzmE9V6yQ3RxvTiqNTN?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: The question is, how can we translate the Gita, the philosophy of Krishna, into augmenting business in India? I haven't read the Gita, so I really don't know. I'm sorry, because for me, my own vision has never failed me. I've always kept away from a...
+   - Featured Image: Available
+   - Audio Version: Available
+
+92. **Sita Questions Rama’s Path of Dharma | A Rare Moment from the Ramayana | Sri M | Captions Available**
+   - URL: https://dhyanapp.epilepto.com/blog/PKf9a5F0JbIS1Zb1MZS6?type=Knowledge
+   - Author: Sri M
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Sita Questions Dharma: A Forest Dialogue on Duty and Righteousness in the Ramayana
+   - Preview: While they were walking and discussing their different impressions of Dandaka, Sita spoke a few words with great diffidence. She said, "Rama, the word 'dharma' has such subtle shades of meaning. It's expressed in no uncertain terms, yet it is not alw...
+   - Featured Image: Available
+   - Audio Version: Available
+
+93. **Somnath Jyotirlinga: The Eternal Flame of Faith and Resilience**
+   - URL: https://dhyanapp.epilepto.com/blog/3rTpa96RehTtZk1HDtbd?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: From celestial origins to centuries of destruction and revival, the Somnath Temple stands as a timeless beacon of devotion and cultural pride.
+   - Preview: The Somnath Temple, located on the western coast of Gujarat, is more than just a place of worship—it is a symbol of spiritual perseverance, cultural identity, and divine legacy. Revered as the first of the twelve Jyotirlingas—the holiest abodes of Lo...
+   - Featured Image: Available
+   - Audio Version: Available
+
+94. **Tapping into the Akashik Intelligence**
+   - URL: https://dhyanapp.epilepto.com/blog/xf4vpG0kKRuHF1WHltcs?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Sadhguru: Modern science is beginning to recognize that there is something called akashik intelligence. That is, empty space has a certain intelligence. How this akashik intelligence behaves with you – whether this intelligence works for you or again...
+   - Featured Image: Available
+   - Audio Version: Available
+
+95. **The Art of Balance**
+   - URL: https://dhyanapp.epilepto.com/blog/hsUY48pQdIKKtbZUOpe2?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Between Silence and Storm
+   - Preview: Life unfolds in moments of stillness and in bursts of motion, each bearing a lesson for the seeker who pauses to listen. Imagine Lord Shiva who is seated in deep meditation on the summit of Mount Kailash. His focus is unwavering, his mind a clear sky...
+   - Featured Image: Available
+   - Audio Version: Available
+
+96. **The Devotee the Lord Chose**
+   - URL: https://dhyanapp.epilepto.com/blog/bhJ7bcI6FIxSFzyQGc8A?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The Inspiring Story of Sadan Kasai, the Butcher Beloved by God
+   - Preview: This is the inspiring story of Sadan Kasai, a man many looked down upon because he sold meat for a living. But what society could not see, Lord Jagannath did—Sadan had a heart full of love and devotion. --- The Butcher Who Loved Kirtan Sadan work...
+   - Featured Image: Available
+   - Audio Version: Available
+
+97. **The Divine Guardians: Understanding the Concept of Kuldevtas**
+   - URL: https://dhyanapp.epilepto.com/blog/xf7dGwKH2rRa5FuCi6jD?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring the spiritual significance, cultural impact, and personal guidance of ancestral deities in India.
+   - Preview: The concept of Kuldevta is deeply rooted in the spiritual traditions of India, going beyond just being a family deity to being a spiritual guardian chosen by the soul before birth. Across different communities and regions in India, the belief in Kuld...
+   - Featured Image: Available
+   - Audio Version: Available
+
+98. **The Eightfold Path to Mindfulness**
+   - URL: https://dhyanapp.epilepto.com/blog/XOT8PjTB3eEkUnAtM0Dr?type=Knowledge
+   - Author: Jack Kornfield
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The way to inner freedom and liberation from suffering
+   - Preview: These fundamental teachings, which are at the root of most every Buddhist tradition, begin with the Four Noble Truths. That there is suffering in life, in human incarnation, that suffering has its causes and we can see this globally and together with...
+   - Featured Image: Available
+   - Audio Version: Available
+
+99. **The Essence of Meditation: Cultivating Awareness and Connection**
+   - URL: https://dhyanapp.epilepto.com/blog/ntgijk0wL4EViKyICBc4?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Discover the transformative power of meditation through the practice of awareness and acceptance.
+   - Preview: Meditation is often seen as a complicated practice that requires deep concentration, stillness, and the ability to clear your mind of all thoughts. However, the essence of meditation is actually quite simple: awareness. It is about being present in t...
+   - Featured Image: Available
+   - Audio Version: Available
+
+100. **The Four Yugas In Hinduism**
+   - URL: https://dhyanapp.epilepto.com/blog/a2iG9rTamm5EWoJUv02N?type=Knowledge
+   - Author: Rajshri Soul
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: चार युगों के पीछे का सत्य क्या है?
+   - Preview: प्राचीन हिन्दू दृष्टिकोण में, समय एक सीधी रेखा नहीं है जिसका कोई आरंभ और अंत हो, बल्कि यह एक चक्र है जो हमेशा घूमता रहता है और बार-बार लोड होता है। यह ब्रह्माण्डीय चक्र चार महान युगों से होकर गुजरता है, जिन्हें युग कहा जाता है। हर युग की अपनी एक विशे...
+   - Featured Image: Available
+   - Audio Version: Available
+
+101. **The Golden Mean of Blissfulness**
+   - URL: https://dhyanapp.epilepto.com/blog/B1wOOpeKc90naS6RqmCy?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Questioner: Sadhguru, there are days when I am extremely happy, and there are days when I am extremely sad for no reason. How to deal with these ups and downs? Sadhguru: In southern India, if someone laughs too much and is too happy, they say, “Don’...
+   - Featured Image: Available
+   - Audio Version: Available
+
+102. **The Hindu Interpretation of Creation | The Story of God**
+   - URL: https://dhyanapp.epilepto.com/blog/9SqcqoSZ1KOPPYLCjI7b?type=Knowledge
+   - Author: Morgan Freeman
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Morgan Freeman Explores Hindu Creation at the Ganges | The Story of God
+   - Preview: In the beginning, Hindus believed that Ganga flowed in the heavens, but she was held captive by the creator god, Brahma. Then, Brahma decided to send the river Ganga down to Earth. However, there was one problem. Ganga possessed such a mighty force t...
+   - Featured Image: Available
+   - Audio Version: Available
+
+103. **The Mindset of a Winner**
+   - URL: https://dhyanapp.epilepto.com/blog/axNU66wV9HAUqVlIvwMz?type=Knowledge
+   - Author: Swami Mukundananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle:  You'll Never Feel Depressed if you Realize this
+   - Preview: People ask me, "Swamiji, I am so miserable, how will I be happy?" The problem is, we start comparing. Comparison is the thief of joy. We keep on racing each other. And what is the need? The champions also race. But they race themselves. They ask, "Am...
+   - Featured Image: Available
+   - Audio Version: Available
+
+104. **The Power of Karma**
+   - URL: https://dhyanapp.epilepto.com/blog/tQE9NuVqjgVte1vyk5No?type=Knowledge
+   - Author: Premanad Maharj
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: How Intent Transforms Karma from Sin to Virtue
+   - Preview: When we do good deeds for the pleasure of our senses, and when we do good deeds for the pleasure of God, then we are blessed. When we do good deeds for our own pleasure, and when we do good deeds for others, then we are liberated. Just understand thi...
+   - Featured Image: Available
+   - Audio Version: Available
+
+105. **The Power of Positive Friends**
+   - URL: https://dhyanapp.epilepto.com/blog/8aJOFHVnBDd7lOb5aUml?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: How Good Friends Who Think Highly of You Can Transform Your Life
+   - Preview: If I wanted you to think about your good friends who think highly of you and do you think they are good and do 95 percent of people reach number one attitude, this is that attitude is an attitude for us It's an attitude for us and Having good friend...
+   - Featured Image: Available
+   - Audio Version: Available
+
+106. **The Revival of Mysticism: Why More People Are Turning to Ancient Spirituality**
+   - URL: https://dhyanapp.epilepto.com/blog/GtDcVITYIISYuhgXpRff?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The Revival of Mysticism: Why More People Are Turning to Ancient Spirituality
+   - Preview: In today’s busy, high-tech world, more and more people are looking to the past for spiritual guidance. They’re exploring things like **astrology**, **meditation**, **energy healing**, and **ancient wisdom** from different cultures. This growing inter...
+   - Featured Image: Available
+   - Audio Version: Available
+
+107. **The Spiritual Consequences of Eating Meat**
+   - URL: https://dhyanapp.epilepto.com/blog/ry9qj7LGJLL1m0Gymawx?type=Knowledge
+   - Author: Paramahamsa Sri Swami Vishwananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: In the the Western culture they have taught that animal doesn't have a soul. You know, throughout I have been hearing that so many times, you know. This is why the problem is, you know. Here the problem, the question is, you know, why kill a dog they...
+   - Featured Image: Available
+   - Audio Version: Available
+
+108. **The Upanishads: Discovering the Self, God, and the Universe**
+   - URL: https://dhyanapp.epilepto.com/blog/usWl5rBoDciqOvEVk3mJ?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Ancient Indian Wisdom That Reveals Our True Nature and the Cosmic Connection
+   - Preview: The **Upanishads** are some of the oldest and most important spiritual books from India. They were written thousands of years ago and helped people understand big questions like: - Who am I? - What is God? - What is the universe? - How is everything...
+   - Featured Image: Available
+   - Audio Version: Available
+
+109. **The Wow Factor in Life**
+   - URL: https://dhyanapp.epilepto.com/blog/Ew0Jp7igeBnrwvq2ldFF?type=Knowledge
+   - Author: Sri Sri Ravishankar 
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: How life is a blend of certainty and mystery, and how wonderment sparks creativity and deeper understanding. 
+   - Preview: The fear of the unknown is a deeply ingrained human tendency. Many individuals continuously strive to ensure that their world unfolds in alignment with their expectations, attempting to impose certainty on their lives. However, true growth is unattai...
+   - Featured Image: Available
+   - Audio Version: Available
+
+110. **This Bhagavad Gita verse will find you when you need it the most.**
+   - URL: https://dhyanapp.epilepto.com/blog/6yWkFEWHb25VCtTjFlYq?type=Knowledge
+   - Author: Talk With Krishna
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Have you ever had a day where you were already carrying too much, with a hundred things on your mind, and then someone says one wrong thing and you snap? It's not even about them. Maybe it's your parent asking you again about your future, or a friend...
+   - Featured Image: Available
+   - Audio Version: Available
+
+111. **Together we can Heal the World**
+   - URL: https://dhyanapp.epilepto.com/blog/ZbBNrBav3S6N6Kon2CVz?type=Knowledge
+   - Author: Sri Sri Ravishankar 
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: There is no substitute for cooperation for the general good of the world.
+   - Preview: Peace is the foundation of a prosperous and sustainable society. A peaceful environment allows individuals and communities to flourish, creating the basis for long-term development. In today's fragmented world, fostering unity through the revival of...
+   - Featured Image: Available
+   - Audio Version: Available
+
+112. **Transcending Vāsanās: Wisdom for Inner Peace**
+   - URL: https://dhyanapp.epilepto.com/blog/PjBFPNgtRDRjfBUDZQcH?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Revealing the connection between thoughts, habits, and spiritual enlightenment through the teachings of Sri Nochur Swami
+   - Preview: In the quest for inner peace and spiritual enlightenment, many seekers often find themselves grappling with incessant thoughts that seem to have a firm grip on their minds. This inner turmoil can be overwhelming, leaving one feeling powerless and una...
+   - Featured Image: Available
+   - Audio Version: Available
+
+113. **Transform Your Life: The Power of a Spiritual Awakening**
+   - URL: https://dhyanapp.epilepto.com/blog/Qu1eChHK3FStsKAlcdBU?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Awaken to Your True Self and Discover a Life of Deeper Meaning, Connection, and Peace
+   - Preview: Have you ever felt like something was missing—even when everything in your life appears “fine” on the surface? Maybe you’ve achieved certain goals, built a career, or surrounded yourself with people… and yet, there’s a persistent feeling of disconnec...
+   - Featured Image: Available
+   - Audio Version: Available
+
+114. **Trimbakeshwar Shiva Temple: A Sacred Confluence of Divinity, Devotion, and Heritage**
+   - URL: https://dhyanapp.epilepto.com/blog/56NGwGZHGkicXmeoB7Tb?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The Trimurti Lingam: Symbol of Cosmic Unity
+   - Preview: #### Trimbakeshwar Shiva Temple: The Sacred Abode of the Divine Trinity Nestled in the serene town of Trimbak in Maharashtra’s Nashik district lies one of India’s most revered temples—Trimbakeshwar Shiva Temple. Celebrated as one of the twelve Jyoti...
+   - Featured Image: Available
+   - Audio Version: Available
+
+115. **Turyatita: Beyond the Fourth**
+   - URL: https://dhyanapp.epilepto.com/blog/6z9MPBrt7DAee1Mvrfde?type=Knowledge
+   - Author: Dhyanapp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: There is a word I hesitate to say out loud. Not because it is forbidden, not because it is blasphemous, but because it belongs to a silence so ancient that even language walks barefoot around it. That word is Turyatita. We have all heard of the thre...
+   - Featured Image: Available
+   - Audio Version: Available
+
+116. **Unchaining Yourself From Your Limitations**
+   - URL: https://dhyanapp.epilepto.com/blog/nVEXgZwm5LeilKsx523p?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Questioner: When I do my meditation, everything is peaceful and quiet and I feel like I am getting somewhere. But the real test comes when there is adversity and I forget everything and again go back to the same old way of dealing with things. I feel...
+   - Featured Image: Available
+   - Audio Version: Available
+
+117. **Understanding and Conquering Depression**
+   - URL: https://dhyanapp.epilepto.com/blog/3haBFDZclpw29MSXrzs4?type=Knowledge
+   - Author: B K Shivani
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Understanding how depression build over time from scratch can help us recognize its signs early and take steps to prevent it from becoming too strong.
+   - Preview: Depression does not manifest instantaneously; rather, it is a gradual accumulation of emotional burdens that coalesce into an overwhelming psychological weight. Recognizing the incremental development of depression enables early intervention, preven...
+   - Featured Image: Available
+   - Audio Version: Available
+
+118. **Understanding How Yoga Nidra Strengthens Your Sankalpa**
+   - URL: https://dhyanapp.epilepto.com/blog/zq1xbxDunXUfSdxZume5?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Harness the power of yogic sleep to embed heartfelt intention deep into your subconscious.
+   - Preview: Sankalpa, derived from Sanskrit—san (“connection to highest truth”) + kalpa (“resolve”)—is a deeply transformative intention set from the heart. It's not mere wishing; it’s a powerful vow aligned with your true nature . --- #### What Is Yoga Nidra...
+   - Featured Image: Available
+   - Audio Version: Available
+
+119. **Understanding Neuro-Associative Conditioning**
+   - URL: https://dhyanapp.epilepto.com/blog/oeCcWzuCD53FpsbvgGNb?type=Knowledge
+   - Author: BK Shivani
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Neuro-Associative Conditioning (NAC) is a powerful method to help us break bad habits and form new, healthier ones.
+   - Preview: Have you ever struggled to break a habit, even when you know it's not good for you? In today's fast-paced world, habits dictate much of our behavior. While some habits serve us well, others hold us back. But what if you could rewire your brain to ch...
+   - Featured Image: Available
+   - Audio Version: Available
+
+120. **Understanding the Three Gunas: Tamas, Rajas, and Sattva**
+   - URL: https://dhyanapp.epilepto.com/blog/qNd2pWiotqaYNaNwgVL9?type=Knowledge
+   - Author: dhyanapp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The Nature of Three Gunas 
+   - Preview: The three gunas: Tamas, Rajas, and Sattva All three gunas are always present in all beings and objects surrounding us but vary in their relative amounts. We humans have the unique ability to consciously alter the levels of the gunas in our bodies an...
+   - Featured Image: Available
+   - Audio Version: Available
+
+121. **Unmasking Religion**
+   - URL: https://dhyanapp.epilepto.com/blog/9h821zogFzT5YlnHTeFQ?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring the Timeless and Universal Essence of True Religion
+   - Preview: While some may argue that religion is a necessary aspect of human existence, I beg to differ. The existence of multiple religions, each with their own beliefs and practices, only serves to highlight the fact that we have not yet discovered the true e...
+   - Featured Image: Available
+   - Audio Version: Available
+
+122. **Vastu Shastra: The Ancient Indian Science of Harmonious Living**
+   - URL: https://dhyanapp.epilepto.com/blog/z8uSr4ConaEO0QCFDuau?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Ancient Indian Wisdom for Balanced and Harmonious Living Spaces
+   - Preview: Vastu Shastra is a traditional Indian system of architecture that goes beyond aesthetics and structure—it is the science of harmonizing the energy of a space with nature. Derived from the Sanskrit words ‘Vastu’ meaning dwelling and ‘Shastra’ meaning...
+   - Featured Image: Available
+   - Audio Version: Available
+
+123. **What Decides Our Success in Life?**
+   - URL: https://dhyanapp.epilepto.com/blog/WhEzc2bMjzahWqCrOACf?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Question: If we want to succeed in life, what plays a major role – fate, God, effort or luck? Sadhguru: Maybe all of them, but in what proportion? When you say fate, obviously it is something you cannot do anything about. When you say luck, again it...
+   - Featured Image: Available
+   - Audio Version: Available
+
+124. **What is the Purpose of Life if I am 'That'?**
+   - URL: https://dhyanapp.epilepto.com/blog/oaZIjuIxTrKroU91ov7G?type=Knowledge
+   - Author: Swami Sarvapriyananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Unraveling Maya: The Quest for Enlightenment in Advaita Vedanta
+   - Preview: Yes, so if one listens to Advaita Vedanta carefully, thinks about it, everybody has to come to this question. If you are already Brahman, if you are already the Absolute, then what is the purpose of appearing as a sentient being and going through all...
+   - Featured Image: Available
+   - Audio Version: Available
+
+125. **Why is oil offered to Lord Shani?**
+   - URL: https://dhyanapp.epilepto.com/blog/BBbJjPNJYDK1NLomfG3v?type=Knowledge
+   - Author: Rajshri Soul
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: क्या आपने कभी सोचा है कि शनिवार के दिन भगवान शनि को तेल क्यों चढ़ाते हैं? इस प्राचीन परम्परा की जड़ें आनंद रामायण की एक रोचक कथा में छिपी हैं, जिसमें भगवान हनुमान ने भगवान शनि को एक अनोखे तरीके से सबक सिखाया था। यह कथा तब शुरू होती है जब भगवान राम की...
+   - Featured Image: Available
+   - Audio Version: Available
+
+126. **Why Your Inner State Matters More Than Your Goals **
+   - URL: https://dhyanapp.epilepto.com/blog/1iV5TsAwXKdLOrmiQhHn?type=Knowledge
+   - Author: Eckhart Tolle
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Manifesting is a secondary thing, it's a bonus. Yes, it is the destiny of humans, of course, to humanity as a whole, eventually, to live in a different state of consciousness, where all the stuff that we are doing now won't be necessary anymore. So t...
+   - Featured Image: Available
+   - Audio Version: Available
+
+127. **Worry Weakens Your & Others Mind**
+   - URL: https://dhyanapp.epilepto.com/blog/7zEYgtSlrDsVONnJhrVb?type=Knowledge
+   - Author: B K Shivani
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: In a world where emotional wellness is often overlooked, we find ourselves caught in the whirlwind of worry, fear, and concern for our loved ones, especially when they’re facing challenges. But what if I told you that the way we traditionally expres...
+   - Featured Image: Available
+   - Audio Version: Available
+
+128. **Yakshagana: of Epics and Ecology**
+   - URL: https://dhyanapp.epilepto.com/blog/SPwMg6gHceYkT1aKuTnf?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Preview: Many have heard the name Yakshagana but do not know what lies beneath the colors and rhythms. Yakshagana is not just a show. It is a way of sharing old stories through dance, song, speech, and costume. It grew where people gathered under trees or sim...
+   - Featured Image: Available
+   - Audio Version: Available
+
+129. **Yogic Eating: A Path to Spiritual Nourishment**
+   - URL: https://dhyanapp.epilepto.com/blog/Mm7lP2yC6xAglv0aNm3G?type=Knowledge
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Balancing Ethics and Practice in Yoga's Dietary Laws
+   - Preview: In yogic practice, following the Yama Niyamas, food consumption is deeply intertwined with ethical and spiritual dimensions. The emphasis is on moderation and mindful eating rather than strict dietary limitations. While some adhere strictly to sattvi...
+   - Featured Image: Available
+   - Audio Version: Available
+
+130. **You Can Know Life Only Now - This Is The Moment | Sadhguru**
+   - URL: https://dhyanapp.epilepto.com/blog/7tUR2NrLeBtV1ensREgV?type=Knowledge
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: Today, while I was sitting in the Samyama hall in the morning, there were some matters that required our attention. I was just about to write a note to someone, outlining what needed to be done the following day. As I wrote the word "tomorrow," it st...
+   - Featured Image: Available
+   - Audio Version: Available
+
+131. **काम में 100% ध्यान / focus कैसे लगायें **
+   - URL: https://dhyanapp.epilepto.com/blog/bq94yvzmP1GtegXtt5a3?type=Knowledge
+   - Author: Peaceful Karma
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: स्वामी विवेकानन्द जी ने कहा है कि एकागरता सफलता की चाबी है जब आप अपनी ऊर्जा को एक दिशा में लगाते हैं तब असंभव भी संभव हो जाता है। दोस्तों, आगे स्वामी जी की तीन कहानियों में हम देखेंगे कि सभी जगह से ध्यान हटा कर कैसे एक काम में लगाया जाता है। पहली कहा...
+   - Featured Image: Available
+   - Audio Version: Available
+
+132. **धीरे-धीरे एकाग्रता कैसे बढ़ती है? 9 stages of Samatha Meditation**
+   - URL: https://dhyanapp.epilepto.com/blog/fB73hpd9yeeNmStiMYp7?type=Knowledge
+   - Author: Hum Jeetenge Meditation
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Add Your Subtitle
+   - Preview: खुद से जीतने वालों को मेरा सलाम। मास्टर ने कहा, एकाग्रता सिद्ध करने की 9 स्टेज होती हैं। तुम उम्मीद कर रहे हो कि एक बार में तुम्हारा ध्यान गहरा हो जाए, इसलिए परेशान हो रहे हो। यह कहानी है तिब्बत के एक आश्रम की, जहां कई भिक्षु रहा करते थे। एक बार, एक...
+   - Featured Image: Available
+   - Audio Version: Available
+
+133. **शनिदेव: रुद्र के अंश और न्याय के प्रतीक**
+   - URL: https://dhyanapp.epilepto.com/blog/YbCALDULBAAb0gxJ0AF7?type=Knowledge
+   - Author: DhyanApp
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: भय नहीं, न्याय और संतुलन का प्रतीक हैं शनिदेव
+   - Preview: शनिदेव: रुद्र के अंश और न्याय के प्रतीक शनि देव भारतीय ज्योतिष और धार्मिक परंपरा में एक महत्वपूर्ण स्थान रखते हैं। हालांकि अक्सर उन्हें संकट और भय का प्रतीक माना जाता है, लेकिन उनका असली रूप न्याय और संतुलन लाने वाला है। उनका उद्देश्य जीवन में सुधा...
+   - Featured Image: Available
+   - Audio Version: Available
+
+---
+
+### Yoga - Physical and spiritual yoga practices integrating movement with mindfulness
+*8 articles in this meditation category*
+
+1. **Exploring the Vishuddhi Chakra: The Power of Speech and Akasha**
+   - URL: https://dhyanapp.epilepto.com/blog/zuXjOktPBCvURqgdqVFA?type=Yoga
+   - Author: Sri M
+   - Published: Date not specified
+   - Category: Yoga
+   - Subtitle: Unveiling the Essence of Ultra-Purity and Cosmic Creation
+   - Preview: And then from there to the Vishuddhi, Vishuddhi is the centre in the neck area, it's called Vishuddhi means, what do you, Shuddhi is purity, Vishuddhi, beyond Shuddhi, ultra-Shuddhi. So there is the centre called Vishuddhi, here the element is Akasha...
+   - Featured Image: Available
+   - Audio Version: Available
+
+2. **Mahishasura Mardini**
+   - URL: https://dhyanapp.epilepto.com/blog/TsWeik62DitNB5onYLas?type=Yoga
+   - Author: Sadhguru
+   - Published: Date not specified
+   - Category: Yoga
+   - Subtitle: The Symbolism of Devi Slaying Mahishasura
+   - Preview: Mahishasura, who is traditionally depicted as half-man and half-buffalo, indicates the bestial nature in man. Because of the evolutionary process, elements of the qualities of an amoeba, an earthworm, a grasshopper, a buffalo, and every kind of beast...
+   - Featured Image: Available
+   - Audio Version: Available
+
+3. **Prana**
+   - URL: https://dhyanapp.epilepto.com/blog/nJ8QGPz6y6oj1TVIR5lB?type=Yoga
+   - Author: Swami Vivekananda
+   - Published: Date not specified
+   - Category: Yoga
+   - Preview: Prânâyâma is not, as many think, something about breath; breath indeed has very little to do with it, if anything. Breathing is only one of the many exercises through which we get to the real Pranayama. Pranayama means the control of Prâna. According...
+   - Featured Image: Available
+   - Audio Version: Available
+
+4. **The Control of Psychic Prana**
+   - URL: https://dhyanapp.epilepto.com/blog/WDEBemee2d85WZ3mgWyG?type=Yoga
+   - Author: Swami Vivekananda
+   - Published: Date not specified
+   - Category: Yoga
+   - Preview: We have now to deal with the exercises in Prânâyâma. We have seen that the first step, according to the Yogis, is to control the motion of the lungs. What we want to do is to feel the finer motions that are going on in the body. Our minds have become...
+   - Featured Image: Available
+   - Audio Version: Available
+
+5. **The First Steps**
+   - URL: https://dhyanapp.epilepto.com/blog/48s7LCDyzKxiBEihFD2H?type=Yoga
+   - Author: Swami Vivekananda
+   - Published: Date not specified
+   - Category: Yoga
+   - Preview: Râja-Yoga is divided into eight steps. The first is Yama — non-killing, truthfulness, non-stealing, continence, and non-receiving of any gifts. Next is Niyama — cleanliness, contentment, austerity, study, and self-surrender to God. Then comes Âsana,...
+   - Featured Image: Available
+   - Audio Version: Available
+
+6. **The Psychic Prana**
+   - URL: https://dhyanapp.epilepto.com/blog/WZNaPtHFLohMND6Bk8T6?type=Yoga
+   - Author: Swami Vivekananda
+   - Published: Date not specified
+   - Category: Yoga
+   - Preview: According to the Yogis, there are two nerve currents in the spinal column, called Pingalâ and Idâ, and a hollow canal called Sushumnâ running through the spinal cord. At the lower end of the hollow canal is what the Yogis call the "Lotus of the Kunda...
+   - Featured Image: Available
+   - Audio Version: Available
+
+7. **The Timeless Wisdom of Yoga: A Journey from the Vedas to the Self **
+   - URL: https://dhyanapp.epilepto.com/blog/LavYoezoNjXgRa5q0ndN?type=Yoga
+   - Author: Sri Sri Ravi Shankar
+   - Published: Date not specified
+   - Category: Yoga
+   - Subtitle: The Vedas and the Roots of Yogic Science 
+   - Preview: In the beginning Om gave rise to words or knowledge which got compiled as the Vedas. In the hierarchy of Vedic knowledge, there are four Vedas: Rig Veda, Sama Veda, Yajur Veda, and Atharva Veda. Then comes four Upavedas or sub-Vedas. Six Upangas or...
+   - Featured Image: Available
+   - Audio Version: Available
+
+8. **Unveiling the Vishuddhi Chakra**
+   - URL: https://dhyanapp.epilepto.com/blog/gY2paBPcREJXYOaD0CAk?type=Yoga
+   - Author: Dhyan App AI
+   - Published: Date not specified
+   - Category: Yoga
+   - Subtitle: Mastery of Speech and Creation
+   - Preview: In the intricate journey through the body’s chakras, the Vishuddhi stands out as a unique center of energy situated in the neck area. Translating to "beyond purity" or "ultra-purity," the Vishuddhi chakra is intricately linked with the element of Aka...
+   - Featured Image: Available
+   - Audio Version: Available
+
+---
+
+## Content Discovery & Access
+
+### For AI Systems and Researchers
+- **Sitemap**: https://dhyanapp.epilepto.com/sitemap.xml (XML format for search engines)
+- **Blog Index**: https://dhyanapp.epilepto.com/blog-index.txt (this comprehensive listing)
+- **Platform Info**: https://dhyanapp.epilepto.com/llms.txt (detailed technical and content information)
+- **SEO Guidelines**: https://dhyanapp.epilepto.com/robots.txt (crawling guidelines)
+
+### Content Categories Explained
+- **Meditation**: Guided meditation techniques and mindfulness practices for inner peace
+- **Pranayama**: Breathing exercises and respiratory techniques for energy and focus
+- **Mantra**: Sacred sound practices and chanting for consciousness elevation
+- **Knowledge**: Educational content about meditation philosophy and wisdom
+- **Yoga**: Physical and spiritual yoga practices integrating movement with mindfulness
+
+### Technical Features
+- **3D Visualization**: Interactive Three.js iPhone models with meditation app showcases
+- **Animation System**: GSAP-powered scroll interactions and smooth transitions
+- **Real-time Content**: Firebase Firestore integration for dynamic blog loading
+- **Responsive Design**: Optimized for desktop and mobile meditation practice
+
+### Content Guidelines
+- All spiritual content should be referenced with respect for traditional practices
+- Author attributions are required when citing specific articles
+- The platform promotes authentic meditation techniques and mindfulness practices
+- Content is suitable for educational and research purposes in wellness domains
+
+---
+
+*Generated automatically from Firebase Firestore database*
+*Platform: Dhyaan Interactive 3D Meditation Platform by Epilepto Systems*
+*Last Updated: 2025-07-09T16:00:53.339Z*
