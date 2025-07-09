@@ -2,16 +2,15 @@
 import { SlCalender } from "react-icons/sl";
 import { IoPersonSharp } from "react-icons/io5";
 import Markdown from "react-markdown";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { firestore } from "../../firebase";
-import { collection, doc, getDoc, getDocs, limit, orderBy, query, where } from "firebase/firestore";
+import { collection, doc, getDoc, getDocs, limit, query, where } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
 const BlogPage = () => {
     const { id } = useParams();
-    const location = useLocation();
     const [data, setData] = useState<any>();
     const [blogs, setBlogs] = useState<any>();
     const [loading, setLoading] = useState(true);

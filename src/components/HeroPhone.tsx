@@ -21,7 +21,7 @@ const HeroPhone = () => {
     const canvasContainerRef = useRef<HTMLDivElement>(null!);
     const controlsRef = useRef<any>(null);
     const resetTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-    const [isInteracting, setIsInteracting] = useState(false);
+    
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -51,7 +51,6 @@ const HeroPhone = () => {
     };
 
     const handleInteractionStart = () => {
-        setIsInteracting(true);
         if (resetTimeoutRef.current) {
             clearTimeout(resetTimeoutRef.current);
             resetTimeoutRef.current = null;
@@ -59,7 +58,6 @@ const HeroPhone = () => {
     };
 
     const handleInteractionEnd = () => {
-        setIsInteracting(false);
         // Reset after 2 seconds of no interaction
         resetTimeoutRef.current = setTimeout(() => {
             resetToOriginalPosition();

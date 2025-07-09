@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { collection, getDocs, limit, query, startAfter, where } from "firebase/firestore";
 import { firestore } from "../../firebase";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import InteractiveStars from "../InteractiveStars";
 import Navbar from "../Navbar";
