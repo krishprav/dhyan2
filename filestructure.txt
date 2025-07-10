@@ -147,3 +147,8 @@
 |-- tsconfig.json
 |-- blog.md
 |-- .env.local
+|-- CONTRIBUTING.md
+|-- ARCHITECTURE.md
+|-- DEPLOYMENT.md
+|-- API.md
+|-- ENVIRONMENT.md

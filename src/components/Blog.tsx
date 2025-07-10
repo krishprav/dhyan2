@@ -114,55 +114,55 @@ const Blog: React.FC = () => {
         ) : (
           <div className="px-8 py-16 sm:px-12 sm:py-20 lg:px-16 lg:py-24 overflow-visible">
             <div className="flex overflow-x-auto overflow-y-visible gap-24 pb-20 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:gap-32 lg:gap-40 xl:gap-48 sm:pb-24 sm:overflow-visible justify-start sm:justify-items-center sm:max-w-fit sm:mx-auto no-scrollbar">
-              {blogs.map((post) => (
-                <Link
-                  key={post.id}
-                  to={`/blog/${post.id}?type=${post.ArticleCategory}`}
-                  className="relative w-[300px] sm:w-[360px] h-[500px] flex-shrink-0 rounded-[26px] shadow-[0px_20px_50px_rgba(14,24,44,0.15)] overflow-hidden cursor-pointer
-                             transition-all duration-300 ease-in-out group
+            {blogs.map((post) => (
+              <Link
+                key={post.id}
+                to={`/blog/${post.id}?type=${post.ArticleCategory}`}
+                className="relative w-[300px] sm:w-[360px] h-[500px] flex-shrink-0 rounded-[26px] shadow-[0px_20px_50px_rgba(14,24,44,0.15)] overflow-hidden cursor-pointer
+                           transition-all duration-300 ease-in-out group
                              hover:scale-105 sm:hover:scale-108 hover:-translate-y-2 sm:hover:-translate-y-4
                              mx-8 sm:mx-6 lg:mx-8"
-                >
-                  <img
-                    src={post.teaserImageURL || "/blog-1.jpg"}
-                    alt={post.primaryTitle}
-                    className="w-full h-full object-cover absolute top-0 left-0 transition-transform duration-300 ease-in-out"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = "/blog-1.jpg";
+              >
+                <img
+                  src={post.teaserImageURL || "/blog-1.jpg"}
+                  alt={post.primaryTitle}
+                  className="w-full h-full object-cover absolute top-0 left-0 transition-transform duration-300 ease-in-out"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = "/blog-1.jpg";
+                  }}
+                />
+                <div
+                  className="absolute inset-0 bg-gradient-to-t from-[#4285F4] to-transparent opacity-0 group-hover:opacity-100
+                             transition-opacity duration-300"
+                />
+                <div className="absolute bottom-0 left-0 right-0 p-6 text-white text-left">
+                  <h3
+                    className="mb-2 break-words"
+                    style={{
+                      fontFamily: '"Gelica", sans-serif',
+                      fontSize: '28px',
+                      fontWeight: 500,
+                      lineHeight: '36.4px'
                     }}
-                  />
-                  <div
-                    className="absolute inset-0 bg-gradient-to-t from-[#4285F4] to-transparent opacity-0 group-hover:opacity-100
-                               transition-opacity duration-300"
-                  />
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white text-left">
-                    <h3
-                      className="mb-2 break-words"
-                      style={{
-                        fontFamily: '"Gelica", sans-serif',
-                        fontSize: '28px',
-                        fontWeight: 500,
-                        lineHeight: '36.4px'
-                      }}
-                    >
-                      {post.primaryTitle.length > 50 
-                        ? `${post.primaryTitle.slice(0, 50)}...` 
-                        : post.primaryTitle}
-                    </h3>
-                    <p
-                      className="break-words"
-                      style={{
-                        fontFamily: '"SF Pro Display", sans-serif',
-                        fontSize: '20px',
-                        lineHeight: '30px',
-                        opacity: 0.9,
-                      }}
-                    >
-                      {post.subTitle || `By ${post.multiMediaType !== "spinnedAudio" ? post.originalAuthorName : "Dhyan App"}`}
-                    </p>
-                  </div>
-                </Link>
-              ))}
+                  >
+                    {post.primaryTitle.length > 50 
+                      ? `${post.primaryTitle.slice(0, 50)}...` 
+                      : post.primaryTitle}
+                  </h3>
+                  <p
+                    className="break-words"
+                    style={{
+                      fontFamily: '"SF Pro Display", sans-serif',
+                      fontSize: '20px',
+                      lineHeight: '30px',
+                      opacity: 0.9,
+                    }}
+                  >
+                    {post.subTitle || `By ${post.multiMediaType !== "spinnedAudio" ? post.originalAuthorName : "Dhyan App"}`}
+                  </p>
+                </div>
+              </Link>
+            ))}
             </div>
           </div>
         )}

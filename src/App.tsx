@@ -20,26 +20,25 @@ const App = () => {
   const featuresRef = useRef(null);
 
   useEffect(() => {
-    // A slight delay to ensure all components are mounted before refreshing ScrollTrigger
+    // Refresh ScrollTrigger after all components mount
     const timer = setTimeout(() => {
       ScrollTrigger.refresh();
     }, 100);
 
-    // Intersection Observer to hide Navbar in Features section
-    const observer = new window.IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          setShowNavbar(!entry.isIntersecting);
-        });
-      },
-      { threshold: 0.5 }
-    );
-    if (featuresRef.current) {
-      observer.observe(featuresRef.current);
-    }
+    // Create a ScrollTrigger to hide navbar during Features section
+    ScrollTrigger.create({
+      trigger: "#features",
+      start: "top 10%",
+      end: "bottom 10%",
+      onEnter: () => setShowNavbar(false),
+      onLeave: () => setShowNavbar(true),
+      onEnterBack: () => setShowNavbar(false),
+      onLeaveBack: () => setShowNavbar(true),
+    });
+
     return () => {
       clearTimeout(timer);
-      if (featuresRef.current) observer.unobserve(featuresRef.current);
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
     };
   }, []);
 
@@ -47,9 +46,7 @@ const App = () => {
     <div className="main-container">
       {showNavbar && <Navbar />}
       <Hero />
-      <div ref={featuresRef}>
-        <Features />
-      </div>
+      <Features />
       <Social />
       <Testimonial />
       <Blog />
