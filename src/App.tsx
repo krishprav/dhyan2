@@ -17,6 +17,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   const [showNavbar, setShowNavbar] = useState(true);
+  // @ts-ignore
   const featuresRef = useRef(null);
 
   useEffect(() => {

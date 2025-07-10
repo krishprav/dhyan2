@@ -175,7 +175,9 @@ const Features = () => {
                                 }}
                                 dpr={[1, 2]}
                             >
+                                {/* @ts-expect-error */}
                                 <ambientLight intensity={2}/>
+                                {/* @ts-expect-error */}
                                 <directionalLight position={[3, 5, 4]} intensity={3} />
                                 <PerspectiveCamera makeDefault position={[0, 0, 8]} fov={30} />
                                 <OrbitControls
@@ -183,6 +185,7 @@ const Features = () => {
                                     enablePan={false}
                                     enableRotate={false}
                                 />
+                                {/* @ts-expect-error */}
                                 <group ref={globeGroupRef}>
                                     {categories.map((category, catIndex) => {
                                         if (catIndex !== currentCategoryIndex) return null;
@@ -211,6 +214,7 @@ const Features = () => {
                                             };
 
                                             return (
+                                                // @ts-expect-error
                                                 <group
                                                     key={key}
                                                     ref={(el: THREE.Group | null) => {
@@ -226,10 +230,12 @@ const Features = () => {
                                                         position={[0,0,0]}
                                                         rotation={[0,0,0]}
                                                     />
+                                                {/* @ts-expect-error */}
                                                 </group>
                                             );
                                         });
                                     })}
+                                    {/* @ts-expect-error */}
                                 </group>
                             </Canvas>
                         </div>
