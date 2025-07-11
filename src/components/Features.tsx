@@ -53,41 +53,121 @@ const Features = () => {
         };
     }, [categories.length]);
 
+    // Auto-scroll when Features section is partially visible
+    useEffect(() => {
+        const container = containerRef.current;
+        if (!container) return;
+
+        let hasAutoScrolled = false;
+        let autoScrollTimeout: NodeJS.Timeout;
+
+        const handleScroll = () => {
+            const scrollY = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const rect = container.getBoundingClientRect();
+            
+            // Reset auto-scroll flag when back at hero section
+            if (scrollY < windowHeight * 0.3) {
+                hasAutoScrolled = false;
+                return;
+            }
+
+            // Check if features section is becoming visible (partially visible)
+            const featuresTop = rect.top;
+            const isPartiallyVisible = featuresTop < windowHeight && featuresTop > windowHeight * 0.8;
+            
+            console.log('Scroll Debug:', {
+                scrollY,
+                featuresTop,
+                isPartiallyVisible,
+                hasAutoScrolled,
+                windowHeight
+            });
+
+            // Auto-scroll when features is 10-20% visible and hasn't auto-scrolled yet
+            if (isPartiallyVisible && !hasAutoScrolled) {
+                console.log('Triggering auto-scroll to features');
+                
+                clearTimeout(autoScrollTimeout);
+                autoScrollTimeout = setTimeout(() => {
+                    hasAutoScrolled = true;
+                    
+                    // Scroll to features section
+                    const featuresOffset = container.offsetTop;
+                    console.log('Auto-scrolling to:', featuresOffset);
+                    
+                    window.scrollTo({
+                        top: featuresOffset,
+                        behavior: 'smooth'
+                    });
+                }, 200);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            clearTimeout(autoScrollTimeout);
+        };
+    }, []);
+
     const switchCategory = (newCategoryIndex: number) => {
         if (newCategoryIndex === currentCategoryIndex || isAnimating) return;
         setIsAnimating(true);
         
-        // Animate text transition
-        gsap.to(".category-info", {
+        // Create a timeline for smoother animation sequencing
+        const tl = gsap.timeline();
+        
+        // Animate text transition with stagger effect
+        tl.to(".features-title", {
+            opacity: 0,
+            y: -30,
+            scale: 0.95,
+            duration: 0.6,
+            ease: "power3.inOut",
+        })
+        .to(".features-description", {
             opacity: 0,
             y: -20,
-            duration: 0.3,
-            ease: "power2.in",
-            onComplete: () => {
-                setCurrentCategoryIndex(newCategoryIndex);
-                gsap.fromTo(
-                    ".category-info",
-                    { opacity: 0, y: 20 },
-                    { 
-                        opacity: 1, 
-                        y: 0, 
-                        duration: 0.4, 
-                        ease: "power2.out",
-                        onComplete: () => setIsAnimating(false)
-                    }
-                );
+            duration: 0.5,
+            ease: "power3.inOut",
+        }, "-=0.3") // Start 0.3 seconds before the previous animation ends
+        .call(() => {
+            setCurrentCategoryIndex(newCategoryIndex);
+        })
+        .fromTo(".features-title", 
+            { opacity: 0, y: 30, scale: 0.95 },
+            { 
+                opacity: 1, 
+                y: 0, 
+                scale: 1,
+                duration: 0.8, 
+                ease: "power3.out",
             }
+        )
+        .fromTo(".features-description",
+            { opacity: 0, y: 20 },
+            { 
+                opacity: 1, 
+                y: 0, 
+                duration: 0.7, 
+                ease: "power3.out",
+            }, "-=0.4"
+        )
+        .call(() => {
+            setIsAnimating(false);
         });
 
-        // Rotate the globe
+        // Rotate the globe with smoother easing
         if (globeGroupRef.current) {
             const angleStep = (2 * Math.PI) / categories.length;
             const targetRotationY = -newCategoryIndex * angleStep;
             
             gsap.to(globeGroupRef.current.rotation, {
                 y: targetRotationY,
-                duration: 0.8,
-                ease: "power3.inOut"
+                duration: 1.2,
+                ease: "power4.inOut"
             });
         }
     };

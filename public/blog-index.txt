@@ -6,17 +6,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
 ## Platform Overview
 - **Technology**: React 18.3.1 + Three.js 0.166.1 + GSAP 3.13.0 + Firebase
 - **Features**: Interactive 3D iPhone models, scroll-based animations, meditation categories
-- **Content**: 198 articles across 5 meditation categories
-- **Last Updated**: 7/10/2025
+- **Content**: 208 articles across 5 meditation categories
+- **Last Updated**: 7/11/2025
 
 ## Meditation Categories Overview
 - **Meditation**: 20 articles - Guided meditation techniques and mindfulness practices for inner peace
 - **Pranayama**: 0 articles - Breathing exercises and respiratory techniques for energy and focus
 - **Mantra**: 0 articles - Sacred sound practices and chanting for consciousness elevation
-- **Knowledge**: 133 articles - Educational content about meditation philosophy and wisdom
+- **Knowledge**: 143 articles - Educational content about meditation philosophy and wisdom
 - **Yoga**: 8 articles - Physical and spiritual yoga practices integrating movement with mindfulness
 
-**Total Articles**: 198 meditation and wellness articles
+**Total Articles**: 208 meditation and wellness articles
 
 ## Complete Article Listing by Category
 
@@ -227,7 +227,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
 ---
 
 ### Knowledge - Educational content about meditation philosophy and wisdom
-*133 articles in this meditation category*
+*143 articles in this meditation category*
 
 1. **"The Journey of Bodhidharma: From Pallava Prince to Shaolin Founder"**
    - URL: https://dhyanapp.epilepto.com/blog/x2BvrphcVMZF7C1CNrEY?type=Knowledge
@@ -277,7 +277,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-6. **Adi Shankaracharya: A Sage of Spiritual Wisdom**
+6. **A calendar conundrum – Was the identity of the Pandavas exposed before the end of the exile/ incognito period?**
+   - URL: https://dhyanapp.epilepto.com/blog/9FM2KYj9ky6eXhRw4Hzg?type=Knowledge
+   - Author: Paramu Kurumathur
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Reconciling Calendars: Bhishma's Justification for the End of the Pandavas' Exile
+   - Preview: Envious of the wealth of the Pandavas and enraged at the insults from the Pandavas when he visits their palace in Indraprastha, Duryodhana, at the advice of his uncle Shakuni, invites them to a game of dice, in which he defeats the Pandavas (with som...
+   - Featured Image: Available
+   - Audio Version: Available
+
+7. **Adi Shankaracharya: A Sage of Spiritual Wisdom**
    - URL: https://dhyanapp.epilepto.com/blog/DC31FnXpjrI9JDBE3lG5?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -287,7 +297,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-7. **Akshaya Tritiya: A Celebration of Eternal Prosperity and New Beginnings**
+8. **Akshaya Tritiya: A Celebration of Eternal Prosperity and New Beginnings**
    - URL: https://dhyanapp.epilepto.com/blog/OwDuXeLImB8A0flh6e0v?type=Knowledge
    - Author: dhyanapp
    - Published: Date not specified
@@ -297,7 +307,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-8. **An Outline of the Philosophical Foundations of the Religion of Man**
+9. **An Outline of the Philosophical Foundations of the Religion of Man**
    - URL: https://dhyanapp.epilepto.com/blog/J3ORLDHN7oF9fO7YbMsY?type=Knowledge
    - Author: Swami Krishnananda
    - Published: Date not specified
@@ -307,7 +317,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-9. **Attention to Detail**
+10. **Attention to Detail**
    - URL: https://dhyanapp.epilepto.com/blog/LeNFiIZXgUrcIreAhNxh?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -316,7 +326,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-10. **Baisakhi**
+11. **Baisakhi**
    - URL: https://dhyanapp.epilepto.com/blog/QZ42sjGfFzmnOJYjXWtA?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -325,7 +335,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-11. **Become The Master Of Your Own Destiny**
+12. **Become The Master Of Your Own Destiny**
    - URL: https://dhyanapp.epilepto.com/blog/4BXtOaptP7I3lCMn13bf?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -334,7 +344,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-12. **Becoming Conscious of Your Suffering**
+13. **Becoming Conscious of Your Suffering**
    - URL: https://dhyanapp.epilepto.com/blog/esCR77t7IH0642hyzXb0?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -344,7 +354,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-13. **Becoming Truly Energetic and Alive**
+14. **Becoming Truly Energetic and Alive**
    - URL: https://dhyanapp.epilepto.com/blog/wAZH8ugN0oNBIBNdLFno?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -353,7 +363,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-14. **Beyond Maya: Enlightenment's Path**
+15. **Beyond Maya: Enlightenment's Path**
    - URL: https://dhyanapp.epilepto.com/blog/dumVxCh84ePHph71mxT9?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -363,7 +373,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-15. **Beyond the Jada: Unveiling Non-Inert Awareness**
+16. **Beyond the Jada: Unveiling Non-Inert Awareness**
    - URL: https://dhyanapp.epilepto.com/blog/6A7AuyuNRqR04R3LKqY9?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -373,7 +383,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-16. **Bhairavi Sadhana – Significance and Benefits**
+17. **Bhairavi Sadhana – Significance and Benefits**
    - URL: https://dhyanapp.epilepto.com/blog/V7MzceLGBaRLELLylUAw?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -382,7 +392,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-17. **Bhimashankar Jyotirlinga Temple: Where Divinity Meets Heritage**
+18. **Bhimashankar Jyotirlinga Temple: Where Divinity Meets Heritage**
    - URL: https://dhyanapp.epilepto.com/blog/7lvkob85PHcnjkFojZIJ?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -392,7 +402,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-18. **Bhuta Kola: The Spirit Ritual of Coastal Karnataka**
+19. **Bhuta Kola: The Spirit Ritual of Coastal Karnataka**
    - URL: https://dhyanapp.epilepto.com/blog/ylhw7r4vJKzBCrvQWw72?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -401,7 +411,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-19. **Bodhidharma: The Shaolin Legacy**
+20. **Bodhidharma: The Shaolin Legacy**
    - URL: https://dhyanapp.epilepto.com/blog/rRHXVdz1NwjiRcR4B8RA?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -411,7 +421,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-20. **Breaking Away from Conditioning**
+21. **Breaking Away from Conditioning**
    - URL: https://dhyanapp.epilepto.com/blog/Q87VrUblHd6IEdkcBqQO?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -421,7 +431,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-21. **Breaking Generational Patterns**
+22. **Breaking Generational Patterns**
    - URL: https://dhyanapp.epilepto.com/blog/Wam88XvT0kLkFnWqaN7N?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -431,7 +441,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-22. **Breath, the Bridge: Pranayama as a Gateway to the Divine**
+23. **Breath, the Bridge: Pranayama as a Gateway to the Divine**
    - URL: https://dhyanapp.epilepto.com/blog/QmMTOL6trgoAWfFYQ3b7?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -441,7 +451,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-23. **Can Desires be Destroyed?**
+24. **Can Desires be Destroyed?**
    - URL: https://dhyanapp.epilepto.com/blog/H6P4vW8mJicI5shL7GPO?type=Knowledge
    - Author:  Swami Sarvapriyananda
    - Published: Date not specified
@@ -451,7 +461,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-24. **Can Happiness Truly Transform a Dull Environment?**
+25. **Can Happiness Truly Transform a Dull Environment?**
    - URL: https://dhyanapp.epilepto.com/blog/8TS8DoAW3cXAk4FPNcgK?type=Knowledge
    - Author: B K Shivani
    - Published: Date not specified
@@ -460,7 +470,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-25. **Characteristics of Social Media Addiction**
+26. **Characteristics of Social Media Addiction**
    - URL: https://dhyanapp.epilepto.com/blog/fGcrT8H6GAV8beKZIIrv?type=Knowledge
    - Author: BK Shivani
    - Published: Date not specified
@@ -470,7 +480,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-26. **Dan Millman at TEDxBerkeley**
+27. **Dan Millman at TEDxBerkeley**
    - URL: https://dhyanapp.epilepto.com/blog/xRAN5Sn3nd5bq9jqXUjA?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -480,7 +490,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-27. **Divine Guardians: The Spiritual Role of Dogs in Indian Mythology**
+28. **Divine Guardians: The Spiritual Role of Dogs in Indian Mythology**
    - URL: https://dhyanapp.epilepto.com/blog/NXFratcU980PalHktRnS?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -490,7 +500,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-28. **Does God Hide The Truth**
+29. **Does God Hide The Truth**
    - URL: https://dhyanapp.epilepto.com/blog/CEYyg5h5kJ7PfNAlqNzY?type=Knowledge
    - Author: Nayaswami Bhavani
    - Published: Date not specified
@@ -499,7 +509,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-29. **Doing the Right Things With Yourself**
+30. **Doing the Right Things With Yourself**
    - URL: https://dhyanapp.epilepto.com/blog/chhLtrMW5aIu7e0WBcop?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -508,7 +518,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-30. **Don’t chase happiness. Become antifragile**
+31. **Don’t chase happiness. Become antifragile**
    - URL: https://dhyanapp.epilepto.com/blog/vSjbXapWTwou8TOYPiCO?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -518,7 +528,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-31. **Don’t drop Humanities when we need them most**
+32. **Don’t drop Humanities when we need them most**
    - URL: https://dhyanapp.epilepto.com/blog/6Wx4vBPdDKlQZdRrKADt?type=Knowledge
    - Author: John J Kennedy
    - Published: Date not specified
@@ -528,7 +538,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-32. **Dream and Reality**
+33. **Dream and Reality**
    - URL: https://dhyanapp.epilepto.com/blog/UjZiWl1iFoFXeQVX0JVJ?type=Knowledge
    - Author: Swami Atmashraddhananda
    - Published: Date not specified
@@ -538,7 +548,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-33. **Each is Great in his Own Place**
+34. **Each is Great in his Own Place**
    - URL: https://dhyanapp.epilepto.com/blog/HzKNSql0yi0mnaXWWmgv?type=Knowledge
    - Author: Swami Vivekananda
    - Published: Date not specified
@@ -547,7 +557,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-34. **Embracing the Present: 5 Attitudes for a Fulfilling Life**
+35. **Embracing the Present: 5 Attitudes for a Fulfilling Life**
    - URL: https://dhyanapp.epilepto.com/blog/K3AXsFWdsTsBs8kQChNO?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -557,7 +567,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-35. **Emotional Intelligence**
+36. **Emotional Intelligence**
    - URL: https://dhyanapp.epilepto.com/blog/YxkR8CxbTvvdTgBzRGv1?type=Knowledge
    - Author: Daniel Goleman 
    - Published: Date not specified
@@ -567,7 +577,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-36. **Exploring Krishna's Path of the Playful**
+37. **Exploring Krishna's Path of the Playful**
    - URL: https://dhyanapp.epilepto.com/blog/H5nRu3R8i4xSwLjD9Qsf?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -576,7 +586,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-37. **Fear Of Failure**
+38. **Fear Of Failure**
    - URL: https://dhyanapp.epilepto.com/blog/IFdC5Jo3uZ5DbcAdawxq?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -585,7 +595,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-38. **Focus Beyond the Noise: A Buddhist Parable on Inner Peace**
+39. **Focus Beyond the Noise: A Buddhist Parable on Inner Peace**
    - URL: https://dhyanapp.epilepto.com/blog/lYXfdNiakpI5JFw3sb3e?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -595,7 +605,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-39. **Food and the spiritual path**
+40. **Food and the spiritual path**
    - URL: https://dhyanapp.epilepto.com/blog/dA2Y9hLsZ4sAmNzkZ31d?type=Knowledge
    - Author: Shri M
    - Published: Date not specified
@@ -605,7 +615,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-40. **Guardians of the Sacred: The Role of Dogs in Indian Mythology**
+41. **From Mortal Boy to Eternal Seer: The Legend of Kakbhusundi **
+   - URL: https://dhyanapp.epilepto.com/blog/IMrk260IaRFWsSGdyn2u?type=Knowledge
+   - Author: Indian Monk
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: This Crow Has Seen 87 Different Ramayana's Across the Multiverse
+   - Preview: In the vastness of time, before our recorded history began, a single crow soared above the mighty Himalayas. However, this was no ordinary bird. This crow had witnessed the creation and destruction of the universe, not once, not twice, but 108 times....
+   - Featured Image: Available
+   - Audio Version: Available
+
+42. **Guardians of the Sacred: The Role of Dogs in Indian Mythology**
    - URL: https://dhyanapp.epilepto.com/blog/t7MaxZm1XCGPxaI0nAWU?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -615,7 +635,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-41. **Guru Purnima: The Full Moon of Spiritual Awakening**
+43. **Guru Purnima: The Full Moon of Spiritual Awakening**
    - URL: https://dhyanapp.epilepto.com/blog/XViOg22tvLt1pSLnaK5y?type=Knowledge
    - Author: Swami Krishnananda
    - Published: Date not specified
@@ -625,7 +645,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-42. **Harnessing the Miracle of Mind for Your Wellbeing**
+44. **Harnessing the Miracle of Mind for Your Wellbeing**
    - URL: https://dhyanapp.epilepto.com/blog/aqtCB4zEBkGRiKpef2RQ?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -634,7 +654,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-43. **How can I overcome my struggle with laziness and lack of discipline?**
+45. **How can I overcome my struggle with laziness and lack of discipline?**
    - URL: https://dhyanapp.epilepto.com/blog/qs5A8nXbRmPAV7So7GqF?type=Knowledge
    - Author: Sri M
    - Published: Date not specified
@@ -644,7 +664,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-44. **How do you explain the problem of evil?**
+46. **How do you explain the problem of evil?**
    - URL: https://dhyanapp.epilepto.com/blog/4VRiT9z5dAbmsunT8Bxt?type=Knowledge
    - Author: Samwi Sarvapriyananda
    - Published: Date not specified
@@ -654,7 +674,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-45. **How does it feel to master All the Chakras | Sadhguru**
+47. **How does it feel to master All the Chakras | Sadhguru**
    - URL: https://dhyanapp.epilepto.com/blog/LnWvI4YPP5WKVmUn1h41?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -664,7 +684,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-46. **How to ‘be in the moment’?**
+48. **How The Universe Was Created According To Hinduism?**
+   - URL: https://dhyanapp.epilepto.com/blog/Q4CH53LEN1YDjDwquTL7?type=Knowledge
+   - Author: Indian Monk
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: The Hindu Perspective on Creation: Exploring the Cosmic Origins and the Divine Trinity
+   - Preview: The universe is a mystery that has always puzzled mankind. How was it created? And who is responsible for its creation? In Hinduism, there are many theories about how the universe was created in the earliest days. Let's explore some of them. In Hin...
+   - Featured Image: Available
+   - Audio Version: Available
+
+49. **How to ‘be in the moment’?**
    - URL: https://dhyanapp.epilepto.com/blog/8KrBT08Yv2oe3bssttAb?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -673,7 +703,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-47. **How to concentrate on studies?**
+50. **How to concentrate on studies?**
    - URL: https://dhyanapp.epilepto.com/blog/OyZM3OlBGSXCcsq4uC2M?type=Knowledge
    - Author: Sw. Nischalananda Saraswati
    - Published: Date not specified
@@ -683,7 +713,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-48. **How To Control Your Mind**
+51. **How To Control Your Mind**
    - URL: https://dhyanapp.epilepto.com/blog/9GlRc4mcyQBiVMDd5iNx?type=Knowledge
    - Author: Mahamevnawa Bodhignana Monastery
    - Published: Date not specified
@@ -693,7 +723,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-49. **How to Defeat a Thief? – a Zen Story**
+52. **How to Defeat a Thief? – a Zen Story**
    - URL: https://dhyanapp.epilepto.com/blog/rYj5ykqzEwqb2GJFuRIG?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -702,7 +732,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-50. **How to Develop Self Esteem**
+53. **How to Develop Self Esteem**
    - URL: https://dhyanapp.epilepto.com/blog/5GkxlxNTLu9quiuMeH3P?type=Knowledge
    - Author: Swami Sarvapriyananda
    - Published: Date not specified
@@ -712,7 +742,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-51. **How to Find Fulfillment in Life**
+54. **How to Find Fulfillment in Life**
    - URL: https://dhyanapp.epilepto.com/blog/sH1pz3knWWy5m356tKV4?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -722,7 +752,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-52. **How to Know If You’re on a Spiritual Path**
+55. **How to Know If You’re on a Spiritual Path**
    - URL: https://dhyanapp.epilepto.com/blog/NIGCDF42bMeaGXNjzqZ1?type=Knowledge
    - Author: B K Shivani
    - Published: Date not specified
@@ -732,7 +762,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-53. **How to Manifest What you Want**
+56. **How to Manifest What you Want**
    - URL: https://dhyanapp.epilepto.com/blog/B96IC4HGbEluIspJaqT6?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -741,7 +771,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-54. **How to Manifest What you Want**
+57. **How to Manifest What you Want**
    - URL: https://dhyanapp.epilepto.com/blog/qUKUryz4nqKwyUlTxeM8?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -750,7 +780,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-55. **How to Manifest What you Want**
+58. **How to Manifest What you Want**
    - URL: https://dhyanapp.epilepto.com/blog/zSucTDAqXef42P9VzIz0?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -759,7 +789,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-56. **How to recognise enlightened beings?**
+59. **How to recognise enlightened beings?**
    - URL: https://dhyanapp.epilepto.com/blog/MOwilfFkRjUlxkf4HG6I?type=Knowledge
    - Author: Swami Sarvapriyananda
    - Published: Date not specified
@@ -769,7 +799,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-57. **How To Unlock Insane Focus On Command**
+60. **How To Unlock Insane Focus On Command**
    - URL: https://dhyanapp.epilepto.com/blog/9aYUtd4r0mfJQKmsYw3A?type=Knowledge
    - Author: Rian Doris
    - Published: Date not specified
@@ -779,7 +809,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-58. **Inner Peace Through Buddhism**
+61. **Inner Peace Through Buddhism**
    - URL: https://dhyanapp.epilepto.com/blog/Uxpa4zbylib76SAdsiid?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -789,7 +819,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-59. **It’s time to take a step forward once more**
+62. **It’s time to take a step forward once more**
    - URL: https://dhyanapp.epilepto.com/blog/bo3XzzKs9GN4NlquY3w4?type=Knowledge
    - Author: Sri M
    - Published: Date not specified
@@ -799,7 +829,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-60. **Jealous of Someone? Let Your Jealousy Nourish You**
+63. **Jealous of Someone? Let Your Jealousy Nourish You**
    - URL: https://dhyanapp.epilepto.com/blog/M6G7kfeKHEj0CH6vj0nV?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -808,7 +838,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-61. **Kailpodh Festival of Coorg: Celebrating Weapons and Agrarian Renewal**
+64. **Kailpodh Festival of Coorg: Celebrating Weapons and Agrarian Renewal**
    - URL: https://dhyanapp.epilepto.com/blog/AllzsHrkymBinNJ5HqTO?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -818,7 +848,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-62. **Kambala: The Truth Behind Karnataka’s Buffalo Race**
+65. **Kambala: The Truth Behind Karnataka’s Buffalo Race**
    - URL: https://dhyanapp.epilepto.com/blog/dhC56RzkSRyxCcaLViVv?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -828,7 +858,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-63. **Kashi Vishwanath Temple: The Eternal Soul of Varanasi**
+66. **Kashi Vishwanath Temple: The Eternal Soul of Varanasi**
    - URL: https://dhyanapp.epilepto.com/blog/nMEyXBTMkiwsEAuJliar?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -838,7 +868,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-64. **Kaveri Sankramana: Rebirth of the Sacred River**
+67. **Kaveri Sankramana: Rebirth of the Sacred River**
    - URL: https://dhyanapp.epilepto.com/blog/YSJdjqSIpajYXeXt2yE6?type=Knowledge
    - Author: Dhyan App
    - Published: Date not specified
@@ -848,7 +878,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-65. **Lao Tzu - The Art of Not Trying**
+68. **Lao Tzu - The Art of Not Trying**
    - URL: https://dhyanapp.epilepto.com/blog/s4kEgMrKRlr9OkQyRY0B?type=Knowledge
    - Author: After Skool
    - Published: Date not specified
@@ -858,7 +888,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-66. **Learn How To Improve Your Brain’s Memory & Recall | Sadhguru **
+69. **Learn How To Improve Your Brain’s Memory & Recall | Sadhguru **
    - URL: https://dhyanapp.epilepto.com/blog/VAVncVYvSq57a4SCQSga?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -868,7 +898,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-67. **Learn Vishnu Sahasranamam**
+70. **Learn Vishnu Sahasranamam**
    - URL: https://dhyanapp.epilepto.com/blog/OU5PRkVu0GNShbYDgvRn?type=Knowledge
    - Author: Swami Vidyananda Om
    - Published: Date not specified
@@ -878,7 +908,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-68. **Link Between Meat Eating and Spiritual Growth**
+71. **Link Between Meat Eating and Spiritual Growth**
    - URL: https://dhyanapp.epilepto.com/blog/I4HgLsLybRcPcPDdqw5E?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -888,7 +918,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-69. **Lord Jagannath and the Grand Chariot Journey**
+72. **Lord Jagannath and the Grand Chariot Journey**
    - URL: https://dhyanapp.epilepto.com/blog/fRbK9M0B4K8oM6kDWRMt?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -898,7 +928,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-70. **Mahakaleshwar Jyotirlinga Temple: The Sacred Abode of Timeless Shiva**
+73. **Mahakaleshwar Jyotirlinga Temple: The Sacred Abode of Timeless Shiva**
    - URL: https://dhyanapp.epilepto.com/blog/jLK1FTIPU61xKoD5AlhQ?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -908,7 +938,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-71. **Mallikarjuna Temple, Srisailam – A Divine Confluence of Jyotirlinga and Shakti Peetha**
+74. **Mallikarjuna Temple, Srisailam – A Divine Confluence of Jyotirlinga and Shakti Peetha**
    - URL: https://dhyanapp.epilepto.com/blog/uy9gVxN2tsuTiX2QBfvI?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -918,7 +948,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-72. **Māyā**
+75. **Māyā**
    - URL: https://dhyanapp.epilepto.com/blog/QPnt985J2ZbgK2UDBW4l?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -928,7 +958,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-73. **Māyā**
+76. **Māyā**
    - URL: https://dhyanapp.epilepto.com/blog/SXDJUH3u8ub2VFwaAlBu?type=Knowledge
    - Author: Admin
    - Published: Date not specified
@@ -938,7 +968,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-74. **Mind Mastery Path**
+77. **Mind Mastery Path**
    - URL: https://dhyanapp.epilepto.com/blog/sZfnYxG8HMe0DQMQuv5L?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -948,7 +978,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-75. **Mindfulness in the Rigveda: Returning the Wandering Mind to the Present**
+78. **Mindfulness in the Rigveda: Returning the Wandering Mind to the Present**
    - URL: https://dhyanapp.epilepto.com/blog/fUpRWZEKOVi6bR7Pz6zb?type=Knowledge
    - Author: Paramu Kurumathur
    - Published: Date not specified
@@ -958,7 +988,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-76. **Nagarapanchami: The Serpent Festival of India**
+79. **Nagarapanchami: The Serpent Festival of India**
    - URL: https://dhyanapp.epilepto.com/blog/3IpA5lf6m50l0HeonoBA?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -967,7 +997,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-77. **No Give & Take, Just Spring in Your Heart**
+80. **No Give & Take, Just Spring in Your Heart**
    - URL: https://dhyanapp.epilepto.com/blog/8pO3h1dEeHaSz6b4iiEC?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -976,7 +1006,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-78. **Obsessed With Sexual Thoughts? | Sadhguru**
+81. **Obsessed With Sexual Thoughts? | Sadhguru**
    - URL: https://dhyanapp.epilepto.com/blog/swNoJOyoyTuffbxUKDLL?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -986,7 +1016,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-79. **Omkareshwar Jyotirlinga: The Sacred Heartbeat of Shiva**
+82. **Omkareshwar Jyotirlinga: The Sacred Heartbeat of Shiva**
    - URL: https://dhyanapp.epilepto.com/blog/HoNdlEn2N4E4PIXxP4hY?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -996,7 +1026,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-80. **Organizing The Mind For Success**
+83. **Organizing The Mind For Success**
    - URL: https://dhyanapp.epilepto.com/blog/dI2tuCbnwtPblRx0DalD?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -1005,7 +1035,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-81. **OSHO: Alertness Awareness Mindfulness**
+84. **OSHO: Alertness Awareness Mindfulness**
    - URL: https://dhyanapp.epilepto.com/blog/1d5PlnOmn5P5yGWylM8t?type=Knowledge
    - Author: OSHO 
    - Published: Date not specified
@@ -1015,7 +1045,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-82. **OSHO: Risk Everything for Awareness**
+85. **OSHO: Risk Everything for Awareness**
    - URL: https://dhyanapp.epilepto.com/blog/cs1yhfNh2mLYQt0YUCYy?type=Knowledge
    - Author: OSHO 
    - Published: Date not specified
@@ -1025,7 +1055,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-83. **Path to Peace**
+86. **Path to Peace**
    - URL: https://dhyanapp.epilepto.com/blog/ykhKlxmwBdiGZxjsIJKa?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -1035,7 +1065,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-84. **Paths of Transformation**
+87. **Paths of Transformation**
    - URL: https://dhyanapp.epilepto.com/blog/YnM1RQqjJ9g4J0YDOfAp?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -1045,7 +1075,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-85. **Peace of Mind from a Buddhist Perspective**
+88. **Peace of Mind from a Buddhist Perspective**
    - URL: https://dhyanapp.epilepto.com/blog/kj11TVePlolSvC75BL4Z?type=Knowledge
    - Author: Dalai Lama
    - Published: Date not specified
@@ -1055,7 +1085,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-86. **Philosophy behind Laziness and Overcoming it**
+89. **Philosophy behind Laziness and Overcoming it**
    - URL: https://dhyanapp.epilepto.com/blog/ymVMi1DjFiNb6BAJo5gp?type=Knowledge
    - Author: Osho
    - Published: Date not specified
@@ -1065,7 +1095,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-87. **Pitru Paksha: Honoring Our Ancestors**
+90. **Pitru Paksha: Honoring Our Ancestors**
    - URL: https://dhyanapp.epilepto.com/blog/NmWJuHsZnGRcaT7N8KWg?type=Knowledge
    - Author: DhanApp
    - Published: Date not specified
@@ -1075,7 +1105,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-88. **Premanand Govind Sharan Ji Maharaj**
+91. **Premanand Govind Sharan Ji Maharaj**
    - URL: https://dhyanapp.epilepto.com/blog/9y1uGBzUggYHGolAC0Wo?type=Knowledge
    - Author: Premanand Ji Maharaj
    - Published: Date not specified
@@ -1085,7 +1115,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-89. **Protecting Your Attention : Strategies for a Distraction-Free Life**
+92. **Proof of Interstellar Time Travel In Hinduism**
+   - URL: https://dhyanapp.epilepto.com/blog/2GD0i8DSxU07RnGS2nOd?type=Knowledge
+   - Author: Indian Monk
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring Time Travel Through the Lens of Modern Physics and Ancient Vedic Wisdom
+   - Preview: Time travel is a mysterious subject in science and has been the subject of debate for centuries. Many believe it to be infeasible or fantasy, while others disagree. But is time travel really possible, or is it just fantasy? Let's first understand wha...
+   - Featured Image: Available
+   - Audio Version: Available
+
+93. **Protecting Your Attention : Strategies for a Distraction-Free Life**
    - URL: https://dhyanapp.epilepto.com/blog/bMGlOs3ayydXrm31n6r8?type=Knowledge
    - Author: B K Shivani
    - Published: Date not specified
@@ -1095,7 +1135,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-90. **Puthari (Huttari): The Kodava Festival of New Rice**
+94. **Puthari (Huttari): The Kodava Festival of New Rice**
    - URL: https://dhyanapp.epilepto.com/blog/p2tYe6DjStehLffQ1jkS?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1105,7 +1145,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-91. **Sadhguru: The Key to Success Pay Attention!**
+95. **Sadhguru: The Key to Success Pay Attention!**
    - URL: https://dhyanapp.epilepto.com/blog/pxzmE9V6yQ3RxvTiqNTN?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -1115,7 +1155,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-92. **Sita Questions Rama’s Path of Dharma | A Rare Moment from the Ramayana | Sri M | Captions Available**
+96. **Sita Questions Rama’s Path of Dharma | A Rare Moment from the Ramayana | Sri M | Captions Available**
    - URL: https://dhyanapp.epilepto.com/blog/PKf9a5F0JbIS1Zb1MZS6?type=Knowledge
    - Author: Sri M
    - Published: Date not specified
@@ -1125,7 +1165,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-93. **Somnath Jyotirlinga: The Eternal Flame of Faith and Resilience**
+97. **Somnath Jyotirlinga: The Eternal Flame of Faith and Resilience**
    - URL: https://dhyanapp.epilepto.com/blog/3rTpa96RehTtZk1HDtbd?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1135,7 +1175,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-94. **Tapping into the Akashik Intelligence**
+98. **Tapping into the Akashik Intelligence**
    - URL: https://dhyanapp.epilepto.com/blog/xf4vpG0kKRuHF1WHltcs?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -1144,7 +1184,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-95. **The Art of Balance**
+99. **The Aim of Life: A Step-by-Step Ascent to Higher Purpose**
+   - URL: https://dhyanapp.epilepto.com/blog/F2KAC7QbosU5yv0AZbZD?type=Knowledge
+   - Author: Swami Krishnananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: From Individual Identity to Cosmic Consciousness – A Philosophical Dialogue with Swami Krishnananda
+   - Preview: The question often arises: What should be the aim of one's life? To understand the answer, one must first understand who or what they truly are. You are an individual—a seemingly independent unit—but one intrinsically linked with society. Often, peo...
+   - Featured Image: Available
+   - Audio Version: Available
+
+100. **The Art of Balance**
    - URL: https://dhyanapp.epilepto.com/blog/hsUY48pQdIKKtbZUOpe2?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1154,7 +1204,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-96. **The Devotee the Lord Chose**
+101. **The Central Intention of the Bhagavadgita**
+   - URL: https://dhyanapp.epilepto.com/blog/zQthO2vt6Tk9LCm7baA7?type=Knowledge
+   - Author: Swami Krishnananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Bhagavadgita as Purna Yoga: From Inner Conflict to Divine Integration
+   - Preview: The technique of meditation in the Bhagavadgita is more complex and comprehensive than in the Kathopanishad or Patanjali's Sutras. While often seen as an ethical gospel on war or devotion to Sri Krishna, the Gita is much more. It is designated a Yoga...
+   - Featured Image: Available
+   - Audio Version: Available
+
+102. **The Devotee the Lord Chose**
    - URL: https://dhyanapp.epilepto.com/blog/bhJ7bcI6FIxSFzyQGc8A?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1164,7 +1224,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-97. **The Divine Guardians: Understanding the Concept of Kuldevtas**
+103. **The Divine Birth of Sage Vashistha and Sage Agastya | Mystical Origins of the Ancient Rishis**
+   - URL: https://dhyanapp.epilepto.com/blog/kOsRXNujxjHddUbQT2f7?type=Knowledge
+   - Author: Mythology Medley
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Legends of the Eternal Rishis: Vasistha and Agastya Across the Ages
+   - Preview: In the eternal stillness of Satya-yuga, when the universe was young and divine energies roamed freely between realms, the gods sought to preserve balance through wisdom and guidance. To ensure Dharma would flourish on earth, the Supreme Creator, Lord...
+   - Featured Image: Available
+   - Audio Version: Available
+
+104. **The Divine Guardians: Understanding the Concept of Kuldevtas**
    - URL: https://dhyanapp.epilepto.com/blog/xf7dGwKH2rRa5FuCi6jD?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -1174,7 +1244,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-98. **The Eightfold Path to Mindfulness**
+105. **The Eightfold Path to Mindfulness**
    - URL: https://dhyanapp.epilepto.com/blog/XOT8PjTB3eEkUnAtM0Dr?type=Knowledge
    - Author: Jack Kornfield
    - Published: Date not specified
@@ -1184,7 +1254,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-99. **The Essence of Meditation: Cultivating Awareness and Connection**
+106. **The Essence of Devotion and Karma Yoga in the Bhagavadgita**
+   - URL: https://dhyanapp.epilepto.com/blog/7TosaozPyAYmluw9x2sB?type=Knowledge
+   - Author: Swami Krishnananda
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Exploring Bhakti and Selfless Action through Scriptural Wisdom
+   - Preview: The Bhagavadgita, in its twelfth chapter, provides a spectrum of spiritual approaches, gradually descending from the highest to the more accessible. Verse 12.10 — “Abhyāsepy asamarthosi matkarmaparamo bhava, madartham api karmāṇi kurvan siddhim avāps...
+   - Featured Image: Available
+   - Audio Version: Available
+
+107. **The Essence of Meditation: Cultivating Awareness and Connection**
    - URL: https://dhyanapp.epilepto.com/blog/ntgijk0wL4EViKyICBc4?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -1194,7 +1274,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-100. **The Four Yugas In Hinduism**
+108. **The Four Yugas In Hinduism**
    - URL: https://dhyanapp.epilepto.com/blog/a2iG9rTamm5EWoJUv02N?type=Knowledge
    - Author: Rajshri Soul
    - Published: Date not specified
@@ -1204,7 +1284,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-101. **The Golden Mean of Blissfulness**
+109. **The Golden Mean of Blissfulness**
    - URL: https://dhyanapp.epilepto.com/blog/B1wOOpeKc90naS6RqmCy?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -1213,7 +1293,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-102. **The Hindu Interpretation of Creation | The Story of God**
+110. **The Hindu Interpretation of Creation | The Story of God**
    - URL: https://dhyanapp.epilepto.com/blog/9SqcqoSZ1KOPPYLCjI7b?type=Knowledge
    - Author: Morgan Freeman
    - Published: Date not specified
@@ -1223,7 +1303,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-103. **The Mindset of a Winner**
+111. **The Mindset of a Winner**
    - URL: https://dhyanapp.epilepto.com/blog/axNU66wV9HAUqVlIvwMz?type=Knowledge
    - Author: Swami Mukundananda
    - Published: Date not specified
@@ -1233,7 +1313,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-104. **The Power of Karma**
+112. **The Power of Karma**
    - URL: https://dhyanapp.epilepto.com/blog/tQE9NuVqjgVte1vyk5No?type=Knowledge
    - Author: Premanad Maharj
    - Published: Date not specified
@@ -1243,7 +1323,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-105. **The Power of Positive Friends**
+113. **The Power of Positive Friends**
    - URL: https://dhyanapp.epilepto.com/blog/8aJOFHVnBDd7lOb5aUml?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -1253,7 +1333,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-106. **The Revival of Mysticism: Why More People Are Turning to Ancient Spirituality**
+114. **The Revival of Mysticism: Why More People Are Turning to Ancient Spirituality**
    - URL: https://dhyanapp.epilepto.com/blog/GtDcVITYIISYuhgXpRff?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1263,7 +1343,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-107. **The Spiritual Consequences of Eating Meat**
+115. **The Spiritual Consequences of Eating Meat**
    - URL: https://dhyanapp.epilepto.com/blog/ry9qj7LGJLL1m0Gymawx?type=Knowledge
    - Author: Paramahamsa Sri Swami Vishwananda
    - Published: Date not specified
@@ -1273,7 +1353,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-108. **The Upanishads: Discovering the Self, God, and the Universe**
+116. **The Upanishads: Discovering the Self, God, and the Universe**
    - URL: https://dhyanapp.epilepto.com/blog/usWl5rBoDciqOvEVk3mJ?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1283,7 +1363,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-109. **The Wow Factor in Life**
+117. **The Wow Factor in Life**
    - URL: https://dhyanapp.epilepto.com/blog/Ew0Jp7igeBnrwvq2ldFF?type=Knowledge
    - Author: Sri Sri Ravishankar 
    - Published: Date not specified
@@ -1293,7 +1373,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-110. **This Bhagavad Gita verse will find you when you need it the most.**
+118. **This Bhagavad Gita verse will find you when you need it the most.**
    - URL: https://dhyanapp.epilepto.com/blog/6yWkFEWHb25VCtTjFlYq?type=Knowledge
    - Author: Talk With Krishna
    - Published: Date not specified
@@ -1302,7 +1382,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-111. **Together we can Heal the World**
+119. **Together we can Heal the World**
    - URL: https://dhyanapp.epilepto.com/blog/ZbBNrBav3S6N6Kon2CVz?type=Knowledge
    - Author: Sri Sri Ravishankar 
    - Published: Date not specified
@@ -1312,7 +1392,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-112. **Transcending Vāsanās: Wisdom for Inner Peace**
+120. **Transcending Vāsanās: Wisdom for Inner Peace**
    - URL: https://dhyanapp.epilepto.com/blog/PjBFPNgtRDRjfBUDZQcH?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -1322,7 +1402,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-113. **Transform Your Life: The Power of a Spiritual Awakening**
+121. **Transform Your Life: The Power of a Spiritual Awakening**
    - URL: https://dhyanapp.epilepto.com/blog/Qu1eChHK3FStsKAlcdBU?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1332,7 +1412,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-114. **Trimbakeshwar Shiva Temple: A Sacred Confluence of Divinity, Devotion, and Heritage**
+122. **Trimbakeshwar Shiva Temple: A Sacred Confluence of Divinity, Devotion, and Heritage**
    - URL: https://dhyanapp.epilepto.com/blog/56NGwGZHGkicXmeoB7Tb?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1342,7 +1422,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-115. **Turyatita: Beyond the Fourth**
+123. **Turyatita: Beyond the Fourth**
    - URL: https://dhyanapp.epilepto.com/blog/6z9MPBrt7DAee1Mvrfde?type=Knowledge
    - Author: Dhyanapp
    - Published: Date not specified
@@ -1351,7 +1431,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-116. **Unchaining Yourself From Your Limitations**
+124. **Unchaining Yourself From Your Limitations**
    - URL: https://dhyanapp.epilepto.com/blog/nVEXgZwm5LeilKsx523p?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -1360,7 +1440,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-117. **Understanding and Conquering Depression**
+125. **Understanding and Conquering Depression**
    - URL: https://dhyanapp.epilepto.com/blog/3haBFDZclpw29MSXrzs4?type=Knowledge
    - Author: B K Shivani
    - Published: Date not specified
@@ -1370,7 +1450,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-118. **Understanding How Yoga Nidra Strengthens Your Sankalpa**
+126. **Understanding How Yoga Nidra Strengthens Your Sankalpa**
    - URL: https://dhyanapp.epilepto.com/blog/zq1xbxDunXUfSdxZume5?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1380,7 +1460,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-119. **Understanding Neuro-Associative Conditioning**
+127. **Understanding Neuro-Associative Conditioning**
    - URL: https://dhyanapp.epilepto.com/blog/oeCcWzuCD53FpsbvgGNb?type=Knowledge
    - Author: BK Shivani
    - Published: Date not specified
@@ -1390,7 +1470,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-120. **Understanding the Three Gunas: Tamas, Rajas, and Sattva**
+128. **Understanding the Three Gunas: Tamas, Rajas, and Sattva**
    - URL: https://dhyanapp.epilepto.com/blog/qNd2pWiotqaYNaNwgVL9?type=Knowledge
    - Author: dhyanapp
    - Published: Date not specified
@@ -1400,7 +1480,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-121. **Unmasking Religion**
+129. **Unmasking Religion**
    - URL: https://dhyanapp.epilepto.com/blog/9h821zogFzT5YlnHTeFQ?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -1410,7 +1490,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-122. **Vastu Shastra: The Ancient Indian Science of Harmonious Living**
+130. **Vastu Shastra: The Ancient Indian Science of Harmonious Living**
    - URL: https://dhyanapp.epilepto.com/blog/z8uSr4ConaEO0QCFDuau?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1420,7 +1500,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-123. **What Decides Our Success in Life?**
+131. **What Decides Our Success in Life?**
    - URL: https://dhyanapp.epilepto.com/blog/WhEzc2bMjzahWqCrOACf?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -1429,7 +1509,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-124. **What is the Purpose of Life if I am 'That'?**
+132. **What is Sadhana & How To Start as a Beginner!**
+   - URL: https://dhyanapp.epilepto.com/blog/UjOUwrGePNOuyv8V0h7E?type=Knowledge
+   - Author: Bhavesh
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: A Simple Guide to Daily Spiritual Practice for Inner Growth and Peace
+   - Preview: The term "sadhna" is one I've been observing closely. It's the first term we use in our life. Nowadays, people use "sadhna" very vaguely. So, what is sadhna and what happens during it? I will discuss this from two perspectives. First, let's underst...
+   - Featured Image: Available
+   - Audio Version: Available
+
+133. **What is the Purpose of Life if I am 'That'?**
    - URL: https://dhyanapp.epilepto.com/blog/oaZIjuIxTrKroU91ov7G?type=Knowledge
    - Author: Swami Sarvapriyananda
    - Published: Date not specified
@@ -1439,7 +1529,17 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-125. **Why is oil offered to Lord Shani?**
+134. **Why Do Avatars Only Take Birth in India?**
+   - URL: https://dhyanapp.epilepto.com/blog/SeSTmNXPQxJFaGqy0RdC?type=Knowledge
+   - Author: Indian Monk
+   - Published: Date not specified
+   - Category: Knowledge
+   - Subtitle: Unveiling the Sacred Science Behind India's Role as the Interdimensional Gateway for Avataric Descent
+   - Preview: Across infinite galaxies and countless worlds, a single blue jewel holds a cosmic secret: India. It is the only place in the universe where gods become flesh. Rama with his bow, Krishna with his flute; the divine walking in human form. But why? Of al...
+   - Featured Image: Available
+   - Audio Version: Available
+
+135. **Why is oil offered to Lord Shani?**
    - URL: https://dhyanapp.epilepto.com/blog/BBbJjPNJYDK1NLomfG3v?type=Knowledge
    - Author: Rajshri Soul
    - Published: Date not specified
@@ -1448,7 +1548,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-126. **Why Your Inner State Matters More Than Your Goals **
+136. **Why Your Inner State Matters More Than Your Goals **
    - URL: https://dhyanapp.epilepto.com/blog/1iV5TsAwXKdLOrmiQhHn?type=Knowledge
    - Author: Eckhart Tolle
    - Published: Date not specified
@@ -1457,7 +1557,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-127. **Worry Weakens Your & Others Mind**
+137. **Worry Weakens Your & Others Mind**
    - URL: https://dhyanapp.epilepto.com/blog/7zEYgtSlrDsVONnJhrVb?type=Knowledge
    - Author: B K Shivani
    - Published: Date not specified
@@ -1466,7 +1566,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-128. **Yakshagana: of Epics and Ecology**
+138. **Yakshagana: of Epics and Ecology**
    - URL: https://dhyanapp.epilepto.com/blog/SPwMg6gHceYkT1aKuTnf?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1475,7 +1575,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-129. **Yogic Eating: A Path to Spiritual Nourishment**
+139. **Yogic Eating: A Path to Spiritual Nourishment**
    - URL: https://dhyanapp.epilepto.com/blog/Mm7lP2yC6xAglv0aNm3G?type=Knowledge
    - Author: Dhyan App AI
    - Published: Date not specified
@@ -1485,7 +1585,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-130. **You Can Know Life Only Now - This Is The Moment | Sadhguru**
+140. **You Can Know Life Only Now - This Is The Moment | Sadhguru**
    - URL: https://dhyanapp.epilepto.com/blog/7tUR2NrLeBtV1ensREgV?type=Knowledge
    - Author: Sadhguru
    - Published: Date not specified
@@ -1495,7 +1595,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-131. **काम में 100% ध्यान / focus कैसे लगायें **
+141. **काम में 100% ध्यान / focus कैसे लगायें **
    - URL: https://dhyanapp.epilepto.com/blog/bq94yvzmP1GtegXtt5a3?type=Knowledge
    - Author: Peaceful Karma
    - Published: Date not specified
@@ -1505,7 +1605,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-132. **धीरे-धीरे एकाग्रता कैसे बढ़ती है? 9 stages of Samatha Meditation**
+142. **धीरे-धीरे एकाग्रता कैसे बढ़ती है? 9 stages of Samatha Meditation**
    - URL: https://dhyanapp.epilepto.com/blog/fB73hpd9yeeNmStiMYp7?type=Knowledge
    - Author: Hum Jeetenge Meditation
    - Published: Date not specified
@@ -1515,7 +1615,7 @@ The platform features advanced 3D interactions, React Three.js integration, and 
    - Featured Image: Available
    - Audio Version: Available
 
-133. **शनिदेव: रुद्र के अंश और न्याय के प्रतीक**
+143. **शनिदेव: रुद्र के अंश और न्याय के प्रतीक**
    - URL: https://dhyanapp.epilepto.com/blog/YbCALDULBAAb0gxJ0AF7?type=Knowledge
    - Author: DhyanApp
    - Published: Date not specified
@@ -1639,4 +1739,4 @@ The platform features advanced 3D interactions, React Three.js integration, and 
 
 *Generated automatically from Firebase Firestore database*
 *Platform: Dhyaan Interactive 3D Meditation Platform by Epilepto Systems*
-*Last Updated: 2025-07-10T11:02:46.104Z*
+*Last Updated: 2025-07-11T11:40:19.245Z*

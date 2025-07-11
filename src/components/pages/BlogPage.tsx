@@ -2,29 +2,30 @@
 import { SlCalender } from "react-icons/sl";
 import { IoPersonSharp } from "react-icons/io5";
 import Markdown from "react-markdown";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import { firestore } from "../../firebase";
-import { collection, doc, getDoc, getDocs, limit, query, where } from "firebase/firestore";
+import { collection, doc, getDoc, getDocs, limit, orderBy, query, where } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import getTime from "../../utils/getTime";
 
 const BlogPage = () => {
+    const location = useLocation();
+    const pathSegments = location.pathname.split('/');
+    const lastRouteName = pathSegments[pathSegments.length - 1];
     const { id } = useParams();
     const [data, setData] = useState<any>();
     const [blogs, setBlogs] = useState<any>();
-    const [loading, setLoading] = useState(true);
+    const [showBackToTop, setShowBackToTop] = useState(false);
     const queryParams = new URLSearchParams(window.location.search);
     const type = queryParams.get('type');
 
     // Fetch current blog post
     useEffect(() => {
         const fetchData = async () => {
-            if (!id) return;
-            
-            setLoading(true);
             try {
-                const docRef = doc(firestore, "articleFilesV1", id);
+                const docRef = doc(firestore, "articleFilesV1", lastRouteName);
                 const docSnapshot = await getDoc(docRef);
 
                 if (docSnapshot.exists()) {
@@ -35,13 +36,11 @@ const BlogPage = () => {
                 }
             } catch (error) {
                 console.error('Error getting document:', error);
-            } finally {
-                setLoading(false);
             }
         };
 
         fetchData();
-    }, [id]);
+    }, [lastRouteName]);
 
     // Fetch related blogs
     useEffect(() => {
@@ -49,8 +48,8 @@ const BlogPage = () => {
             try {
                 const q = query(
                     collection(firestore, 'articleFilesV1'), 
-                    where('ArticleCategory', '==', type), 
-                    where('availableOnWebsite', '==', true),
+                    where('category', '==', type), 
+                    orderBy('date', 'desc'), 
                     limit(4)
                 );
                 const snapshot = await getDocs(q);
@@ -77,7 +76,7 @@ const BlogPage = () => {
             return longText;
         }
     };
-
+//@ts-ignore
     const formatDate = (dateString: string) => {
         if (!dateString) return "Recently Updated";
         try {
@@ -94,23 +93,26 @@ const BlogPage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, [id]);
+    }, []);
 
-    if (loading) {
-        return (
-            <div className="min-h-screen flex items-center justify-center">
-                <div className="text-2xl text-gray-500">Loading blog...</div>
-            </div>
-        );
-    }
+    // Show/hide back to top button based on scroll position
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            setShowBackToTop(scrollTop > 300);
+        };
 
-    if (!data) {
-        return (
-            <div className="min-h-screen flex items-center justify-center">
-                <div className="text-2xl text-gray-500">Blog not found</div>
-            </div>
-        );
-    }
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    // Scroll to top function
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
 
     return (
         <div className="h-full w-screen relative" 
@@ -130,27 +132,47 @@ const BlogPage = () => {
             <div className="relative h-screen max-md:h-[50vh] w-full">
                 <img 
                     className="h-full w-full absolute z-10 object-cover" 
-                    src={data?.backgroundImageURL || data?.teaserImageURL || "/blog-1.jpg"} 
+                    src={data?.backgroundImageURL} 
                     onError={(e) => {
-                        (e.target as HTMLImageElement).src = "/blog-1.jpg";
+                        // Fallback to teaserImageURL if backgroundImageURL fails
+                        const target = e.target as HTMLImageElement;
+                        if (target.src !== data?.teaserImageURL && data?.teaserImageURL) {
+                            target.src = data.teaserImageURL;
+                        } else {
+                            target.src = "/blog-1.jpg";
+                        }
+                    }}
+                    onLoad={() => {
+                        console.log('Background image loaded successfully:', data?.backgroundImageURL);
                     }}
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-40 z-20"></div>
                 <div className="w-full z-30 text-white absolute bg-transparent h-full flex flex-col max-md:items-start justify-end p-14 max-md:p-5">
                     <Link 
-                        to="/blogs" 
-                        className="absolute font-bigshoulderdisplay text-2xl bg-black top-5 border-2 px-5 max-md:text-sm py-1 text-center hover:bg-gray-800 transition-colors"
+                        to="/#blog" 
+                        className="absolute top-5 left-5 flex items-center gap-2 px-6 py-3 rounded-full 
+                                 bg-white/10 backdrop-blur-md border border-white/20 
+                                 text-white font-medium text-base transition-all duration-300
+                                 hover:bg-white/20 hover:border-white/30 hover:scale-105
+                                 shadow-lg hover:shadow-xl"
+                        style={{ fontFamily: '"SF Pro Display", sans-serif' }}
                     >
-                        ← Back to Blogs
+                        <svg 
+                            className="w-4 h-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                        >
+                            <path 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                strokeWidth={2} 
+                                d="M10 19l-7-7m0 0l7-7m-7 7h18" 
+                            />
+                        </svg>
+                        Back to Blogs
                     </Link>
                     <div>
-                        <div 
-                            className="text-6xl max-md:text-2xl pb-10"
-                            style={{
-                                fontFamily: '"Gelica", sans-serif',
-                                fontWeight: 400,
-                            }}
-                        >
+                        <div className="font-bigshoulderdisplay text-6xl max-md:text-2xl pb-10">
                             {data?.primaryTitle}
                         </div>
                         {data?.subTitle && (
@@ -170,17 +192,11 @@ const BlogPage = () => {
                             </div>
                             <div className="inline-flex gap-2 justify-center items-center">
                                 <SlCalender /> 
-                                {formatDate(data?.date)}
+                                Updated on: {data?.date ? getTime(data.date) : 'No date available'}
                             </div>
                         </div>
                     </div>
-                    {data?.audioURL && (
-                        <div className="mt-6">
-                            <audio className="max-md:scale-75" controls src={data?.audioURL}>
-                                Your browser does not support the audio element.
-                            </audio>
-                        </div>
-                    )}
+                    <audio className="max-md:scale-75" controls src={data?.audioURL}></audio>
                 </div>
             </div>
 
@@ -285,32 +301,64 @@ const BlogPage = () => {
                         Related Articles
                     </div>
                     <div className="flex gap-7 items-center justify-center w-full overflow-x-auto overflow-y-hidden noScroll px-16 max-md:px-8">
-                        {blogs?.filter((item: any) => item.id !== id).slice(0, 3).map((e: any) => (
-                            <Link 
-                                to={`/blog/${e.id}?type=${type}`} 
-                                className="h-[344px] min-w-[400px] max-w-[400px] flex-shrink-0 bg-white rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300"
-                                key={e.id}
-                            >
-                                <img 
-                                    className="h-[268px] w-full object-cover rounded-t-3xl" 
-                                    src={e?.teaserImageURL || "/blog-1.jpg"} 
-                                    onError={(event) => {
-                                        (event.target as HTMLImageElement).src = "/blog-1.jpg";
-                                    }}
-                                />
-                                <div className="text-left w-full bg-cover p-[5%] font-medium text-sm">
-                                    <div className="font-semibold mb-2">
-                                        {e?.primaryTitle.length > 60 
-                                            ? `${e?.primaryTitle.slice(0, 60)}...` 
-                                            : e?.primaryTitle}
+                        {blogs
+                            ?.filter((item: any) => item.id !== id)
+                            .slice(0, 3)
+                            .map((e: any) => (
+                                <Link 
+                                    to={`/blog/${e.id}?type=${type}`} 
+                                    className="h-[344px] min-w-[400px] max-w-[400px] flex-shrink-0 bg-white rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300"
+                                    key={e.id}
+                                >
+                                    <img 
+                                        className="h-[268px] w-full object-cover rounded-t-3xl" 
+                                        src={e?.teaserImageURL || "/blog-1.jpg"} 
+                                        onError={(event) => {
+                                            (event.target as HTMLImageElement).src = "/blog-1.jpg";
+                                        }}
+                                    />
+                                    <div className="text-left w-full bg-cover p-[5%] font-medium text-sm">
+                                        <div className="font-semibold mb-2">
+                                            {e?.primaryTitle.length > 60 
+                                                ? `${e?.primaryTitle.slice(0, 60)}...` 
+                                                : e?.primaryTitle}
+                                        </div>
+                                        <div className="text-gray-600 text-xs">
+                                            {e?.multiMediaType !== "spinnedAudio" ? e?.originalAuthorName : "Dhyan App"}
+                                        </div>
                                     </div>
-                                    <div className="text-gray-600 text-xs">
-                                        {e?.multiMediaType !== "spinnedAudio" ? e?.originalAuthorName : "Dhyan App"}
-                                    </div>
-                                </div>
-                            </Link>
-                        ))}
+                                </Link>
+                            ))}
                     </div>
+                </div>
+            )}
+
+            {/* Back to Top Button */}
+            {showBackToTop && (
+                <div className="flex justify-center py-8">
+                    <button
+                        onClick={scrollToTop}
+                        className="w-16 h-16 rounded-full bg-white/10 backdrop-blur-md border border-white/20 
+                                 flex items-center justify-center text-gray-800 
+                                 transition-all duration-300 hover:bg-white/20 hover:border-white/30 
+                                 hover:scale-110 shadow-lg hover:shadow-xl
+                                 bg-gradient-to-r from-white/15 to-white/5"
+                        aria-label="Back to top"
+                    >
+                        <svg 
+                            className="w-6 h-6" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                        >
+                            <path 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                strokeWidth={2} 
+                                d="M5 10l7-7m0 0l7 7m-7-7v18" 
+                            />
+                        </svg>
+                    </button>
                 </div>
             )}
 

@@ -118,19 +118,28 @@ const Blog: React.FC = () => {
               <Link
                 key={post.id}
                 to={`/blog/${post.id}?type=${post.ArticleCategory}`}
-                className="relative w-[300px] sm:w-[360px] h-[500px] flex-shrink-0 rounded-[26px] shadow-[0px_20px_50px_rgba(14,24,44,0.15)] overflow-hidden cursor-pointer
+                className="blog-card relative w-[300px] sm:w-[360px] h-[500px] flex-shrink-0 rounded-[26px] shadow-[0px_20px_50px_rgba(14,24,44,0.15)] overflow-hidden cursor-pointer
                            transition-all duration-300 ease-in-out group
                              hover:scale-105 sm:hover:scale-108 hover:-translate-y-2 sm:hover:-translate-y-4
                              mx-8 sm:mx-6 lg:mx-8"
               >
-                <img
-                  src={post.teaserImageURL || "/blog-1.jpg"}
-                  alt={post.primaryTitle}
-                  className="w-full h-full object-cover absolute top-0 left-0 transition-transform duration-300 ease-in-out"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = "/blog-1.jpg";
-                  }}
-                />
+                <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-br from-gray-100 to-gray-200">
+                  <img
+                    src={post.teaserImageURL || "/blog-1.jpg"}
+                    alt={post.primaryTitle}
+                    className="blog-image w-full h-full object-cover"
+                    loading="lazy"
+                    onLoad={(e) => {
+                      (e.target as HTMLImageElement).classList.add('loaded');
+                      console.log('Image loaded successfully:', post.teaserImageURL);
+                    }}
+                    onError={(e) => {
+                      console.log('Image failed to load, using fallback:', post.teaserImageURL);
+                      (e.target as HTMLImageElement).src = "/blog-1.jpg";
+                      (e.target as HTMLImageElement).classList.add('loaded');
+                    }}
+                  />
+                </div>
                 <div
                   className="absolute inset-0 bg-gradient-to-t from-[#4285F4] to-transparent opacity-0 group-hover:opacity-100
                              transition-opacity duration-300"

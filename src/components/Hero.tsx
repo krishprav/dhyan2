@@ -187,14 +187,14 @@ const Hero = () => {
                         <img
                           src="/playstore.svg"
                           alt="Google Play"
-                          className="h-10 sm:h-12 md:h-14"
+                          className="h-8 sm:h-10 md:h-12"
                         />
                       </a>
                       <a href="#">
                         <img
                           src="/applestore.svg"
                           alt="App Store"
-                          className="h-10 sm:h-12 md:h-14"
+                          className="h-8 sm:h-10 md:h-12"
                         />
                       </a>
                     </div>
@@ -207,10 +207,10 @@ const Hero = () => {
             <div className="mt-1 mb-2 text-center w-full">
               <div className="flex justify-center gap-2">
                 <a href="#">
-                  <img src="/playstore.svg" alt="Google Play" className="h-16" />
+                  <img src="/playstore.svg" alt="Google Play" className="h-12" />
                 </a>
                 <a href="#">
-                  <img src="/applestore.svg" alt="App Store" className="h-16" />
+                  <img src="/applestore.svg" alt="App Store" className="h-12" />
                 </a>
               </div>
             </div>

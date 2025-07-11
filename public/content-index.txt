@@ -1,22 +1,22 @@
 # Dhyaan Platform - Content Discovery Index
 
 ## Quick Stats
-- Total Articles: 198
+- Total Articles: 208
 - Categories: 5
 - Platform: React + Three.js + Firebase
-- Updated: 7/10/2025
+- Updated: 7/11/2025
 
 ## Category Breakdown
 Meditation: 20 articles
 Pranayama: 0 articles
 Mantra: 0 articles
-Knowledge: 133 articles
+Knowledge: 143 articles
 Yoga: 8 articles
 
 ## Recent Articles (Latest 10)
 
 ## Popular Categories
-Knowledge: 133 articles
+Knowledge: 143 articles
 Meditation: 20 articles
 Yoga: 8 articles
 Pranayama: 0 articles

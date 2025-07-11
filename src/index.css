@@ -44,9 +44,14 @@
 }
 
 /* --- BASE STYLES --- */
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     width: 100%;
+    max-width: 100vw;
     color: #000;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -66,8 +71,17 @@ body {
     min-height: 100%;
 }
 
+#root {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 main {
     width: 100%;
+    max-width: 100vw;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -75,14 +89,17 @@ main {
 }
 
 /* --- RESPONSIVE BACKGROUND --- */
-/* --- RESPONSIVE BACKGROUND --- */
 .main-container {
   width: 100%;
+  max-width: 100vw;
   position: relative;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
   /* Default background for large screens (desktops) */
   background-image: url('/bg-desktop.png'); /* UPDATE THIS PATH */
 }
@@ -98,6 +115,8 @@ main {
 @media (max-width: 767px) {
   .main-container {
     background-image: url('/bg-mobile.png'); /* UPDATE THIS PATH */
+    width: 100vw;
+    max-width: 100vw;
   }
 }
 
@@ -188,6 +207,20 @@ video {
     .max-md\:grid-cols-1 {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+    
+    /* Mobile overflow fixes */
+    html, body, #root, .main-container {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Prevent any component from causing horizontal scroll */
+    * {
+        max-width: 100vw;
+    }
 }
 
 @media (max-width: 640px) {
@@ -202,5 +235,60 @@ video {
     .max-sm\:text-2xl {
         font-size: 1.5rem;
     }
+}
+
+/* --- MOBILE SAFETY --- */
+/* Additional mobile safety to prevent overflow and unwanted spacing */
+@media (max-width: 767px) {
+    body {
+        position: relative !important;
+        width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+    
+    /* Ensure no element can cause horizontal overflow */
+    div, section, main, article, aside, header, footer, nav {
+        max-width: 100vw !important;
+    }
+    
+    /* Remove any potential margin/padding that could cause overflow */
+    .main-container > * {
+        max-width: 100vw;
+    }
+}
+
+/* Utility class for mobile-safe containers */
+.mobile-safe {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- BLOG IMAGE LOADING --- */
+/* Smooth image loading transitions */
+.blog-image {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.blog-image.loaded {
+    opacity: 1;
+}
+
+/* Ensure images maintain aspect ratio and don't show black backgrounds */
+.blog-card img {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100%;
+    object-fit: cover;
+}
+
+/* Line clamp utility for text truncation */
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 

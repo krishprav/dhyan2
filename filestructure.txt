@@ -142,6 +142,8 @@
     |-- assets
         |-- react.svg
     |-- firebase.ts
+    |-- services
+    |-- hooks
 |-- package-lock.json
 |-- tsconfig.node.json
 |-- tsconfig.json
